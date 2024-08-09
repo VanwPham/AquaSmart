@@ -1,13 +1,5 @@
 [
     {
-        "id": "e8e96c2a33d8f276",
-        "type": "tab",
-        "label": "DataVisualization",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "ca7ec7c7e5bdf2fc",
         "type": "tab",
         "label": "Log In",
@@ -16,10 +8,10 @@
         "env": []
     },
     {
-        "id": "3eff62c50f832995",
+        "id": "e8e96c2a33d8f276",
         "type": "tab",
-        "label": "Flow 2",
-        "disabled": true,
+        "label": "DataVisualization",
+        "disabled": false,
         "info": "",
         "env": []
     },
@@ -156,6 +148,7 @@
         "type": "ui_tab",
         "name": "Visualization",
         "icon": "dashboard",
+        "order": 3,
         "disabled": false,
         "hidden": false
     },
@@ -166,7 +159,7 @@
         "tab": "febe01d4954981b4",
         "order": 1,
         "disp": true,
-        "width": "6",
+        "width": 10,
         "collapse": false,
         "className": ""
     },
@@ -177,49 +170,122 @@
         "tab": "febe01d4954981b4",
         "order": 2,
         "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2bcb94a3015ef0ec",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "ESP32Client_test",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "42eef4bf01b468b0",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e53b421013fe6f78",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "42eef4bf01b468b0",
+        "order": 1,
+        "disp": false,
         "width": "6",
         "collapse": false,
         "className": ""
     },
     {
-        "id": "c282d5b17f4a0623",
-        "type": "mqtt in",
-        "z": "e8e96c2a33d8f276",
-        "name": "tmp sensor",
-        "topic": "sensor/temperature",
-        "qos": "0",
-        "datatype": "utf8",
-        "broker": "9c39670e4e7d3237",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 160,
-        "y": 160,
+        "id": "7b55e29a649cb6ae",
+        "type": "ui_form",
+        "z": "ca7ec7c7e5bdf2fc",
+        "name": "Log In",
+        "label": "Log In",
+        "group": "e53b421013fe6f78",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Username",
+                "value": "Username",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Password",
+                "value": "Password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "Username": "",
+            "Password": ""
+        },
+        "payload": "",
+        "submit": "Log In",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "global",
+        "splitLayout": "",
+        "className": "",
+        "x": 290,
+        "y": 200,
         "wires": [
-            [
-                "5d2d85bfcce24bf6"
-            ]
+            []
         ]
     },
     {
         "id": "facd3568c75ffe94",
         "type": "mqtt in",
         "z": "e8e96c2a33d8f276",
-        "name": "pH sensor",
-        "topic": "sensor/pH",
-        "qos": "0",
-        "datatype": "utf8",
-        "broker": "9c39670e4e7d3237",
+        "name": "Sensor's data",
+        "topic": "aqua/sensor",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "2bcb94a3015ef0ec",
         "nl": false,
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 160,
-        "y": 220,
+        "x": 130,
+        "y": 180,
         "wires": [
             [
-                "208450a9125ea7b9"
+                "5d2d85bfcce24bf6"
             ]
         ]
     },
@@ -228,42 +294,19 @@
         "type": "function",
         "z": "e8e96c2a33d8f276",
         "name": "function 1",
-        "func": "var payload = msg.payload;\nvar temperature = parseFloat(payload)\nmsg.temperature = temperature\nreturn msg;",
+        "func": "var payload = msg.payload;\n\nvar parts = payload.split(\",\");\nvar temperature = parseFloat(parts[0]); \nvar pH = parseFloat(parts[1]);\n\nmsg.temperature = temperature;\nmsg.pH = pH;\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 160,
+        "x": 300,
+        "y": 180,
         "wires": [
             [
-                "a9865e62fb0eddc3",
-                "c8060b3c441eacbc",
-                "6c7e06fb2c34eab6"
-            ]
-        ]
-    },
-    {
-        "id": "208450a9125ea7b9",
-        "type": "function",
-        "z": "e8e96c2a33d8f276",
-        "name": "function 2",
-        "func": "var payload = msg.payload;\nvar pH = parseFloat(payload)\nmsg.pH = pH\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 340,
-        "y": 220,
-        "wires": [
-            [
-                "b8ffa45a88e25d08",
-                "b6e55afbe70b62fa",
-                "97386011274523c6"
+                "3e16b9223831d42b",
+                "ca7040c5336401cd"
             ]
         ]
     },
@@ -273,9 +316,9 @@
         "z": "e8e96c2a33d8f276",
         "name": "TempGauge",
         "group": "22c90016b0138946",
-        "order": 0,
-        "width": 0,
-        "height": 0,
+        "order": 1,
+        "width": 10,
+        "height": 5,
         "gtype": "gage",
         "title": "Temperature",
         "label": "units",
@@ -291,7 +334,7 @@
         "seg2": "32",
         "diff": true,
         "className": "",
-        "x": 530,
+        "x": 670,
         "y": 100,
         "wires": []
     },
@@ -301,9 +344,9 @@
         "z": "e8e96c2a33d8f276",
         "name": "pHChart",
         "group": "d1be80fd774cbf9c",
-        "order": 1,
-        "width": 0,
-        "height": 0,
+        "order": 2,
+        "width": 10,
+        "height": 4,
         "label": "pH",
         "chartType": "line",
         "legend": "false",
@@ -333,7 +376,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 520,
+        "x": 660,
         "y": 280,
         "wires": [
             []
@@ -345,9 +388,9 @@
         "z": "e8e96c2a33d8f276",
         "name": "TempChart",
         "group": "d1be80fd774cbf9c",
-        "order": 0,
-        "width": 0,
-        "height": 0,
+        "order": 1,
+        "width": 10,
+        "height": 5,
         "label": "Temperature",
         "chartType": "line",
         "legend": "false",
@@ -377,7 +420,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 530,
+        "x": 670,
         "y": 160,
         "wires": [
             []
@@ -389,9 +432,9 @@
         "z": "e8e96c2a33d8f276",
         "name": "pHGauge",
         "group": "22c90016b0138946",
-        "order": 0,
-        "width": 0,
-        "height": 0,
+        "order": 2,
+        "width": 10,
+        "height": 4,
         "gtype": "gage",
         "title": "pH",
         "label": "units",
@@ -407,7 +450,7 @@
         "seg2": "8.5",
         "diff": true,
         "className": "",
-        "x": 520,
+        "x": 660,
         "y": 220,
         "wires": []
     },
@@ -420,11 +463,12 @@
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "payload",
+        "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 360,
-        "y": 360,
+        "x": 660,
+        "y": 40,
         "wires": []
     },
     {
@@ -440,8 +484,70 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 340,
-        "y": 300,
+        "x": 660,
+        "y": 340,
         "wires": []
+    },
+    {
+        "id": "3e16b9223831d42b",
+        "type": "function",
+        "z": "e8e96c2a33d8f276",
+        "name": "function 2",
+        "func": "\nmsg.payload = msg.temperature;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 100,
+        "wires": [
+            [
+                "6c7e06fb2c34eab6",
+                "a9865e62fb0eddc3",
+                "c8060b3c441eacbc"
+            ]
+        ]
+    },
+    {
+        "id": "ca7040c5336401cd",
+        "type": "function",
+        "z": "e8e96c2a33d8f276",
+        "name": "function 3",
+        "func": "msg.payload = msg.pH;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 280,
+        "wires": [
+            [
+                "b6e55afbe70b62fa",
+                "b8ffa45a88e25d08",
+                "97386011274523c6"
+            ]
+        ]
+    },
+    {
+        "id": "c2e45fb9536b58ec",
+        "type": "split",
+        "z": "e8e96c2a33d8f276",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "payload",
+        "x": 270,
+        "y": 520,
+        "wires": [
+            []
+        ]
     }
 ]
