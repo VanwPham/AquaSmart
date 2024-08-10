@@ -10,7 +10,7 @@
     {
         "id": "e8e96c2a33d8f276",
         "type": "tab",
-        "label": "DataVisualization",
+        "label": "Data flow",
         "disabled": false,
         "info": "",
         "env": []
@@ -19,7 +19,7 @@
         "id": "12744e7dc983497c",
         "type": "ui_base",
         "theme": {
-            "name": "theme-light",
+            "name": "theme-dark",
             "lightTheme": {
                 "default": "#0094CE",
                 "baseColor": "#0094CE",
@@ -31,7 +31,8 @@
                 "default": "#097479",
                 "baseColor": "#097479",
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
+                "edited": true,
+                "reset": false
             },
             "customTheme": {
                 "name": "Untitled Theme 1",
@@ -41,48 +42,48 @@
             },
             "themeState": {
                 "base-color": {
-                    "default": "#0094CE",
-                    "value": "#0094CE",
+                    "default": "#097479",
+                    "value": "#097479",
                     "edited": false
                 },
                 "page-titlebar-backgroundColor": {
-                    "value": "#0094CE",
+                    "value": "#097479",
                     "edited": false
                 },
                 "page-backgroundColor": {
-                    "value": "#fafafa",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#1bbfff",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "widget-textColor": {
                     "value": "#111111",
                     "edited": false
                 },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
                 "widget-backgroundColor": {
-                    "value": "#0094ce",
+                    "value": "#097479",
                     "edited": false
                 },
                 "widget-borderColor": {
-                    "value": "#ffffff",
+                    "value": "#333333",
                     "edited": false
                 },
                 "base-font": {
-                    "value": "Arial Black,Arial Black,Gadget,sans-serif"
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
                 }
             },
             "angularTheme": {
@@ -94,10 +95,10 @@
             }
         },
         "site": {
-            "name": "Node-RED Dashboard",
+            "name": "AquaSmart Dashboard",
             "hideToolbar": "false",
             "allowSwipe": "false",
-            "lockMenu": "false",
+            "lockMenu": "icon",
             "allowTempTheme": "true",
             "dateFormat": "DD/MM/YYYY",
             "sizes": {
@@ -116,71 +117,9 @@
         "id": "9c39670e4e7d3237",
         "type": "mqtt-broker",
         "name": "",
-        "broker": "broker.mqtt-dashboard.com",
+        "broker": "test.mosquitto.org",
         "port": "1883",
         "clientid": "",
-        "autoConnect": true,
-        "usetls": false,
-        "protocolVersion": "3",
-        "keepalive": "60",
-        "cleansession": true,
-        "autoUnsubscribe": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthRetain": "false",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closeRetain": "false",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willRetain": "false",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
-    },
-    {
-        "id": "febe01d4954981b4",
-        "type": "ui_tab",
-        "name": "Visualization",
-        "icon": "dashboard",
-        "order": 3,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "22c90016b0138946",
-        "type": "ui_group",
-        "name": "Gauge",
-        "tab": "febe01d4954981b4",
-        "order": 1,
-        "disp": true,
-        "width": 10,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "d1be80fd774cbf9c",
-        "type": "ui_group",
-        "name": "Chart",
-        "tab": "febe01d4954981b4",
-        "order": 2,
-        "disp": true,
-        "width": 10,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "2bcb94a3015ef0ec",
-        "type": "mqtt-broker",
-        "name": "",
-        "broker": "broker.hivemq.com",
-        "port": "1883",
-        "clientid": "ESP32Client_test",
         "autoConnect": true,
         "usetls": false,
         "protocolVersion": "4",
@@ -206,9 +145,40 @@
         "sessionExpiry": ""
     },
     {
-        "id": "42eef4bf01b468b0",
+        "id": "febe01d4954981b4",
         "type": "ui_tab",
         "name": "Home",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "22c90016b0138946",
+        "type": "ui_group",
+        "name": "Gauge",
+        "tab": "febe01d4954981b4",
+        "order": 1,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d1be80fd774cbf9c",
+        "type": "ui_group",
+        "name": "Chart",
+        "tab": "febe01d4954981b4",
+        "order": 2,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "42eef4bf01b468b0",
+        "type": "ui_tab",
+        "name": "Log in",
         "icon": "dashboard",
         "order": 1,
         "disabled": false,
@@ -257,8 +227,8 @@
         },
         "payload": "",
         "submit": "Log In",
-        "cancel": "cancel",
-        "topic": "topic",
+        "cancel": "Clear all",
+        "topic": "account_infor",
         "topicType": "global",
         "splitLayout": "",
         "className": "",
@@ -272,16 +242,16 @@
         "id": "facd3568c75ffe94",
         "type": "mqtt in",
         "z": "e8e96c2a33d8f276",
-        "name": "Sensor's data",
+        "name": "Receive sensor's data",
         "topic": "aqua/sensor",
-        "qos": "2",
+        "qos": "0",
         "datatype": "auto-detect",
-        "broker": "2bcb94a3015ef0ec",
+        "broker": "9c39670e4e7d3237",
         "nl": false,
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 130,
+        "x": 100,
         "y": 180,
         "wires": [
             [
@@ -293,7 +263,7 @@
         "id": "5d2d85bfcce24bf6",
         "type": "function",
         "z": "e8e96c2a33d8f276",
-        "name": "function 1",
+        "name": "Split msg",
         "func": "var payload = msg.payload;\n\nvar parts = payload.split(\",\");\nvar temperature = parseFloat(parts[0]); \nvar pH = parseFloat(parts[1]);\n\nmsg.temperature = temperature;\nmsg.pH = pH;\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
@@ -317,14 +287,14 @@
         "name": "TempGauge",
         "group": "22c90016b0138946",
         "order": 1,
-        "width": 10,
+        "width": 8,
         "height": 5,
         "gtype": "gage",
         "title": "Temperature",
-        "label": "units",
+        "label": "°C",
         "format": "{{value}}",
-        "min": 0,
-        "max": "70",
+        "min": "-55",
+        "max": "125",
         "colors": [
             "#ffff00",
             "#00ff00",
@@ -332,7 +302,7 @@
         ],
         "seg1": "25",
         "seg2": "32",
-        "diff": true,
+        "diff": false,
         "className": "",
         "x": 670,
         "y": 100,
@@ -345,8 +315,8 @@
         "name": "pHChart",
         "group": "d1be80fd774cbf9c",
         "order": 2,
-        "width": 10,
-        "height": 4,
+        "width": 8,
+        "height": 5,
         "label": "pH",
         "chartType": "line",
         "legend": "false",
@@ -356,9 +326,9 @@
         "dot": false,
         "ymin": "0",
         "ymax": "14",
-        "removeOlder": 1,
+        "removeOlder": "30",
         "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
+        "removeOlderUnit": "60",
         "cutout": 0,
         "useOneColor": false,
         "useUTC": false,
@@ -389,8 +359,8 @@
         "name": "TempChart",
         "group": "d1be80fd774cbf9c",
         "order": 1,
-        "width": 10,
-        "height": 5,
+        "width": 8,
+        "height": 6,
         "label": "Temperature",
         "chartType": "line",
         "legend": "false",
@@ -399,13 +369,13 @@
         "nodata": "",
         "dot": false,
         "ymin": "0",
-        "ymax": "70",
-        "removeOlder": "1",
+        "ymax": "125",
+        "removeOlder": "30",
         "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
+        "removeOlderUnit": "60",
         "cutout": 0,
         "useOneColor": false,
-        "useUTC": true,
+        "useUTC": false,
         "colors": [
             "#1f77b4",
             "#aec7e8",
@@ -433,11 +403,11 @@
         "name": "pHGauge",
         "group": "22c90016b0138946",
         "order": 2,
-        "width": 10,
-        "height": 4,
+        "width": 8,
+        "height": 5,
         "gtype": "gage",
         "title": "pH",
-        "label": "units",
+        "label": "",
         "format": "{{value}}",
         "min": 0,
         "max": "14",
@@ -448,7 +418,7 @@
         ],
         "seg1": "7",
         "seg2": "8.5",
-        "diff": true,
+        "diff": false,
         "className": "",
         "x": 660,
         "y": 220,
@@ -461,13 +431,13 @@
         "name": "debug 1",
         "active": true,
         "tosidebar": true,
-        "console": false,
-        "tostatus": false,
+        "console": true,
+        "tostatus": true,
         "complete": "payload",
         "targetType": "msg",
-        "statusVal": "",
+        "statusVal": "payload",
         "statusType": "auto",
-        "x": 660,
+        "x": 670,
         "y": 40,
         "wires": []
     },
@@ -478,13 +448,13 @@
         "name": "debug 2",
         "active": true,
         "tosidebar": true,
-        "console": false,
-        "tostatus": false,
+        "console": true,
+        "tostatus": true,
         "complete": "payload",
         "targetType": "msg",
-        "statusVal": "",
+        "statusVal": "payload",
         "statusType": "auto",
-        "x": 660,
+        "x": 670,
         "y": 340,
         "wires": []
     },
@@ -492,7 +462,7 @@
         "id": "3e16b9223831d42b",
         "type": "function",
         "z": "e8e96c2a33d8f276",
-        "name": "function 2",
+        "name": "Get tmp",
         "func": "\nmsg.payload = msg.temperature;\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
@@ -514,7 +484,7 @@
         "id": "ca7040c5336401cd",
         "type": "function",
         "z": "e8e96c2a33d8f276",
-        "name": "function 3",
+        "name": "Get pH",
         "func": "msg.payload = msg.pH;\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
@@ -530,24 +500,6 @@
                 "b8ffa45a88e25d08",
                 "97386011274523c6"
             ]
-        ]
-    },
-    {
-        "id": "c2e45fb9536b58ec",
-        "type": "split",
-        "z": "e8e96c2a33d8f276",
-        "name": "",
-        "splt": "\\n",
-        "spltType": "str",
-        "arraySplt": 1,
-        "arraySpltType": "len",
-        "stream": false,
-        "addname": "",
-        "property": "payload",
-        "x": 270,
-        "y": 520,
-        "wires": [
-            []
         ]
     }
 ]
