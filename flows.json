@@ -16,6 +16,104 @@
         "env": []
     },
     {
+        "id": "12744e7dc983497c",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "Arial Black,Arial Black,Gadget,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "AquaSmart Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "icon",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
         "id": "9c39670e4e7d3237",
         "type": "mqtt-broker",
         "name": "",
@@ -109,6 +207,17 @@
         "className": ""
     },
     {
+        "id": "590e614324272a29",
+        "type": "ui_group",
+        "name": "Feeding schedule",
+        "tab": "febe01d4954981b4",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
         "id": "7b55e29a649cb6ae",
         "type": "ui_form",
         "z": "ca7ec7c7e5bdf2fc",
@@ -164,8 +273,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 192,
-        "y": 189.00000190734863,
+        "x": 200,
+        "y": 180,
         "wires": [
             [
                 "5d2d85bfcce24bf6"
@@ -452,8 +561,8 @@
         "topicType": "msg",
         "splitLayout": true,
         "className": "",
-        "x": 310,
-        "y": 560,
+        "x": 170,
+        "y": 520,
         "wires": [
             [
                 "c4c17cce6edc6a47"
@@ -472,13 +581,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
-        "y": 560,
+        "x": 340,
+        "y": 520,
         "wires": [
             [
-                "2e22f594189a6b58",
-                "0e99cc7ce1f86536",
-                "88b68591112bfd24"
+                "2e22f594189a6b58"
             ]
         ]
     },
@@ -504,8 +611,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 630,
-        "y": 560,
+        "x": 490,
+        "y": 520,
         "wires": [
             [
                 "019129d08e20dc1a"
@@ -527,8 +634,8 @@
         "correl": "",
         "expiry": "",
         "broker": "9c39670e4e7d3237",
-        "x": 1040,
-        "y": 600,
+        "x": 880,
+        "y": 500,
         "wires": []
     },
     {
@@ -540,34 +647,16 @@
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
-        "initialize": "",
+        "initialize": "// default limits\nvar msg = {payload : \"7,8.5\"};\n\nreturn msg;",
         "finalize": "",
         "libs": [],
-        "x": 800,
-        "y": 560,
+        "x": 651,
+        "y": 514.0000190734863,
         "wires": [
             [
-                "f64b2826bf60d035",
-                "2018aa4e56ef703b"
+                "f64b2826bf60d035"
             ]
         ]
-    },
-    {
-        "id": "88b68591112bfd24",
-        "type": "debug",
-        "z": "e8e96c2a33d8f276",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "msg",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 620,
-        "y": 480,
-        "wires": []
     },
     {
         "id": "4590f6c66bb63d2d",
@@ -606,8 +695,8 @@
         "topicType": "msg",
         "splitLayout": true,
         "className": "",
-        "x": 322,
-        "y": 702.9999904632568,
+        "x": 180,
+        "y": 600,
         "wires": [
             [
                 "c08dd4deb1ab3b26"
@@ -626,12 +715,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 500,
-        "y": 700,
+        "x": 351,
+        "y": 594.0000190734863,
         "wires": [
             [
-                "802fab4f1761bdaa",
-                "c65bf14fa1f6144b"
+                "802fab4f1761bdaa"
             ]
         ]
     },
@@ -657,8 +745,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 650,
-        "y": 700,
+        "x": 501,
+        "y": 594.0000190734863,
         "wires": [
             [
                 "40dc35769b2ae3eb"
@@ -675,68 +763,16 @@
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
-        "initialize": "",
+        "initialize": "// default limits\nvar msg = { payload: \"25,32\" };\n\nreturn msg;",
         "finalize": "",
         "libs": [],
-        "x": 800,
-        "y": 700,
+        "x": 651,
+        "y": 594.0000190734863,
         "wires": [
             [
-                "431741a49418f828",
-                "696f737bb29a97ae"
+                "431741a49418f828"
             ]
         ]
-    },
-    {
-        "id": "0e99cc7ce1f86536",
-        "type": "debug",
-        "z": "e8e96c2a33d8f276",
-        "name": "debug 5",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "topic",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 480,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "c65bf14fa1f6144b",
-        "type": "debug",
-        "z": "e8e96c2a33d8f276",
-        "name": "debug 6",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "msg",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 600,
-        "y": 820,
-        "wires": []
-    },
-    {
-        "id": "696f737bb29a97ae",
-        "type": "debug",
-        "z": "e8e96c2a33d8f276",
-        "name": "debug 7",
-        "active": true,
-        "tosidebar": false,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 940,
-        "y": 900,
-        "wires": []
     },
     {
         "id": "431741a49418f828",
@@ -752,25 +788,75 @@
         "correl": "",
         "expiry": "",
         "broker": "9c39670e4e7d3237",
-        "x": 1040,
-        "y": 760,
+        "x": 880,
+        "y": 600,
         "wires": []
     },
     {
-        "id": "2018aa4e56ef703b",
-        "type": "debug",
+        "id": "26338ac16bd77ef8",
+        "type": "ui_form",
         "z": "e8e96c2a33d8f276",
-        "name": "debug 8",
-        "active": true,
-        "tosidebar": false,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 980,
-        "y": 420,
-        "wires": []
+        "name": "",
+        "label": "",
+        "group": "590e614324272a29",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Time",
+                "value": "Time",
+                "type": "time",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "Time": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 150,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7fef327f671fe9ca",
+        "type": "ui_switch",
+        "z": "e8e96c2a33d8f276",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "590e614324272a29",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 150,
+        "y": 760,
+        "wires": [
+            []
+        ]
     }
 ]
