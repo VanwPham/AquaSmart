@@ -16,104 +16,6 @@
         "env": []
     },
     {
-        "id": "12744e7dc983497c",
-        "type": "ui_base",
-        "theme": {
-            "name": "theme-dark",
-            "lightTheme": {
-                "default": "#0094CE",
-                "baseColor": "#0094CE",
-                "baseFont": "Arial Black,Arial Black,Gadget,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "darkTheme": {
-                "default": "#097479",
-                "baseColor": "#097479",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-            },
-            "themeState": {
-                "base-color": {
-                    "default": "#097479",
-                    "value": "#097479",
-                    "edited": false
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#097479",
-                    "edited": false
-                },
-                "page-backgroundColor": {
-                    "value": "#111111",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#333333",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#0eb8c0",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#555555",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#333333",
-                    "edited": false
-                },
-                "widget-textColor": {
-                    "value": "#eeeeee",
-                    "edited": false
-                },
-                "widget-backgroundColor": {
-                    "value": "#097479",
-                    "edited": false
-                },
-                "widget-borderColor": {
-                    "value": "#333333",
-                    "edited": false
-                },
-                "base-font": {
-                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-                }
-            },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "light"
-            }
-        },
-        "site": {
-            "name": "AquaSmart Dashboard",
-            "hideToolbar": "false",
-            "allowSwipe": "false",
-            "lockMenu": "icon",
-            "allowTempTheme": "true",
-            "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 48,
-                "sy": 48,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 6,
-                "px": 0,
-                "py": 0
-            }
-        }
-    },
-    {
         "id": "9c39670e4e7d3237",
         "type": "mqtt-broker",
         "name": "",
@@ -202,7 +104,7 @@
         "tab": "febe01d4954981b4",
         "order": 3,
         "disp": true,
-        "width": 6,
+        "width": 8,
         "collapse": false,
         "className": ""
     },
@@ -216,6 +118,105 @@
         "width": "6",
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "cc760b424dfac2cd",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#65c030",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": true
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "AquaSmart Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "icon",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
     },
     {
         "id": "7b55e29a649cb6ae",
@@ -273,7 +274,7 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 200,
+        "x": 120,
         "y": 180,
         "wires": [
             [
@@ -293,8 +294,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 392,
-        "y": 189.00000190734863,
+        "x": 320,
+        "y": 180,
         "wires": [
             [
                 "3e16b9223831d42b",
@@ -310,7 +311,7 @@
         "group": "22c90016b0138946",
         "order": 1,
         "width": 8,
-        "height": 5,
+        "height": 6,
         "gtype": "gage",
         "title": "Temperature",
         "label": "°C",
@@ -323,10 +324,10 @@
             "#ca3838"
         ],
         "seg1": "25",
-        "seg2": "32",
+        "seg2": "35",
         "diff": false,
         "className": "",
-        "x": 762,
+        "x": 682,
         "y": 109.00000190734863,
         "wires": []
     },
@@ -338,7 +339,7 @@
         "group": "d1be80fd774cbf9c",
         "order": 2,
         "width": 8,
-        "height": 5,
+        "height": 6,
         "label": "pH",
         "chartType": "line",
         "legend": "false",
@@ -368,7 +369,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 752,
+        "x": 672,
         "y": 289.00000190734863,
         "wires": [
             []
@@ -382,7 +383,7 @@
         "group": "d1be80fd774cbf9c",
         "order": 1,
         "width": 8,
-        "height": 5,
+        "height": 6,
         "label": "Temperature",
         "chartType": "line",
         "legend": "false",
@@ -412,7 +413,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 762,
+        "x": 682,
         "y": 169.00000190734863,
         "wires": [
             []
@@ -426,7 +427,7 @@
         "group": "22c90016b0138946",
         "order": 2,
         "width": 8,
-        "height": 5,
+        "height": 6,
         "gtype": "gage",
         "title": "pH",
         "label": "",
@@ -438,11 +439,11 @@
             "#00ff00",
             "#ca3838"
         ],
-        "seg1": "7",
-        "seg2": "8.5",
+        "seg1": "6",
+        "seg2": "8",
         "diff": false,
         "className": "",
-        "x": 752,
+        "x": 672,
         "y": 229.00000190734863,
         "wires": []
     },
@@ -459,7 +460,7 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 752,
+        "x": 672,
         "y": 49.00000190734863,
         "wires": []
     },
@@ -476,7 +477,7 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 752,
+        "x": 672,
         "y": 349.00000190734863,
         "wires": []
     },
@@ -492,7 +493,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 572,
+        "x": 492,
         "y": 109.00000190734863,
         "wires": [
             [
@@ -514,7 +515,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 572,
+        "x": 492,
         "y": 289.00000190734863,
         "wires": [
             [
@@ -529,30 +530,30 @@
         "type": "ui_form",
         "z": "e8e96c2a33d8f276",
         "name": "",
-        "label": "Set pH range",
+        "label": "Set pH limits",
         "group": "65c1d4a51c575c31",
-        "order": 4,
-        "width": 0,
-        "height": 0,
+        "order": 2,
+        "width": 8,
+        "height": 1,
         "options": [
-            {
-                "label": "Upper limit",
-                "value": "upperLimit",
-                "type": "number",
-                "required": true,
-                "rows": null
-            },
             {
                 "label": "Lower limit",
                 "value": "lowerLimit",
                 "type": "number",
                 "required": true,
                 "rows": null
+            },
+            {
+                "label": "Upper limit",
+                "value": "upperLimit",
+                "type": "number",
+                "required": true,
+                "rows": null
             }
         ],
         "formValue": {
-            "upperLimit": "",
-            "lowerLimit": ""
+            "lowerLimit": "",
+            "upperLimit": ""
         },
         "payload": "",
         "submit": "Confirm",
@@ -561,8 +562,8 @@
         "topicType": "msg",
         "splitLayout": true,
         "className": "",
-        "x": 170,
-        "y": 520,
+        "x": 90,
+        "y": 540,
         "wires": [
             [
                 "c4c17cce6edc6a47"
@@ -573,7 +574,7 @@
         "id": "c4c17cce6edc6a47",
         "type": "function",
         "z": "e8e96c2a33d8f276",
-        "name": "function 1",
+        "name": "Check input values",
         "func": "var payload = msg.payload;\n\nvar upper = parseFloat(payload.upperLimit);\nvar lower = parseFloat(payload.lowerLimit);\n\nvar up_lim = 14, lw_lim = 0;\n\nif (isNaN(upper) || isNaN(lower) || upper > up_lim || lower < lw_lim) {\n    msg.msg = \"Invalid limit values. Ensure upperLimit and lowerLimit are valid numbers.\";\n}\nelse if (lower > upper) {\n    msg.msg = \"Lower limit must not be greater than upper limit.\";\n}\nelse msg.msg = \"valid\";\n\nmsg.topic = \"aqua/sensor/pHLimit\";\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
@@ -581,8 +582,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 520,
+        "x": 310,
+        "y": 540,
         "wires": [
             [
                 "2e22f594189a6b58"
@@ -612,12 +613,14 @@
         "repair": false,
         "outputs": 2,
         "x": 490,
-        "y": 520,
+        "y": 540,
         "wires": [
             [
                 "019129d08e20dc1a"
             ],
-            []
+            [
+                "d5b61288f9e00a0e"
+            ]
         ]
     },
     {
@@ -634,15 +637,15 @@
         "correl": "",
         "expiry": "",
         "broker": "9c39670e4e7d3237",
-        "x": 880,
-        "y": 500,
+        "x": 1040,
+        "y": 480,
         "wires": []
     },
     {
         "id": "019129d08e20dc1a",
         "type": "function",
         "z": "e8e96c2a33d8f276",
-        "name": "function 2",
+        "name": "Reformat msg payload publish",
         "func": "delete msg.msg;\n\nmsg.payload = `${msg.payload.upperLimit},${msg.payload.lowerLimit}`;\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
@@ -650,8 +653,8 @@
         "initialize": "// default limits\nvar msg = {payload : \"7,8.5\"};\n\nreturn msg;",
         "finalize": "",
         "libs": [],
-        "x": 651,
-        "y": 514.0000190734863,
+        "x": 730,
+        "y": 480,
         "wires": [
             [
                 "f64b2826bf60d035"
@@ -663,30 +666,30 @@
         "type": "ui_form",
         "z": "e8e96c2a33d8f276",
         "name": "",
-        "label": "Set temp range",
+        "label": "Set temp limits",
         "group": "65c1d4a51c575c31",
-        "order": 4,
-        "width": 0,
-        "height": 0,
+        "order": 1,
+        "width": 8,
+        "height": 1,
         "options": [
-            {
-                "label": "Upper limit",
-                "value": "upperLimit",
-                "type": "number",
-                "required": true,
-                "rows": null
-            },
             {
                 "label": "Lower limit",
                 "value": "lowerLimit",
                 "type": "number",
                 "required": true,
                 "rows": null
+            },
+            {
+                "label": "Upper limit",
+                "value": "upperLimit",
+                "type": "number",
+                "required": true,
+                "rows": null
             }
         ],
         "formValue": {
-            "upperLimit": "",
-            "lowerLimit": ""
+            "lowerLimit": "",
+            "upperLimit": ""
         },
         "payload": "",
         "submit": "Confirm",
@@ -695,8 +698,8 @@
         "topicType": "msg",
         "splitLayout": true,
         "className": "",
-        "x": 180,
-        "y": 600,
+        "x": 100,
+        "y": 640,
         "wires": [
             [
                 "c08dd4deb1ab3b26"
@@ -707,7 +710,7 @@
         "id": "c08dd4deb1ab3b26",
         "type": "function",
         "z": "e8e96c2a33d8f276",
-        "name": "function 3",
+        "name": "Check input values",
         "func": "var payload = msg.payload;\n\nvar upper = parseFloat(payload.upperLimit);\nvar lower = parseFloat(payload.lowerLimit);\n\nvar up_lim = 125, lw_lim = -55;\n\n\nif (isNaN(upper) || isNaN(lower) || upper > up_lim || lower < lw_lim)\n{\n    msg.msg = \"Invalid limit values. Ensure upperLimit and lowerLimit are valid numbers.\";\n}\nelse if (lower > upper)\n{\n    msg.msg = \"Lower limit must not be greater than upper limit.\";\n}\nelse msg.msg = \"valid\";\nmsg.topic = \"aqua/sensor/tmpLimit\";\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
@@ -715,8 +718,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 351,
-        "y": 594.0000190734863,
+        "x": 310,
+        "y": 640,
         "wires": [
             [
                 "802fab4f1761bdaa"
@@ -745,20 +748,22 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 501,
-        "y": 594.0000190734863,
+        "x": 490,
+        "y": 640,
         "wires": [
             [
                 "40dc35769b2ae3eb"
             ],
-            []
+            [
+                "c85f88f43881c85a"
+            ]
         ]
     },
     {
         "id": "40dc35769b2ae3eb",
         "type": "function",
         "z": "e8e96c2a33d8f276",
-        "name": "function 4",
+        "name": "Reformat msg payload publish",
         "func": "delete msg.msg;\n\nmsg.payload = `${msg.payload.upperLimit},${msg.payload.lowerLimit}`;\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
@@ -766,8 +771,8 @@
         "initialize": "// default limits\nvar msg = { payload: \"25,32\" };\n\nreturn msg;",
         "finalize": "",
         "libs": [],
-        "x": 651,
-        "y": 594.0000190734863,
+        "x": 730,
+        "y": 620,
         "wires": [
             [
                 "431741a49418f828"
@@ -788,8 +793,8 @@
         "correl": "",
         "expiry": "",
         "broker": "9c39670e4e7d3237",
-        "x": 880,
-        "y": 600,
+        "x": 1020,
+        "y": 620,
         "wires": []
     },
     {
@@ -799,7 +804,7 @@
         "name": "",
         "label": "",
         "group": "590e614324272a29",
-        "order": 2,
+        "order": 1,
         "width": 0,
         "height": 0,
         "options": [
@@ -821,8 +826,8 @@
         "topicType": "msg",
         "splitLayout": "",
         "className": "",
-        "x": 150,
-        "y": 700,
+        "x": 70,
+        "y": 840,
         "wires": [
             []
         ]
@@ -832,10 +837,10 @@
         "type": "ui_switch",
         "z": "e8e96c2a33d8f276",
         "name": "",
-        "label": "switch",
-        "tooltip": "",
+        "label": "Auto",
+        "tooltip": "Automatically feeding base on schedule",
         "group": "590e614324272a29",
-        "order": 3,
+        "order": 2,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -853,8 +858,121 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 150,
-        "y": 760,
+        "x": 70,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "829d068a470b9c62",
+        "type": "ui_toast",
+        "z": "e8e96c2a33d8f276",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "Setup error",
+        "topic": "Invalid value input!",
+        "name": "Invalid input noti",
+        "x": 900,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "be083f11bf5de95f",
+        "type": "ui_toast",
+        "z": "e8e96c2a33d8f276",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "Setup error",
+        "topic": "Invalid value input!",
+        "name": "Invalid input noti",
+        "x": 900,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d5b61288f9e00a0e",
+        "type": "function",
+        "z": "e8e96c2a33d8f276",
+        "name": "Get error msg",
+        "func": "var payload = msg.msg;\ndelete msg.msg;\nmsg.payload = payload;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 540,
+        "wires": [
+            [
+                "829d068a470b9c62"
+            ]
+        ]
+    },
+    {
+        "id": "c85f88f43881c85a",
+        "type": "function",
+        "z": "e8e96c2a33d8f276",
+        "name": "Get error msg",
+        "func": "var payload = msg.msg;\ndelete msg.msg;\nmsg.payload = payload;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 680,
+        "wires": [
+            [
+                "be083f11bf5de95f"
+            ]
+        ]
+    },
+    {
+        "id": "ff702c7cbca613c1",
+        "type": "ui_dropdown",
+        "z": "e8e96c2a33d8f276",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 240,
+        "y": 780,
         "wires": [
             []
         ]
