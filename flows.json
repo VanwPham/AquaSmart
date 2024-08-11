@@ -16,104 +16,6 @@
         "env": []
     },
     {
-        "id": "12744e7dc983497c",
-        "type": "ui_base",
-        "theme": {
-            "name": "theme-dark",
-            "lightTheme": {
-                "default": "#0094CE",
-                "baseColor": "#0094CE",
-                "baseFont": "Arial Black,Arial Black,Gadget,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "darkTheme": {
-                "default": "#097479",
-                "baseColor": "#097479",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-            },
-            "themeState": {
-                "base-color": {
-                    "default": "#097479",
-                    "value": "#097479",
-                    "edited": false
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#097479",
-                    "edited": false
-                },
-                "page-backgroundColor": {
-                    "value": "#111111",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#333333",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#0eb8c0",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#555555",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#333333",
-                    "edited": false
-                },
-                "widget-textColor": {
-                    "value": "#eeeeee",
-                    "edited": false
-                },
-                "widget-backgroundColor": {
-                    "value": "#097479",
-                    "edited": false
-                },
-                "widget-borderColor": {
-                    "value": "#333333",
-                    "edited": false
-                },
-                "base-font": {
-                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-                }
-            },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "light"
-            }
-        },
-        "site": {
-            "name": "AquaSmart Dashboard",
-            "hideToolbar": "false",
-            "allowSwipe": "false",
-            "lockMenu": "icon",
-            "allowTempTheme": "true",
-            "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 48,
-                "sy": 48,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 6,
-                "px": 0,
-                "py": 0
-            }
-        }
-    },
-    {
         "id": "9c39670e4e7d3237",
         "type": "mqtt-broker",
         "name": "",
@@ -196,6 +98,17 @@
         "className": ""
     },
     {
+        "id": "65c1d4a51c575c31",
+        "type": "ui_group",
+        "name": "Config",
+        "tab": "febe01d4954981b4",
+        "order": 3,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
         "id": "7b55e29a649cb6ae",
         "type": "ui_form",
         "z": "ca7ec7c7e5bdf2fc",
@@ -251,8 +164,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 100,
-        "y": 180,
+        "x": 192,
+        "y": 189.00000190734863,
         "wires": [
             [
                 "5d2d85bfcce24bf6"
@@ -271,8 +184,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 300,
-        "y": 180,
+        "x": 392,
+        "y": 189.00000190734863,
         "wires": [
             [
                 "3e16b9223831d42b",
@@ -304,8 +217,8 @@
         "seg2": "32",
         "diff": false,
         "className": "",
-        "x": 670,
-        "y": 100,
+        "x": 762,
+        "y": 109.00000190734863,
         "wires": []
     },
     {
@@ -346,8 +259,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 660,
-        "y": 280,
+        "x": 752,
+        "y": 289.00000190734863,
         "wires": [
             []
         ]
@@ -360,7 +273,7 @@
         "group": "d1be80fd774cbf9c",
         "order": 1,
         "width": 8,
-        "height": 6,
+        "height": 5,
         "label": "Temperature",
         "chartType": "line",
         "legend": "false",
@@ -390,8 +303,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 670,
-        "y": 160,
+        "x": 762,
+        "y": 169.00000190734863,
         "wires": [
             []
         ]
@@ -420,8 +333,8 @@
         "seg2": "8.5",
         "diff": false,
         "className": "",
-        "x": 660,
-        "y": 220,
+        "x": 752,
+        "y": 229.00000190734863,
         "wires": []
     },
     {
@@ -430,15 +343,15 @@
         "z": "e8e96c2a33d8f276",
         "name": "debug 1",
         "active": true,
-        "tosidebar": true,
-        "console": true,
+        "tosidebar": false,
+        "console": false,
         "tostatus": true,
         "complete": "payload",
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 670,
-        "y": 40,
+        "x": 752,
+        "y": 49.00000190734863,
         "wires": []
     },
     {
@@ -447,15 +360,15 @@
         "z": "e8e96c2a33d8f276",
         "name": "debug 2",
         "active": true,
-        "tosidebar": true,
-        "console": true,
+        "tosidebar": false,
+        "console": false,
         "tostatus": true,
         "complete": "payload",
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 670,
-        "y": 340,
+        "x": 752,
+        "y": 349.00000190734863,
         "wires": []
     },
     {
@@ -470,8 +383,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
-        "y": 100,
+        "x": 572,
+        "y": 109.00000190734863,
         "wires": [
             [
                 "6c7e06fb2c34eab6",
@@ -492,8 +405,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
-        "y": 280,
+        "x": 572,
+        "y": 289.00000190734863,
         "wires": [
             [
                 "b6e55afbe70b62fa",
@@ -501,5 +414,363 @@
                 "97386011274523c6"
             ]
         ]
+    },
+    {
+        "id": "aad4816e25b7a74d",
+        "type": "ui_form",
+        "z": "e8e96c2a33d8f276",
+        "name": "",
+        "label": "Set pH range",
+        "group": "65c1d4a51c575c31",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Upper limit",
+                "value": "upperLimit",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Lower limit",
+                "value": "lowerLimit",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "upperLimit": "",
+            "lowerLimit": ""
+        },
+        "payload": "",
+        "submit": "Confirm",
+        "cancel": "Cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": true,
+        "className": "",
+        "x": 310,
+        "y": 560,
+        "wires": [
+            [
+                "c4c17cce6edc6a47"
+            ]
+        ]
+    },
+    {
+        "id": "c4c17cce6edc6a47",
+        "type": "function",
+        "z": "e8e96c2a33d8f276",
+        "name": "function 1",
+        "func": "var payload = msg.payload;\n\nvar upper = parseFloat(payload.upperLimit);\nvar lower = parseFloat(payload.lowerLimit);\n\nvar up_lim = 14, lw_lim = 0;\n\nif (isNaN(upper) || isNaN(lower) || upper > up_lim || lower < lw_lim) {\n    msg.msg = \"Invalid limit values. Ensure upperLimit and lowerLimit are valid numbers.\";\n}\nelse if (lower > upper) {\n    msg.msg = \"Lower limit must not be greater than upper limit.\";\n}\nelse msg.msg = \"valid\";\n\nmsg.topic = \"aqua/sensor/pHLimit\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 560,
+        "wires": [
+            [
+                "2e22f594189a6b58",
+                "0e99cc7ce1f86536",
+                "88b68591112bfd24"
+            ]
+        ]
+    },
+    {
+        "id": "2e22f594189a6b58",
+        "type": "switch",
+        "z": "e8e96c2a33d8f276",
+        "name": "",
+        "property": "msg",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "valid",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "valid",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 560,
+        "wires": [
+            [
+                "019129d08e20dc1a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f64b2826bf60d035",
+        "type": "mqtt out",
+        "z": "e8e96c2a33d8f276",
+        "name": "aqua/sensor/pHLimit",
+        "topic": "aqua/sensor/pHLimit",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9c39670e4e7d3237",
+        "x": 1040,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "019129d08e20dc1a",
+        "type": "function",
+        "z": "e8e96c2a33d8f276",
+        "name": "function 2",
+        "func": "delete msg.msg;\n\nmsg.payload = `${msg.payload.upperLimit},${msg.payload.lowerLimit}`;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 560,
+        "wires": [
+            [
+                "f64b2826bf60d035",
+                "2018aa4e56ef703b"
+            ]
+        ]
+    },
+    {
+        "id": "88b68591112bfd24",
+        "type": "debug",
+        "z": "e8e96c2a33d8f276",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "msg",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 620,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "4590f6c66bb63d2d",
+        "type": "ui_form",
+        "z": "e8e96c2a33d8f276",
+        "name": "",
+        "label": "Set temp range",
+        "group": "65c1d4a51c575c31",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Upper limit",
+                "value": "upperLimit",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Lower limit",
+                "value": "lowerLimit",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "upperLimit": "",
+            "lowerLimit": ""
+        },
+        "payload": "",
+        "submit": "Confirm",
+        "cancel": "Cancel",
+        "topic": "aqua/sensor/tmpLimit",
+        "topicType": "msg",
+        "splitLayout": true,
+        "className": "",
+        "x": 322,
+        "y": 702.9999904632568,
+        "wires": [
+            [
+                "c08dd4deb1ab3b26"
+            ]
+        ]
+    },
+    {
+        "id": "c08dd4deb1ab3b26",
+        "type": "function",
+        "z": "e8e96c2a33d8f276",
+        "name": "function 3",
+        "func": "var payload = msg.payload;\n\nvar upper = parseFloat(payload.upperLimit);\nvar lower = parseFloat(payload.lowerLimit);\n\nvar up_lim = 125, lw_lim = -55;\n\n\nif (isNaN(upper) || isNaN(lower) || upper > up_lim || lower < lw_lim)\n{\n    msg.msg = \"Invalid limit values. Ensure upperLimit and lowerLimit are valid numbers.\";\n}\nelse if (lower > upper)\n{\n    msg.msg = \"Lower limit must not be greater than upper limit.\";\n}\nelse msg.msg = \"valid\";\nmsg.topic = \"aqua/sensor/tmpLimit\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 700,
+        "wires": [
+            [
+                "802fab4f1761bdaa",
+                "c65bf14fa1f6144b"
+            ]
+        ]
+    },
+    {
+        "id": "802fab4f1761bdaa",
+        "type": "switch",
+        "z": "e8e96c2a33d8f276",
+        "name": "",
+        "property": "msg",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "valid",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "valid",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 650,
+        "y": 700,
+        "wires": [
+            [
+                "40dc35769b2ae3eb"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "40dc35769b2ae3eb",
+        "type": "function",
+        "z": "e8e96c2a33d8f276",
+        "name": "function 4",
+        "func": "delete msg.msg;\n\nmsg.payload = `${msg.payload.upperLimit},${msg.payload.lowerLimit}`;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 700,
+        "wires": [
+            [
+                "431741a49418f828",
+                "696f737bb29a97ae"
+            ]
+        ]
+    },
+    {
+        "id": "0e99cc7ce1f86536",
+        "type": "debug",
+        "z": "e8e96c2a33d8f276",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 480,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "c65bf14fa1f6144b",
+        "type": "debug",
+        "z": "e8e96c2a33d8f276",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "msg",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 600,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "696f737bb29a97ae",
+        "type": "debug",
+        "z": "e8e96c2a33d8f276",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 940,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "431741a49418f828",
+        "type": "mqtt out",
+        "z": "e8e96c2a33d8f276",
+        "name": "aqua/sensor/tmpLimit",
+        "topic": "aqua/sensor/tmpLimit",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9c39670e4e7d3237",
+        "x": 1040,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "2018aa4e56ef703b",
+        "type": "debug",
+        "z": "e8e96c2a33d8f276",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 980,
+        "y": 420,
+        "wires": []
     }
 ]
