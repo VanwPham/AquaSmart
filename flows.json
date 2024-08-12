@@ -16,6 +16,22 @@
         "env": []
     },
     {
+        "id": "34836421c703f805",
+        "type": "tab",
+        "label": "Feeding schedule",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2c95d874b6e3eb36",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "9c39670e4e7d3237",
         "type": "mqtt-broker",
         "name": "",
@@ -93,7 +109,7 @@
         "tab": "42eef4bf01b468b0",
         "order": 1,
         "disp": false,
-        "width": "6",
+        "width": 9,
         "collapse": false,
         "className": ""
     },
@@ -112,10 +128,10 @@
         "id": "590e614324272a29",
         "type": "ui_group",
         "name": "Feeding schedule",
-        "tab": "febe01d4954981b4",
+        "tab": "6889142e4e8ae192",
         "order": 4,
         "disp": true,
-        "width": "6",
+        "width": "8",
         "collapse": false,
         "className": ""
     },
@@ -217,6 +233,33 @@
                 "py": 0
             }
         }
+    },
+    {
+        "id": "6889142e4e8ae192",
+        "type": "ui_tab",
+        "name": "Schedule",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ff9fdb9a.7da098",
+        "type": "ui_group",
+        "name": "TEST",
+        "tab": "7dcc246f.ee661c",
+        "order": 1,
+        "disp": false,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "7dcc246f.ee661c",
+        "type": "ui_tab",
+        "name": "TEST",
+        "icon": "dashboard",
+        "order": 12,
+        "disabled": true,
+        "hidden": true
     },
     {
         "id": "7b55e29a649cb6ae",
@@ -532,7 +575,7 @@
         "name": "",
         "label": "Set pH limits",
         "group": "65c1d4a51c575c31",
-        "order": 2,
+        "order": 4,
         "width": 8,
         "height": 1,
         "options": [
@@ -616,7 +659,8 @@
         "y": 540,
         "wires": [
             [
-                "019129d08e20dc1a"
+                "019129d08e20dc1a",
+                "fa21cd890a1881ca"
             ],
             [
                 "d5b61288f9e00a0e"
@@ -637,7 +681,7 @@
         "correl": "",
         "expiry": "",
         "broker": "9c39670e4e7d3237",
-        "x": 1040,
+        "x": 1020,
         "y": 480,
         "wires": []
     },
@@ -650,7 +694,7 @@
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
-        "initialize": "// default limits\nvar msg = {payload : \"7,8.5\"};\n\nreturn msg;",
+        "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 730,
@@ -668,7 +712,7 @@
         "name": "",
         "label": "Set temp limits",
         "group": "65c1d4a51c575c31",
-        "order": 1,
+        "order": 2,
         "width": 8,
         "height": 1,
         "options": [
@@ -699,7 +743,7 @@
         "splitLayout": true,
         "className": "",
         "x": 100,
-        "y": 640,
+        "y": 680,
         "wires": [
             [
                 "c08dd4deb1ab3b26"
@@ -719,7 +763,7 @@
         "finalize": "",
         "libs": [],
         "x": 310,
-        "y": 640,
+        "y": 680,
         "wires": [
             [
                 "802fab4f1761bdaa"
@@ -749,10 +793,11 @@
         "repair": false,
         "outputs": 2,
         "x": 490,
-        "y": 640,
+        "y": 680,
         "wires": [
             [
-                "40dc35769b2ae3eb"
+                "40dc35769b2ae3eb",
+                "8a09650868d46d12"
             ],
             [
                 "c85f88f43881c85a"
@@ -772,7 +817,7 @@
         "finalize": "",
         "libs": [],
         "x": 730,
-        "y": 620,
+        "y": 660,
         "wires": [
             [
                 "431741a49418f828"
@@ -793,76 +838,9 @@
         "correl": "",
         "expiry": "",
         "broker": "9c39670e4e7d3237",
-        "x": 1020,
-        "y": 620,
+        "x": 1040,
+        "y": 660,
         "wires": []
-    },
-    {
-        "id": "26338ac16bd77ef8",
-        "type": "ui_form",
-        "z": "e8e96c2a33d8f276",
-        "name": "",
-        "label": "",
-        "group": "590e614324272a29",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "options": [
-            {
-                "label": "Time",
-                "value": "Time",
-                "type": "time",
-                "required": true,
-                "rows": null
-            }
-        ],
-        "formValue": {
-            "Time": ""
-        },
-        "payload": "",
-        "submit": "submit",
-        "cancel": "cancel",
-        "topic": "topic",
-        "topicType": "msg",
-        "splitLayout": "",
-        "className": "",
-        "x": 70,
-        "y": 840,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7fef327f671fe9ca",
-        "type": "ui_switch",
-        "z": "e8e96c2a33d8f276",
-        "name": "",
-        "label": "Auto",
-        "tooltip": "Automatically feeding base on schedule",
-        "group": "590e614324272a29",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 70,
-        "y": 780,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "829d068a470b9c62",
@@ -901,7 +879,7 @@
         "topic": "Invalid value input!",
         "name": "Invalid input noti",
         "x": 900,
-        "y": 680,
+        "y": 740,
         "wires": [
             []
         ]
@@ -939,7 +917,7 @@
         "finalize": "",
         "libs": [],
         "x": 680,
-        "y": 680,
+        "y": 720,
         "wires": [
             [
                 "be083f11bf5de95f"
@@ -947,34 +925,865 @@
         ]
     },
     {
-        "id": "ff702c7cbca613c1",
-        "type": "ui_dropdown",
+        "id": "8a09650868d46d12",
+        "type": "ui_text",
+        "z": "e8e96c2a33d8f276",
+        "group": "65c1d4a51c575c31",
+        "order": 1,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Current tmp limits",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 690,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "fa21cd890a1881ca",
+        "type": "ui_text",
+        "z": "e8e96c2a33d8f276",
+        "group": "65c1d4a51c575c31",
+        "order": 3,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Current pH limits",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 690,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "4de01cb4f1ad5757",
+        "type": "inject",
         "z": "e8e96c2a33d8f276",
         "name": "",
-        "label": "",
-        "tooltip": "",
-        "place": "Select option",
-        "group": "",
-        "order": 0,
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"upperLimit\":32,\"lowerLimit\":25}",
+        "payloadType": "json",
+        "x": 470,
+        "y": 620,
+        "wires": [
+            [
+                "40dc35769b2ae3eb",
+                "8a09650868d46d12"
+            ]
+        ]
+    },
+    {
+        "id": "e508543d9042df7a",
+        "type": "inject",
+        "z": "e8e96c2a33d8f276",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"upperLimit\":8,\"lowerLimit\":7.5}",
+        "payloadType": "json",
+        "x": 470,
+        "y": 420,
+        "wires": [
+            [
+                "019129d08e20dc1a",
+                "fa21cd890a1881ca"
+            ]
+        ]
+    },
+    {
+        "id": "7fef327f671fe9ca",
+        "type": "ui_switch",
+        "z": "34836421c703f805",
+        "d": true,
+        "name": "",
+        "label": "Auto",
+        "tooltip": "Automatically feeding base on schedule",
+        "group": "590e614324272a29",
+        "order": 2,
         "width": 0,
         "height": 0,
         "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "",
-                "value": "",
-                "type": "str"
-            }
-        ],
-        "payload": "",
+        "decouple": "false",
         "topic": "topic",
         "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
         "className": "",
-        "x": 240,
-        "y": 780,
+        "x": 170,
+        "y": 60,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "a0ef59ccbdd4dda2",
+        "type": "ui_button",
+        "z": "34836421c703f805",
+        "name": "",
+        "group": "590e614324272a29",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Delete time",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 350,
+        "y": 580,
+        "wires": [
+            [
+                "5bfc62e1e63afe88"
+            ]
+        ]
+    },
+    {
+        "id": "ab468da7239a1992",
+        "type": "ui_text_input",
+        "z": "34836421c703f805",
+        "name": "",
+        "label": "Add new time",
+        "tooltip": "",
+        "group": "590e614324272a29",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "mode": "time",
+        "delay": "0",
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 120,
+        "y": 440,
+        "wires": [
+            [
+                "42d48329161bb8af"
+            ]
+        ]
+    },
+    {
+        "id": "2c569491f6305c24",
+        "type": "function",
+        "z": "34836421c703f805",
+        "name": "Process Add",
+        "func": "// Lấy dữ liệu từ msg.payload\nlet newTime = msg.payload; // Thời gian dạng hh:mm\n\n// Lấy bảng từ context flow\nlet data = flow.get(\"table\").payload || [];\n\n// Kiểm tra xem thời gian đã tồn tại trong bảng chưa\nlet exists = data.some(item => typeof item.time === 'string' && item.time === newTime);\n\n// Nếu thời gian chưa tồn tại, thêm vào bảng\nif (!exists) {\n    data.push({\n        time: newTime,\n        done: false,\n        id: 0\n    });\n    msg.payload = \"Add success!\";\n} else {\n    msg.payload = \"Add fail! Time exists!\";\n}\n\nlet updated_table = {\"payload\": data}\n// Lưu bảng vào context flow\nflow.set(\"table\", updated_table);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 440,
+        "wires": [
+            [
+                "c165d504301ac2b6",
+                "38366ffa9378e331"
+            ]
+        ]
+    },
+    {
+        "id": "5bfc62e1e63afe88",
+        "type": "function",
+        "z": "34836421c703f805",
+        "name": "Process Remove",
+        "func": "let indexToRemove = msg.index;\nmsg.payload = msg.payload.filter(item => item.index !== indexToRemove);\nmsg.payload = msg.payload.map(item => `${item.index},${item.time},${item.done_today}`).join('\\n');\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 580,
+        "wires": [
+            [
+                "b7cde39c4119f82c"
+            ]
+        ]
+    },
+    {
+        "id": "c165d504301ac2b6",
+        "type": "debug",
+        "z": "34836421c703f805",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 880,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "b7cde39c4119f82c",
+        "type": "debug",
+        "z": "34836421c703f805",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 840,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "ea6d874806af1436",
+        "type": "ui_text_input",
+        "z": "34836421c703f805",
+        "name": "",
+        "label": "Id of time want to delete",
+        "tooltip": "",
+        "group": "590e614324272a29",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "mode": "number",
+        "delay": "0",
+        "topic": "payload",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 130,
+        "y": 580,
+        "wires": [
+            [
+                "a0ef59ccbdd4dda2"
+            ]
+        ]
+    },
+    {
+        "id": "312b7a7404c7db20",
+        "type": "debug",
+        "z": "34836421c703f805",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 680,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "638d3418cf1ba387",
+        "type": "function",
+        "z": "34836421c703f805",
+        "name": "sort",
+        "func": "// Đọc dữ liệu JSON từ payload\nlet data = flow.get(\"table\").payload;\nnode.log(Array.isArray(data));\n\n// Sắp xếp dữ liệu theo thời gian (theo định dạng hh:mm)\ndata.sort((a, b) => {\n    let timeA = a.time.split(':').map(Number);\n    let timeB = b.time.split(':').map(Number);\n    return timeA[0] * 60 + timeA[1] - (timeB[0] * 60 + timeB[1]);\n});\n\n// Thêm ID cho mỗi dòng dữ liệu\ndata = data.map((item, index) => ({ ...item, id: index + 1 }));\n\nnode.log(Array.isArray(data));\nlet table = {\"payload\": data}\nflow.set(\"table\", table);\n\nreturn table;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 280,
+        "wires": [
+            [
+                "2e11cef063589a1a",
+                "1c2c335d55ebc684"
+            ]
+        ]
+    },
+    {
+        "id": "8b79b0241a096405",
+        "type": "json",
+        "z": "34836421c703f805",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 470,
+        "y": 280,
+        "wires": [
+            [
+                "8e2874808b8e7a0f",
+                "e3b91fd5d047ece0"
+            ]
+        ]
+    },
+    {
+        "id": "eff5673ee7e21d15",
+        "type": "file in",
+        "z": "34836421c703f805",
+        "name": "",
+        "filename": "payload",
+        "filenameType": "msg",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 300,
+        "y": 280,
+        "wires": [
+            [
+                "8b79b0241a096405"
+            ]
+        ]
+    },
+    {
+        "id": "f45b3c8861cad6ed",
+        "type": "inject",
+        "z": "34836421c703f805",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": ".node-red\\projects\\AquaSmart\\scheduling.json",
+        "payloadType": "str",
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "eff5673ee7e21d15"
+            ]
+        ]
+    },
+    {
+        "id": "2e11cef063589a1a",
+        "type": "ui_table",
+        "z": "34836421c703f805",
+        "group": "590e614324272a29",
+        "name": "",
+        "order": 1,
+        "width": 8,
+        "height": 6,
+        "columns": [
+            {
+                "field": "id",
+                "title": "Index",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "time",
+                "title": "Time",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "done",
+                "title": "Done today",
+                "width": "",
+                "align": "left",
+                "formatter": "tickCross",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 1070,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "42d48329161bb8af",
+        "type": "function",
+        "z": "34836421c703f805",
+        "name": "Format from timestampt to time (HH:MM) string",
+        "func": "// Giả sử timestamp là số milliseconds từ 00:00:00 trong một ngày cụ thể\nlet timestamp = parseInt(msg.payload, 10); // Đảm bảo timestamp là số nguyên\n\n// Tính toán giờ và phút\nlet hours = Math.floor(timestamp / (1000 * 60 * 60));\nlet minutes = Math.floor((timestamp % (1000 * 60 * 60)) / (1000 * 60));\n\n// Định dạng thành chuỗi hh:mm\nlet formattedTime = (hours < 10 ? '0' : '') + hours + ':' + (minutes < 10 ? '0' : '') + minutes;\n\nmsg.payload = formattedTime; // Gán chuỗi thời gian đã định dạng vào msg.payload\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 440,
+        "wires": [
+            [
+                "312b7a7404c7db20",
+                "2c569491f6305c24"
+            ]
+        ]
+    },
+    {
+        "id": "8e2874808b8e7a0f",
+        "type": "debug",
+        "z": "34836421c703f805",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 460,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "e3b91fd5d047ece0",
+        "type": "function",
+        "z": "34836421c703f805",
+        "name": "function 1",
+        "func": "flow.set(\"table\", msg)\n// node.log(Array.isArray(msg.payload));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 280,
+        "wires": [
+            [
+                "638d3418cf1ba387"
+            ]
+        ]
+    },
+    {
+        "id": "38366ffa9378e331",
+        "type": "switch",
+        "z": "34836421c703f805",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Add success!",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Add fail! Time exists!",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 870,
+        "y": 440,
+        "wires": [
+            [
+                "638d3418cf1ba387",
+                "7322ca28f2f4b0e0"
+            ],
+            [
+                "15a2c3d5868b7e4b"
+            ]
+        ]
+    },
+    {
+        "id": "15a2c3d5868b7e4b",
+        "type": "ui_toast",
+        "z": "34836421c703f805",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "Setup error",
+        "topic": "Invalid value input!",
+        "name": "Invalid input noti",
+        "x": 1080,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1c2c335d55ebc684",
+        "type": "debug",
+        "z": "34836421c703f805",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 820,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "7322ca28f2f4b0e0",
+        "type": "ui_toast",
+        "z": "34836421c703f805",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "Add time",
+        "topic": "Table update success!",
+        "name": "Table update success!",
+        "x": 1100,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "2e6a6379.742abc",
+        "type": "ui_table",
+        "z": "2c95d874b6e3eb36",
+        "group": "ff9fdb9a.7da098",
+        "name": "testTable",
+        "order": 6,
+        "width": "8",
+        "height": 5,
+        "columns": [
+            {
+                "field": "rowNumber",
+                "title": "Row Number 1",
+                "width": "",
+                "align": "left",
+                "formatter": "rownum",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "textValue",
+                "title": "Text",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "numberValue",
+                "title": "Number",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 1,
+        "cts": true,
+        "x": 780,
+        "y": 140,
+        "wires": [
+            [
+                "1c377ea0.5801e1"
+            ]
+        ]
+    },
+    {
+        "id": "16664cef.5b26b3",
+        "type": "function",
+        "z": "2c95d874b6e3eb36",
+        "name": "table paramter",
+        "func": "msg.ui_control = {tabulator:{}};\n\n//workaround that buttons can`t deliver empty strings\nif (msg.payload.hasOwnProperty('payload')) {\n    msg.payload=msg.payload.payload;\n}\n\nmsg.ui_control.tabulator[msg.topic]=msg.payload;\ndelete msg.topic;\nmsg.payload=null;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 562,
+        "y": 429,
+        "wires": [
+            [
+                "2e6a6379.742abc",
+                "b8d75d24.6cbed"
+            ]
+        ]
+    },
+    {
+        "id": "b8d75d24.6cbed",
+        "type": "debug",
+        "z": "2c95d874b6e3eb36",
+        "name": "table input",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 429,
+        "wires": []
+    },
+    {
+        "id": "1c377ea0.5801e1",
+        "type": "debug",
+        "z": "2c95d874b6e3eb36",
+        "name": "table output",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 943,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "b15c31a9.af37c",
+        "type": "ui_switch",
+        "z": "2c95d874b6e3eb36",
+        "name": "selectable",
+        "label": "selectable",
+        "tooltip": "",
+        "group": "ff9fdb9a.7da098",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "selectable",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 202,
+        "y": 225,
+        "wires": [
+            [
+                "16664cef.5b26b3"
+            ]
+        ]
+    },
+    {
+        "id": "75207e8d.c54d4",
+        "type": "ui_switch",
+        "z": "2c95d874b6e3eb36",
+        "name": "movableColumns",
+        "label": "movableColumns",
+        "tooltip": "",
+        "group": "ff9fdb9a.7da098",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "movableColumns",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 232,
+        "y": 276,
+        "wires": [
+            [
+                "16664cef.5b26b3"
+            ]
+        ]
+    },
+    {
+        "id": "f178c6fe.710ef8",
+        "type": "ui_button",
+        "z": "2c95d874b6e3eb36",
+        "name": "",
+        "group": "ff9fdb9a.7da098",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Fill demo data",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "[{\"textValue\":\"Line #1\",\"numberValue\":123.12},{\"textValue\":\"Line #2\",\"numberValue\":100},{\"textValue\":\"Line #3\",\"numberValue\":50}]",
+        "payloadType": "json",
+        "topic": "rowFormatter",
+        "topicType": "str",
+        "x": 222,
+        "y": 140,
+        "wires": [
+            [
+                "2e6a6379.742abc"
+            ]
+        ]
+    },
+    {
+        "id": "7b6490b3.cd9c7",
+        "type": "function",
+        "z": "2c95d874b6e3eb36",
+        "name": "callback function(s)",
+        "func": "// how to use the editor to write callback functions\n// DO NOT wire this into your flow!\n// copy / paste \"function( ... }\" into the correct calback parameter\n// use the \"debugger\" statement to debug your callback inside your browser\n\nvar topCalc = function(values, data, calcParams){\n    var total = 0;\n    var calc = 0;\n    var count = 0;\n    data.forEach(value => {\n        total+=Number(value.numberValue);\n        count++;\n    });\n    if (count>0) calc=(total/count).toFixed(2);\n    return `${calc} (avg)`;\n}\n\nvar legend = function (value) {\n    if (value<100) return \"<span style='color:#FF0000;'>\"+value+\"</span>\";\n    else return \"<span style='color:#000000;'>\"+value+\"</span>\"; \n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 572,
+        "y": 548,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "25247f4b.cc7ec",
+        "type": "inject",
+        "z": "2c95d874b6e3eb36",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 56,
+        "y": 276,
+        "wires": [
+            [
+                "75207e8d.c54d4",
+                "bd3fd382.a2aa9"
+            ]
+        ]
+    },
+    {
+        "id": "bd3fd382.a2aa9",
+        "type": "ui_switch",
+        "z": "2c95d874b6e3eb36",
+        "name": "headerVisible",
+        "label": "headerVisible",
+        "tooltip": "",
+        "group": "ff9fdb9a.7da098",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "headerVisible",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 222,
+        "y": 327,
+        "wires": [
+            [
+                "16664cef.5b26b3"
+            ]
         ]
     }
 ]
