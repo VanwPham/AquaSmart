@@ -127,11 +127,11 @@
     {
         "id": "590e614324272a29",
         "type": "ui_group",
-        "name": "Feeding schedule",
+        "name": "Daily feeding schedule",
         "tab": "6889142e4e8ae192",
         "order": 4,
         "disp": true,
-        "width": "8",
+        "width": "6",
         "collapse": false,
         "className": ""
     },
@@ -260,6 +260,12 @@
         "order": 12,
         "disabled": true,
         "hidden": true
+    },
+    {
+        "id": "dc5dc2985129af2e",
+        "type": "global-config",
+        "name": "global-config",
+        "env": []
     },
     {
         "id": "7b55e29a649cb6ae",
@@ -1022,44 +1028,45 @@
         "id": "7fef327f671fe9ca",
         "type": "ui_switch",
         "z": "34836421c703f805",
-        "d": true,
         "name": "",
         "label": "Auto",
         "tooltip": "Automatically feeding base on schedule",
         "group": "590e614324272a29",
         "order": 2,
-        "width": 0,
-        "height": 0,
+        "width": 6,
+        "height": 1,
         "passthru": true,
         "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
+        "topic": "",
+        "topicType": "str",
         "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
+        "onvalue": "On",
+        "onvalueType": "str",
         "onicon": "",
         "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
+        "offvalue": "Off",
+        "offvalueType": "str",
         "officon": "",
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 170,
-        "y": 60,
+        "x": 110,
+        "y": 140,
         "wires": [
-            []
+            [
+                "cc9b99af9a973ecd"
+            ]
         ]
     },
     {
         "id": "a0ef59ccbdd4dda2",
         "type": "ui_button",
         "z": "34836421c703f805",
-        "name": "",
+        "name": "Delete button",
         "group": "590e614324272a29",
-        "order": 6,
-        "width": 0,
-        "height": 0,
+        "order": 7,
+        "width": 2,
+        "height": 1,
         "passthru": false,
         "label": "Delete time",
         "tooltip": "",
@@ -1070,9 +1077,9 @@
         "payload": "",
         "payloadType": "str",
         "topic": "topic",
-        "topicType": "msg",
-        "x": 350,
-        "y": 580,
+        "topicType": "str",
+        "x": 130,
+        "y": 500,
         "wires": [
             [
                 "5bfc62e1e63afe88"
@@ -1083,13 +1090,13 @@
         "id": "ab468da7239a1992",
         "type": "ui_text_input",
         "z": "34836421c703f805",
-        "name": "",
-        "label": "Add new time",
+        "name": "Add new time",
+        "label": "Add new row",
         "tooltip": "",
         "group": "590e614324272a29",
-        "order": 3,
-        "width": 0,
-        "height": 0,
+        "order": 4,
+        "width": 4,
+        "height": 1,
         "passthru": false,
         "mode": "time",
         "delay": "0",
@@ -1097,11 +1104,11 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 120,
-        "y": 440,
+        "x": 136.00000381469727,
+        "y": 257.0000400543213,
         "wires": [
             [
-                "42d48329161bb8af"
+                "d9742c2819931028"
             ]
         ]
     },
@@ -1110,15 +1117,15 @@
         "type": "function",
         "z": "34836421c703f805",
         "name": "Process Add",
-        "func": "// Lấy dữ liệu từ msg.payload\nlet newTime = msg.payload; // Thời gian dạng hh:mm\n\n// Lấy bảng từ context flow\nlet data = flow.get(\"table\").payload || [];\n\n// Kiểm tra xem thời gian đã tồn tại trong bảng chưa\nlet exists = data.some(item => typeof item.time === 'string' && item.time === newTime);\n\n// Nếu thời gian chưa tồn tại, thêm vào bảng\nif (!exists) {\n    data.push({\n        time: newTime,\n        done: false,\n        id: 0\n    });\n    msg.payload = \"Add success!\";\n} else {\n    msg.payload = \"Add fail! Time exists!\";\n}\n\nlet updated_table = {\"payload\": data}\n// Lưu bảng vào context flow\nflow.set(\"table\", updated_table);\n\nreturn msg;\n",
+        "func": "// Lấy dữ liệu từ msg.payload\nlet newTime = msg.payload; // Thời gian dạng hh:mm\nif (newTime === \"NaN:NaN\") {\n    msg.payload = \"Invalid / Null time input!\";\n    return msg;\n}\n// Lấy bảng từ context flow\nlet data = flow.get(\"table\").payload || [];\n\n// Kiểm tra xem thời gian đã tồn tại trong bảng chưa \nlet exists = data.some(item => typeof item.time === 'string' && item.time === newTime);\n\n// Nếu thời gian chưa tồn tại, thêm vào bảng\nif (!exists) {\n    data.push({\n        time: newTime,\n        done: false,\n        id: 0\n    });\n    msg.payload = \"Add success!\";\n} else {\n    msg.payload = \"Time exists!\";\n}\n\nlet updated_table = {\"payload\": data}\n// Lưu bảng vào flow context\nflow.set(\"table\", updated_table);\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
-        "y": 440,
+        "x": 690,
+        "y": 340,
         "wires": [
             [
                 "c165d504301ac2b6",
@@ -1131,18 +1138,19 @@
         "type": "function",
         "z": "34836421c703f805",
         "name": "Process Remove",
-        "func": "let indexToRemove = msg.index;\nmsg.payload = msg.payload.filter(item => item.index !== indexToRemove);\nmsg.payload = msg.payload.map(item => `${item.index},${item.time},${item.done_today}`).join('\\n');\nreturn msg;",
+        "func": "let indexToRemove = parseInt(flow.get(\"index\"));\nlet table = flow.get(\"table\").payload;\n\nvar msg = {};\n// Kiểm tra xem index có hợp lệ không\nif (indexToRemove >= 1 && indexToRemove <= table.length) {\n    // Xóa phần tử có index tương ứng khỏi bảng\n    table = table.filter(item => item.id !== indexToRemove);\n    \n    msg.payload = \"Delete success!\";\n}\nelse {\n    msg.payload = \"Index out of bounds!\"\n}\nlet updated_table = {\"payload\" : table};\nflow.set(\"table\", updated_table);\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 570,
-        "y": 580,
+        "x": 350,
+        "y": 500,
         "wires": [
             [
-                "b7cde39c4119f82c"
+                "b7cde39c4119f82c",
+                "4b3acabb3f17a7af"
             ]
         ]
     },
@@ -1159,8 +1167,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 880,
-        "y": 500,
+        "x": 875.9999961853027,
+        "y": 399.0000057220459,
         "wires": []
     },
     {
@@ -1176,33 +1184,33 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 840,
-        "y": 580,
+        "x": 540,
+        "y": 560,
         "wires": []
     },
     {
         "id": "ea6d874806af1436",
         "type": "ui_text_input",
         "z": "34836421c703f805",
-        "name": "",
-        "label": "Id of time want to delete",
+        "name": "Index of time to delete",
+        "label": "Index of row to delete",
         "tooltip": "",
         "group": "590e614324272a29",
-        "order": 5,
-        "width": 0,
-        "height": 0,
+        "order": 6,
+        "width": 4,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": "0",
         "topic": "payload",
         "sendOnBlur": true,
         "className": "",
-        "topicType": "msg",
-        "x": 130,
-        "y": 580,
+        "topicType": "str",
+        "x": 157.49999237060547,
+        "y": 416.24998664855957,
         "wires": [
             [
-                "a0ef59ccbdd4dda2"
+                "d0ac7ab67d8f0f85"
             ]
         ]
     },
@@ -1220,7 +1228,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 680,
-        "y": 500,
+        "y": 400,
         "wires": []
     },
     {
@@ -1228,15 +1236,15 @@
         "type": "function",
         "z": "34836421c703f805",
         "name": "sort",
-        "func": "// Đọc dữ liệu JSON từ payload\nlet data = flow.get(\"table\").payload;\nnode.log(Array.isArray(data));\n\n// Sắp xếp dữ liệu theo thời gian (theo định dạng hh:mm)\ndata.sort((a, b) => {\n    let timeA = a.time.split(':').map(Number);\n    let timeB = b.time.split(':').map(Number);\n    return timeA[0] * 60 + timeA[1] - (timeB[0] * 60 + timeB[1]);\n});\n\n// Thêm ID cho mỗi dòng dữ liệu\ndata = data.map((item, index) => ({ ...item, id: index + 1 }));\n\nnode.log(Array.isArray(data));\nlet table = {\"payload\": data}\nflow.set(\"table\", table);\n\nreturn table;\n",
+        "func": "// Đọc dữ liệu JSON từ payload\nlet data = flow.get(\"table\").payload;\n\n\n// Sắp xếp dữ liệu theo thời gian (theo định dạng hh:mm)\ndata.sort((a, b) => {\n    let timeA = a.time.split(':').map(Number);\n    let timeB = b.time.split(':').map(Number);\n    return timeA[0] * 60 + timeA[1] - (timeB[0] * 60 + timeB[1]);\n});\n\n// Thêm ID cho mỗi dòng dữ liệu\ndata = data.map((item, index) => ({ ...item, id: index + 1 }));\n\nlet table = {\"payload\": data}\nflow.set(\"table\", table);\n\nreturn table;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 850,
-        "y": 280,
+        "x": 970,
+        "y": 700,
         "wires": [
             [
                 "2e11cef063589a1a",
@@ -1252,8 +1260,8 @@
         "property": "payload",
         "action": "obj",
         "pretty": true,
-        "x": 470,
-        "y": 280,
+        "x": 454.00000381469727,
+        "y": 700.9999942779541,
         "wires": [
             [
                 "8e2874808b8e7a0f",
@@ -1273,8 +1281,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 300,
-        "y": 280,
+        "x": 284.00000381469727,
+        "y": 700.9999942779541,
         "wires": [
             [
                 "8b79b0241a096405"
@@ -1298,8 +1306,8 @@
         "topic": "",
         "payload": ".node-red\\projects\\AquaSmart\\scheduling.json",
         "payloadType": "str",
-        "x": 130,
-        "y": 280,
+        "x": 114.00000381469727,
+        "y": 700.9999942779541,
         "wires": [
             [
                 "eff5673ee7e21d15"
@@ -1313,13 +1321,13 @@
         "group": "590e614324272a29",
         "name": "",
         "order": 1,
-        "width": 8,
+        "width": 6,
         "height": 6,
         "columns": [
             {
                 "field": "id",
                 "title": "Index",
-                "width": "",
+                "width": "100",
                 "align": "center",
                 "formatter": "plaintext",
                 "formatterParams": {
@@ -1329,8 +1337,8 @@
             {
                 "field": "time",
                 "title": "Time",
-                "width": "",
-                "align": "left",
+                "width": "100",
+                "align": "center",
                 "formatter": "plaintext",
                 "formatterParams": {
                     "target": "_blank"
@@ -1338,9 +1346,9 @@
             },
             {
                 "field": "done",
-                "title": "Done today",
-                "width": "",
-                "align": "left",
+                "title": "Fed today",
+                "width": "115",
+                "align": "center",
                 "formatter": "tickCross",
                 "formatterParams": {
                     "target": "_blank"
@@ -1349,8 +1357,8 @@
         ],
         "outputs": 0,
         "cts": false,
-        "x": 1070,
-        "y": 280,
+        "x": 1125.9999961853027,
+        "y": 699.0000057220459,
         "wires": []
     },
     {
@@ -1358,15 +1366,15 @@
         "type": "function",
         "z": "34836421c703f805",
         "name": "Format from timestampt to time (HH:MM) string",
-        "func": "// Giả sử timestamp là số milliseconds từ 00:00:00 trong một ngày cụ thể\nlet timestamp = parseInt(msg.payload, 10); // Đảm bảo timestamp là số nguyên\n\n// Tính toán giờ và phút\nlet hours = Math.floor(timestamp / (1000 * 60 * 60));\nlet minutes = Math.floor((timestamp % (1000 * 60 * 60)) / (1000 * 60));\n\n// Định dạng thành chuỗi hh:mm\nlet formattedTime = (hours < 10 ? '0' : '') + hours + ':' + (minutes < 10 ? '0' : '') + minutes;\n\nmsg.payload = formattedTime; // Gán chuỗi thời gian đã định dạng vào msg.payload\n\nreturn msg;\n",
+        "func": "\n// Giả sử timestamp là số milliseconds từ 00:00:00 trong một ngày cụ thể\nlet timestamp = parseInt(flow.get(\"time\"), 10); // Đảm bảo timestamp là số nguyên\n\n// Tính toán giờ và phút\nlet hours = Math.floor(timestamp / (1000 * 60 * 60));\nlet minutes = Math.floor((timestamp % (1000 * 60 * 60)) / (1000 * 60));\n\n// Định dạng thành chuỗi hh:mm\nlet formattedTime = (hours < 10 ? '0' : '') + hours + ':' + (minutes < 10 ? '0' : '') + minutes;\n\n// Gán chuỗi thời gian đã định dạng vào msg.payload\nmsg.payload = formattedTime; \n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 420,
-        "y": 440,
+        "x": 400,
+        "y": 340,
         "wires": [
             [
                 "312b7a7404c7db20",
@@ -1387,24 +1395,24 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 460,
-        "y": 200,
+        "x": 640,
+        "y": 640,
         "wires": []
     },
     {
         "id": "e3b91fd5d047ece0",
         "type": "function",
         "z": "34836421c703f805",
-        "name": "function 1",
-        "func": "flow.set(\"table\", msg)\n// node.log(Array.isArray(msg.payload));\nreturn msg;",
+        "name": "Set to table data Flow Context",
+        "func": "flow.set(\"table\", msg)\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
-        "y": 280,
+        "x": 710,
+        "y": 700,
         "wires": [
             [
                 "638d3418cf1ba387"
@@ -1425,20 +1433,20 @@
                 "vt": "str"
             },
             {
-                "t": "eq",
-                "v": "Add fail! Time exists!",
+                "t": "neq",
+                "v": "Add success!",
                 "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 870,
-        "y": 440,
+        "x": 850,
+        "y": 340,
         "wires": [
             [
-                "638d3418cf1ba387",
-                "7322ca28f2f4b0e0"
+                "7322ca28f2f4b0e0",
+                "638d3418cf1ba387"
             ],
             [
                 "15a2c3d5868b7e4b"
@@ -1457,11 +1465,11 @@
         "ok": "OK",
         "cancel": "",
         "raw": false,
-        "className": "Setup error",
-        "topic": "Invalid value input!",
-        "name": "Invalid input noti",
-        "x": 1080,
-        "y": 480,
+        "className": "",
+        "topic": "Adding feeding time fail!",
+        "name": "Adding feeding time fail!",
+        "x": 1125.9999961853027,
+        "y": 359.0000057220459,
         "wires": [
             []
         ]
@@ -1479,8 +1487,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 820,
-        "y": 200,
+        "x": 1135.9999961853027,
+        "y": 639.0000057220459,
         "wires": []
     },
     {
@@ -1495,12 +1503,310 @@
         "ok": "OK",
         "cancel": "",
         "raw": false,
-        "className": "Add time",
-        "topic": "Table update success!",
-        "name": "Table update success!",
-        "x": 1100,
-        "y": 420,
+        "className": "",
+        "topic": "Feeding Time Added!",
+        "name": "Feeding Time Added!",
+        "x": 1115.9999961853027,
+        "y": 319.0000057220459,
         "wires": []
+    },
+    {
+        "id": "230ac07b110aa449",
+        "type": "ui_button",
+        "z": "34836421c703f805",
+        "name": "Add button",
+        "group": "590e614324272a29",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Add time",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "sent",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "str",
+        "x": 130,
+        "y": 340,
+        "wires": [
+            [
+                "42d48329161bb8af"
+            ]
+        ]
+    },
+    {
+        "id": "d9742c2819931028",
+        "type": "function",
+        "z": "34836421c703f805",
+        "name": "Get \"add time\" field",
+        "func": "flow.set(\"time\", msg.payload);\nreturn ;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 346.00000381469727,
+        "y": 257.0000400543213,
+        "wires": [
+            [
+                "32f3a7262e85612c"
+            ]
+        ]
+    },
+    {
+        "id": "32f3a7262e85612c",
+        "type": "debug",
+        "z": "34836421c703f805",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 540,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "cc9b99af9a973ecd",
+        "type": "switch",
+        "z": "34836421c703f805",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "On",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "On",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 270,
+        "y": 140,
+        "wires": [
+            [
+                "b168c7f6045c02f6",
+                "9c7b3a70546c5636"
+            ],
+            [
+                "50f00c8642c1eab3",
+                "fcf6547251b5a043"
+            ]
+        ]
+    },
+    {
+        "id": "b168c7f6045c02f6",
+        "type": "ui_toast",
+        "z": "34836421c703f805",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Automatic feeding mode:",
+        "name": "",
+        "x": 490,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "50f00c8642c1eab3",
+        "type": "ui_toast",
+        "z": "34836421c703f805",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Automatic feeding mode:",
+        "name": "",
+        "x": 490,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "d0ac7ab67d8f0f85",
+        "type": "function",
+        "z": "34836421c703f805",
+        "name": "Get \"delete index\" field",
+        "func": "flow.set(\"index\", msg.payload);\nreturn ;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 387.49999237060547,
+        "y": 416.24998664855957,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b3acabb3f17a7af",
+        "type": "switch",
+        "z": "34836421c703f805",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Delete success!",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "Delete success!",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 520,
+        "y": 500,
+        "wires": [
+            [
+                "638d3418cf1ba387",
+                "1f764c90a5409687"
+            ],
+            [
+                "b2ea972208ae8bd5"
+            ]
+        ]
+    },
+    {
+        "id": "1f764c90a5409687",
+        "type": "ui_toast",
+        "z": "34836421c703f805",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Feeding Time Deleted!",
+        "name": "Feeding Time Deleted!",
+        "x": 760,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "b2ea972208ae8bd5",
+        "type": "ui_toast",
+        "z": "34836421c703f805",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Deleting feeding time fail!",
+        "name": "Deleting feeding time fail!",
+        "x": 770,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9c7b3a70546c5636",
+        "type": "function",
+        "z": "34836421c703f805",
+        "name": "function 2",
+        "func": "global.set(\"autoFeed\", true);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fcf6547251b5a043",
+        "type": "function",
+        "z": "34836421c703f805",
+        "name": "function 3",
+        "func": "global.set(\"autoFeed\", false);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "661f99780b5b29e6",
+        "type": "ui_switch",
+        "z": "34836421c703f805",
+        "name": "",
+        "label": "Email notification",
+        "tooltip": "Feeding notification through email on schedule",
+        "group": "590e614324272a29",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 750,
+        "y": 140,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "2e6a6379.742abc",
