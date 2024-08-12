@@ -32,6 +32,31 @@
         "env": []
     },
     {
+        "id": "94a271eea9fa077a",
+        "type": "group",
+        "z": "34836421c703f805",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d01402844ef2d11e",
+            "ea0cebee5d175aed",
+            "67dfd12da60e4341",
+            "4f61e1304a005a69",
+            "cdce8c4165890d0a"
+        ],
+        "x": 34,
+        "y": 719,
+        "w": 812,
+        "h": 162
+    },
+    {
         "id": "9c39670e4e7d3237",
         "type": "mqtt-broker",
         "name": "",
@@ -1051,7 +1076,7 @@
         "animate": false,
         "className": "",
         "x": 110,
-        "y": 140,
+        "y": 120,
         "wires": [
             [
                 "cc9b99af9a973ecd"
@@ -1079,7 +1104,7 @@
         "topic": "topic",
         "topicType": "str",
         "x": 130,
-        "y": 500,
+        "y": 620,
         "wires": [
             [
                 "5bfc62e1e63afe88"
@@ -1104,8 +1129,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 136.00000381469727,
-        "y": 257.0000400543213,
+        "x": 140,
+        "y": 240,
         "wires": [
             [
                 "d9742c2819931028"
@@ -1146,7 +1171,7 @@
         "finalize": "",
         "libs": [],
         "x": 350,
-        "y": 500,
+        "y": 620,
         "wires": [
             [
                 "b7cde39c4119f82c",
@@ -1167,8 +1192,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 875.9999961853027,
-        "y": 399.0000057220459,
+        "x": 860,
+        "y": 280,
         "wires": []
     },
     {
@@ -1185,7 +1210,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 540,
-        "y": 560,
+        "y": 680,
         "wires": []
     },
     {
@@ -1206,8 +1231,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 157.49999237060547,
-        "y": 416.24998664855957,
+        "x": 160,
+        "y": 560,
         "wires": [
             [
                 "d0ac7ab67d8f0f85"
@@ -1228,7 +1253,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 680,
-        "y": 400,
+        "y": 280,
         "wires": []
     },
     {
@@ -1236,15 +1261,15 @@
         "type": "function",
         "z": "34836421c703f805",
         "name": "sort",
-        "func": "// Đọc dữ liệu JSON từ payload\nlet data = flow.get(\"table\").payload;\n\n\n// Sắp xếp dữ liệu theo thời gian (theo định dạng hh:mm)\ndata.sort((a, b) => {\n    let timeA = a.time.split(':').map(Number);\n    let timeB = b.time.split(':').map(Number);\n    return timeA[0] * 60 + timeA[1] - (timeB[0] * 60 + timeB[1]);\n});\n\n// Thêm ID cho mỗi dòng dữ liệu\ndata = data.map((item, index) => ({ ...item, id: index + 1 }));\n\nlet table = {\"payload\": data}\nflow.set(\"table\", table);\n\nreturn table;\n",
+        "func": "// Đọc dữ liệu JSON từ payload\nlet data = flow.get(\"table\").payload;\n\n\n// Sắp xếp dữ liệu theo thời gian (theo định dạng hh:mm)\ndata.sort((a, b) => {\n    let timeA = a.time.split(':').map(Number);\n    let timeB = b.time.split(':').map(Number);\n    return timeA[0] * 60 + timeA[1] - (timeB[0] * 60 + timeB[1]);\n});\n\n// Cập nhật ID cho mỗi dòng dữ liệu\ndata = data.map((item, index) => ({ ...item, id: index + 1 }));\n\nlet table = {\"payload\": data}\nflow.set(\"table\", table);\n\nreturn table;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 970,
-        "y": 700,
+        "x": 965.9999961853027,
+        "y": 479.0000057220459,
         "wires": [
             [
                 "2e11cef063589a1a",
@@ -1260,8 +1285,8 @@
         "property": "payload",
         "action": "obj",
         "pretty": true,
-        "x": 454.00000381469727,
-        "y": 700.9999942779541,
+        "x": 450,
+        "y": 480,
         "wires": [
             [
                 "8e2874808b8e7a0f",
@@ -1281,8 +1306,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 284.00000381469727,
-        "y": 700.9999942779541,
+        "x": 280,
+        "y": 480,
         "wires": [
             [
                 "8b79b0241a096405"
@@ -1306,8 +1331,8 @@
         "topic": "",
         "payload": ".node-red\\projects\\AquaSmart\\scheduling.json",
         "payloadType": "str",
-        "x": 114.00000381469727,
-        "y": 700.9999942779541,
+        "x": 110,
+        "y": 480,
         "wires": [
             [
                 "eff5673ee7e21d15"
@@ -1357,8 +1382,8 @@
         ],
         "outputs": 0,
         "cts": false,
-        "x": 1125.9999961853027,
-        "y": 699.0000057220459,
+        "x": 1121.9999923706055,
+        "y": 478.0000114440918,
         "wires": []
     },
     {
@@ -1395,8 +1420,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 640,
-        "y": 640,
+        "x": 635.9999961853027,
+        "y": 419.0000057220459,
         "wires": []
     },
     {
@@ -1411,8 +1436,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
-        "y": 700,
+        "x": 705.9999961853027,
+        "y": 479.0000057220459,
         "wires": [
             [
                 "638d3418cf1ba387"
@@ -1446,7 +1471,8 @@
         "wires": [
             [
                 "7322ca28f2f4b0e0",
-                "638d3418cf1ba387"
+                "638d3418cf1ba387",
+                "be850588720409c6"
             ],
             [
                 "15a2c3d5868b7e4b"
@@ -1468,8 +1494,8 @@
         "className": "",
         "topic": "Adding feeding time fail!",
         "name": "Adding feeding time fail!",
-        "x": 1125.9999961853027,
-        "y": 359.0000057220459,
+        "x": 1110,
+        "y": 360,
         "wires": [
             []
         ]
@@ -1487,8 +1513,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 1135.9999961853027,
-        "y": 639.0000057220459,
+        "x": 1131.9999923706055,
+        "y": 418.0000114440918,
         "wires": []
     },
     {
@@ -1506,8 +1532,8 @@
         "className": "",
         "topic": "Feeding Time Added!",
         "name": "Feeding Time Added!",
-        "x": 1115.9999961853027,
-        "y": 319.0000057220459,
+        "x": 1100,
+        "y": 320,
         "wires": []
     },
     {
@@ -1550,8 +1576,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 346.00000381469727,
-        "y": 257.0000400543213,
+        "x": 350,
+        "y": 240,
         "wires": [
             [
                 "32f3a7262e85612c"
@@ -1571,8 +1597,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 540,
-        "y": 260,
+        "x": 520,
+        "y": 240,
         "wires": []
     },
     {
@@ -1598,7 +1624,7 @@
         "repair": false,
         "outputs": 2,
         "x": 270,
-        "y": 140,
+        "y": 120,
         "wires": [
             [
                 "b168c7f6045c02f6",
@@ -1626,7 +1652,7 @@
         "topic": "Automatic feeding mode:",
         "name": "",
         "x": 490,
-        "y": 60,
+        "y": 40,
         "wires": []
     },
     {
@@ -1645,7 +1671,7 @@
         "topic": "Automatic feeding mode:",
         "name": "",
         "x": 490,
-        "y": 200,
+        "y": 180,
         "wires": []
     },
     {
@@ -1660,8 +1686,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 387.49999237060547,
-        "y": 416.24998664855957,
+        "x": 390,
+        "y": 560,
         "wires": [
             []
         ]
@@ -1689,11 +1715,12 @@
         "repair": false,
         "outputs": 2,
         "x": 520,
-        "y": 500,
+        "y": 620,
         "wires": [
             [
                 "638d3418cf1ba387",
-                "1f764c90a5409687"
+                "1f764c90a5409687",
+                "d2b28baa46a7b22e"
             ],
             [
                 "b2ea972208ae8bd5"
@@ -1715,8 +1742,8 @@
         "className": "",
         "topic": "Feeding Time Deleted!",
         "name": "Feeding Time Deleted!",
-        "x": 760,
-        "y": 480,
+        "x": 780,
+        "y": 600,
         "wires": []
     },
     {
@@ -1734,8 +1761,8 @@
         "className": "",
         "topic": "Deleting feeding time fail!",
         "name": "Deleting feeding time fail!",
-        "x": 770,
-        "y": 520,
+        "x": 790,
+        "y": 640,
         "wires": [
             []
         ]
@@ -1753,7 +1780,7 @@
         "finalize": "",
         "libs": [],
         "x": 460,
-        "y": 100,
+        "y": 80,
         "wires": [
             []
         ]
@@ -1771,7 +1798,7 @@
         "finalize": "",
         "libs": [],
         "x": 460,
-        "y": 160,
+        "y": 140,
         "wires": [
             []
         ]
@@ -1807,6 +1834,134 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "cdce8c4165890d0a",
+        "type": "file",
+        "z": "34836421c703f805",
+        "g": "94a271eea9fa077a",
+        "name": "",
+        "filename": ".node-red\\projects\\AquaSmart\\scheduling.json",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 640,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d01402844ef2d11e",
+        "type": "complete",
+        "z": "34836421c703f805",
+        "g": "94a271eea9fa077a",
+        "name": "",
+        "scope": [
+            "be850588720409c6"
+        ],
+        "uncaught": false,
+        "x": 130,
+        "y": 760,
+        "wires": [
+            [
+                "67dfd12da60e4341"
+            ]
+        ]
+    },
+    {
+        "id": "67dfd12da60e4341",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "94a271eea9fa077a",
+        "name": "function 4",
+        "func": "var msg = flow.get(\"table\");\n// bỏ cột id\nlet new_msg = {\"payload\": msg.payload.map(({id, ...rest}) => rest)};\nreturn new_msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 760,
+        "wires": [
+            [
+                "4f61e1304a005a69",
+                "cdce8c4165890d0a"
+            ]
+        ]
+    },
+    {
+        "id": "4f61e1304a005a69",
+        "type": "debug",
+        "z": "34836421c703f805",
+        "g": "94a271eea9fa077a",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 460,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "ea0cebee5d175aed",
+        "type": "complete",
+        "z": "34836421c703f805",
+        "g": "94a271eea9fa077a",
+        "name": "",
+        "scope": [
+            "d2b28baa46a7b22e"
+        ],
+        "uncaught": false,
+        "x": 130,
+        "y": 820,
+        "wires": [
+            [
+                "67dfd12da60e4341"
+            ]
+        ]
+    },
+    {
+        "id": "be850588720409c6",
+        "type": "debug",
+        "z": "34836421c703f805",
+        "name": "debug 15",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "d2b28baa46a7b22e",
+        "type": "debug",
+        "z": "34836421c703f805",
+        "name": "debug 16",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 560,
+        "wires": []
     },
     {
         "id": "2e6a6379.742abc",
