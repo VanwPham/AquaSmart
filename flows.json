@@ -52,7 +52,7 @@
             "cdce8c4165890d0a"
         ],
         "x": 34,
-        "y": 719,
+        "y": 759,
         "w": 812,
         "h": 162
     },
@@ -1579,27 +1579,8 @@
         "x": 350,
         "y": 240,
         "wires": [
-            [
-                "32f3a7262e85612c"
-            ]
+            []
         ]
-    },
-    {
-        "id": "32f3a7262e85612c",
-        "type": "debug",
-        "z": "34836421c703f805",
-        "name": "debug 12",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 520,
-        "y": 240,
-        "wires": []
     },
     {
         "id": "cc9b99af9a973ecd",
@@ -1848,7 +1829,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 640,
-        "y": 760,
+        "y": 800,
         "wires": [
             []
         ]
@@ -1864,7 +1845,7 @@
         ],
         "uncaught": false,
         "x": 130,
-        "y": 760,
+        "y": 800,
         "wires": [
             [
                 "67dfd12da60e4341"
@@ -1885,7 +1866,7 @@
         "finalize": "",
         "libs": [],
         "x": 320,
-        "y": 760,
+        "y": 800,
         "wires": [
             [
                 "4f61e1304a005a69",
@@ -1908,7 +1889,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 460,
-        "y": 840,
+        "y": 880,
         "wires": []
     },
     {
@@ -1922,7 +1903,7 @@
         ],
         "uncaught": false,
         "x": 130,
-        "y": 820,
+        "y": 860,
         "wires": [
             [
                 "67dfd12da60e4341"
