@@ -365,6 +365,26 @@
         "wires": []
     },
     {
+        "id": "ec9a76fc079857ae",
+        "type": "comment",
+        "z": "ca7ec7c7e5bdf2fc",
+        "name": "Thêm 1 node inject lấy 1 string 1 lần từ cloud gồm thông tin (username, pass, limits(4), setting_noti(4), setting_autoFeed) lưu vào  global",
+        "info": "",
+        "x": 690,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "b3013aa149307f8b",
+        "type": "comment",
+        "z": "ca7ec7c7e5bdf2fc",
+        "name": "Gửi thông tin ghi đè về file cloud (onclose)",
+        "info": "",
+        "x": 400,
+        "y": 380,
+        "wires": []
+    },
+    {
         "id": "facd3568c75ffe94",
         "type": "mqtt in",
         "z": "e8e96c2a33d8f276",
@@ -1263,7 +1283,7 @@
         "z": "e8e96c2a33d8f276",
         "name": "Fix 2 inject to get real saved Limits from ThingSpeak",
         "info": "Fix 2 inject to get real saved Limits from ThingSpeak\n",
-        "x": 330,
+        "x": 350,
         "y": 760,
         "wires": []
     },
@@ -1271,9 +1291,9 @@
         "id": "a2865fd349b00aad",
         "type": "comment",
         "z": "e8e96c2a33d8f276",
-        "name": "Need to add 1 more inject node to get Limits data from cloud",
+        "name": "Need to add 1 more inject node to get Limits data from global",
         "info": "",
-        "x": 320,
+        "x": 340,
         "y": 640,
         "wires": []
     },
@@ -1304,7 +1324,7 @@
         "z": "e8e96c2a33d8f276",
         "name": "Warning đang hơi ngu",
         "info": "",
-        "x": 480,
+        "x": 540,
         "y": 480,
         "wires": []
     },
@@ -2480,35 +2500,13 @@
         "wires": []
     },
     {
-        "id": "2c3bf3469712c1bc",
-        "type": "http request",
-        "z": "34836421c703f805",
-        "name": "",
-        "method": "GET",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "https://thingspeak.com/channels/2624543/feeds.csv?api_keys=YA3LFQ0FBOO1RHIW",
-        "tls": "",
-        "persist": true,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 290,
-        "y": 420,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "78fca25a3e64525c",
         "type": "comment",
         "z": "34836421c703f805",
         "name": "Bỏ dòng Fed trong schedule",
         "info": "",
-        "x": 1040,
-        "y": 720,
+        "x": 1180,
+        "y": 740,
         "wires": []
     },
     {
@@ -2517,8 +2515,8 @@
         "z": "34836421c703f805",
         "name": "Thêm lịch sử cho ăn. Gồm: Date, Amount!",
         "info": "",
-        "x": 1080,
-        "y": 680,
+        "x": 1220,
+        "y": 700,
         "wires": []
     },
     {
@@ -2527,8 +2525,8 @@
         "z": "34836421c703f805",
         "name": "Chưa up schedule, history lên cloud!",
         "info": "",
-        "x": 1060,
-        "y": 640,
+        "x": 1200,
+        "y": 660,
         "wires": []
     },
     {
@@ -2537,8 +2535,8 @@
         "z": "34836421c703f805",
         "name": "Chưa làm logic cho ăn tự động và lưu history",
         "info": "",
-        "x": 1090,
-        "y": 600,
+        "x": 1230,
+        "y": 620,
         "wires": []
     },
     {
@@ -2547,8 +2545,8 @@
         "z": "34836421c703f805",
         "name": "Chưa thêm thông báo tới giờ cho ăn (mail, web noti)",
         "info": "",
-        "x": 1110,
-        "y": 560,
+        "x": 1250,
+        "y": 580,
         "wires": []
     },
     {
@@ -2557,8 +2555,18 @@
         "z": "34836421c703f805",
         "name": "Chưa thêm logic và lưu setting cloud cho 2 nút",
         "info": "",
-        "x": 810,
-        "y": 60,
+        "x": 750,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "ac62abcb5bf3c56d",
+        "type": "comment",
+        "z": "34836421c703f805",
+        "name": "Fit dòng, cột các table (nếu rảnh =)))",
+        "info": "",
+        "x": 1400,
+        "y": 420,
         "wires": []
     },
     {
