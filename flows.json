@@ -10,7 +10,7 @@
     {
         "id": "e8e96c2a33d8f276",
         "type": "tab",
-        "label": "Data flow",
+        "label": "Sensor",
         "disabled": false,
         "info": "",
         "env": []
@@ -26,13 +26,138 @@
     {
         "id": "97f9b691884ece2d",
         "type": "tab",
-        "label": "Flow 1",
+        "label": "Data History from ThingSpeak",
         "disabled": false,
         "info": "",
         "env": []
     },
     {
-        "id": "94a271eea9fa077a",
+        "id": "c42bcde0c0dd6265",
+        "type": "tab",
+        "label": "Camera",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a7f76a449c27182e",
+        "type": "group",
+        "z": "97f9b691884ece2d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1ba0118b03332528",
+            "2936889e06b70e40",
+            "5046ae94e320d7e6",
+            "3c1049e01c49f45c",
+            "041ae44ad3decdc0",
+            "71483b76e572bd90",
+            "98604c75249e6085",
+            "c26552f7d4047f4c"
+        ],
+        "x": 34,
+        "y": 59,
+        "w": 972,
+        "h": 202
+    },
+    {
+        "id": "944477dba28d308d",
+        "type": "group",
+        "z": "97f9b691884ece2d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1b98f0a99b8af4aa",
+            "5da4089abcc033e2",
+            "22002ea66072dd4b",
+            "9a053b6209f3186d",
+            "365122e007a55d12",
+            "973f3539561b46f1",
+            "754bb4fa9771c2ef",
+            "070479fe7f2a6f65"
+        ],
+        "x": 34,
+        "y": 299,
+        "w": 972,
+        "h": 202
+    },
+    {
+        "id": "edbda1ef62bfb142",
+        "type": "group",
+        "z": "34836421c703f805",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b5daf8b89c40cce5",
+            "fd791e7dbc4922e2",
+            "29c2d6ccf3822d35",
+            "431b1647dc34b942",
+            "2e776daa04d4c503",
+            "0600eb5006e28bbe",
+            "2f39019fadb39940",
+            "f36a78469a6a302c",
+            "1bb780032de499cc",
+            "2dbed5f1dce475b3",
+            "31870fdd984d055a"
+        ],
+        "x": 14,
+        "y": 1339,
+        "w": 1292,
+        "h": 202
+    },
+    {
+        "id": "fd109c676ba0cfa3",
+        "type": "group",
+        "z": "34836421c703f805",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e14e4f168fde5461",
+            "04642740c43f9681",
+            "aadfa0656a26eb7e",
+            "f19f15dbd354c234",
+            "25841a8e515c5b4a",
+            "410243c9d95233eb",
+            "78b93fba62ba8a3b",
+            "f19a7073ea0b1fd9",
+            "ade5944d7fdcbae0",
+            "f9825a8bfd3d3cc5"
+        ],
+        "x": 14,
+        "y": 1119,
+        "w": 892,
+        "h": 202
+    },
+    {
+        "id": "f3d8101df586c7b5",
         "type": "group",
         "z": "34836421c703f805",
         "style": {
@@ -46,15 +171,136 @@
         },
         "nodes": [
             "d01402844ef2d11e",
-            "ea0cebee5d175aed",
             "67dfd12da60e4341",
+            "ea0cebee5d175aed",
             "4f61e1304a005a69",
-            "cdce8c4165890d0a"
+            "cdce8c4165890d0a",
+            "c7587ab02bff2de4"
+        ],
+        "x": 14,
+        "y": 959,
+        "w": 972,
+        "h": 142
+    },
+    {
+        "id": "92365f2d16fc32db",
+        "type": "group",
+        "z": "34836421c703f805",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "ab468da7239a1992",
+            "9380093b0695d97c",
+            "230ac07b110aa449",
+            "42d48329161bb8af",
+            "312b7a7404c7db20",
+            "2c569491f6305c24",
+            "c165d504301ac2b6",
+            "38366ffa9378e331",
+            "7322ca28f2f4b0e0",
+            "638d3418cf1ba387",
+            "be850588720409c6",
+            "15a2c3d5868b7e4b",
+            "e3b91fd5d047ece0",
+            "4b3acabb3f17a7af",
+            "2e11cef063589a1a",
+            "1c2c335d55ebc684",
+            "8b79b0241a096405",
+            "5bfc62e1e63afe88",
+            "1f764c90a5409687",
+            "d2b28baa46a7b22e",
+            "b2ea972208ae8bd5",
+            "eff5673ee7e21d15",
+            "8e2874808b8e7a0f",
+            "a0ef59ccbdd4dda2",
+            "b7cde39c4119f82c",
+            "f45b3c8861cad6ed",
+            "ea6d874806af1436",
+            "d0ac7ab67d8f0f85",
+            "d9742c2819931028"
+        ],
+        "x": 14,
+        "y": 459,
+        "w": 1252,
+        "h": 482
+    },
+    {
+        "id": "abcb4d74ea2c8e8f",
+        "type": "group",
+        "z": "34836421c703f805",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7fef327f671fe9ca",
+            "cc9b99af9a973ecd",
+            "b168c7f6045c02f6",
+            "9c7b3a70546c5636",
+            "50f00c8642c1eab3",
+            "fcf6547251b5a043",
+            "661f99780b5b29e6",
+            "046152ce351fbac2",
+            "d093d6b8067334b1",
+            "c197867ce5f2caac",
+            "d35e92cb5ff8ea16",
+            "711e6a25b6e3ddca",
+            "668e18739827487a",
+            "ce1768a88d21a190"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 632,
+        "h": 422
+    },
+    {
+        "id": "bef42aefa75c583e",
+        "type": "group",
+        "z": "e8e96c2a33d8f276",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5d2d85bfcce24bf6",
+            "facd3568c75ffe94",
+            "3e16b9223831d42b",
+            "ca7040c5336401cd",
+            "77cc0d0182a5cdd3",
+            "6c7e06fb2c34eab6",
+            "a9865e62fb0eddc3",
+            "c8060b3c441eacbc",
+            "b6e55afbe70b62fa",
+            "b8ffa45a88e25d08",
+            "97386011274523c6",
+            "6d9298ef9701a105",
+            "c53e187c1f607b46",
+            "076b944873857b41",
+            "b657c602b006dabc",
+            "648ec4b336663336",
+            "ca1d0434ee8f9860"
         ],
         "x": 34,
-        "y": 759,
-        "w": 932,
-        "h": 142
+        "y": 39,
+        "w": 872,
+        "h": 542
     },
     {
         "id": "9c39670e4e7d3237",
@@ -103,7 +349,7 @@
         "tab": "febe01d4954981b4",
         "order": 1,
         "disp": true,
-        "width": 8,
+        "width": 6,
         "collapse": false,
         "className": ""
     },
@@ -114,7 +360,7 @@
         "tab": "febe01d4954981b4",
         "order": 2,
         "disp": true,
-        "width": 8,
+        "width": 6,
         "collapse": false,
         "className": ""
     },
@@ -145,7 +391,7 @@
         "tab": "febe01d4954981b4",
         "order": 3,
         "disp": true,
-        "width": 8,
+        "width": 6,
         "collapse": false,
         "className": ""
     },
@@ -244,7 +490,7 @@
             "name": "AquaSmart Dashboard",
             "hideToolbar": "false",
             "allowSwipe": "false",
-            "lockMenu": "icon",
+            "lockMenu": "false",
             "allowTempTheme": "true",
             "dateFormat": "DD/MM/YYYY",
             "sizes": {
@@ -283,7 +529,29 @@
     {
         "id": "5730c1420f980bc5",
         "type": "ui_group",
-        "name": "Data table",
+        "name": "Sensor's Data",
+        "tab": "febe01d4954981b4",
+        "order": 4,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a5762ee9b40f0d48",
+        "type": "ui_group",
+        "name": "Live Cam",
+        "tab": "c4721440d2b499c4",
+        "order": 1,
+        "disp": true,
+        "width": "19",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2153644776610370",
+        "type": "ui_group",
+        "name": "Feeding History",
         "tab": "6889142e4e8ae192",
         "order": 3,
         "disp": true,
@@ -292,14 +560,12 @@
         "className": ""
     },
     {
-        "id": "7bb81f8761a9408c",
-        "type": "ui_spacer",
-        "z": "e8e96c2a33d8f276",
-        "name": "spacer",
-        "group": "590e614324272a29",
-        "order": 8,
-        "width": 9,
-        "height": 1
+        "id": "c4721440d2b499c4",
+        "type": "ui_tab",
+        "name": "Camera",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "7b55e29a649cb6ae",
@@ -314,34 +580,36 @@
         "options": [
             {
                 "label": "Username",
-                "value": "Username",
+                "value": "username",
                 "type": "text",
                 "required": true,
                 "rows": null
             },
             {
                 "label": "Password",
-                "value": "Password",
+                "value": "password",
                 "type": "password",
                 "required": true,
                 "rows": null
             }
         ],
         "formValue": {
-            "Username": "",
-            "Password": ""
+            "username": "",
+            "password": ""
         },
         "payload": "",
         "submit": "Log In",
         "cancel": "Clear all",
-        "topic": "account_infor",
-        "topicType": "global",
+        "topic": "",
+        "topicType": "str",
         "splitLayout": "",
         "className": "",
-        "x": 290,
-        "y": 200,
+        "x": 110,
+        "y": 260,
         "wires": [
-            []
+            [
+                "cf4717503f55814a"
+            ]
         ]
     },
     {
@@ -350,8 +618,8 @@
         "z": "ca7ec7c7e5bdf2fc",
         "name": "Lấy data của user từ cloud và làm logic",
         "info": "",
-        "x": 390,
-        "y": 140,
+        "x": 210,
+        "y": 200,
         "wires": []
     },
     {
@@ -360,8 +628,8 @@
         "z": "ca7ec7c7e5bdf2fc",
         "name": " Bỏ nhập email và sdt",
         "info": "",
-        "x": 340,
-        "y": 260,
+        "x": 160,
+        "y": 320,
         "wires": []
     },
     {
@@ -370,8 +638,8 @@
         "z": "ca7ec7c7e5bdf2fc",
         "name": "Thêm 1 node inject lấy 1 string 1 lần từ cloud gồm thông tin (username, pass, limits(4), setting_noti(4), setting_autoFeed) lưu vào  global",
         "info": "",
-        "x": 690,
-        "y": 320,
+        "x": 510,
+        "y": 380,
         "wires": []
     },
     {
@@ -380,14 +648,231 @@
         "z": "ca7ec7c7e5bdf2fc",
         "name": "Gửi thông tin ghi đè về file cloud (onclose)",
         "info": "",
-        "x": 400,
-        "y": 380,
+        "x": 220,
+        "y": 440,
         "wires": []
+    },
+    {
+        "id": "899439839d1daa66",
+        "type": "inject",
+        "z": "ca7ec7c7e5bdf2fc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"username\":\"admin\",\"password\":\"admin\"}",
+        "payloadType": "json",
+        "x": 110,
+        "y": 140,
+        "wires": [
+            [
+                "d83578da037ad0dd"
+            ]
+        ]
+    },
+    {
+        "id": "d83578da037ad0dd",
+        "type": "function",
+        "z": "ca7ec7c7e5bdf2fc",
+        "name": "function 10",
+        "func": "global.set(\"user\", msg.payload);\nreturn ;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cf4717503f55814a",
+        "type": "function",
+        "z": "ca7ec7c7e5bdf2fc",
+        "name": "function 11",
+        "func": "let account = global.get(\"user\");\nif (account.username === msg.payload.username && account.password === msg.payload.password) {\n    msg.msg = true\n}\nelse {\n    msg.msg = false;\n    msg.payload = \"Invalid username or password!\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 260,
+        "wires": [
+            [
+                "56c7cd7dd2a1a152"
+            ]
+        ]
+    },
+    {
+        "id": "56c7cd7dd2a1a152",
+        "type": "switch",
+        "z": "ca7ec7c7e5bdf2fc",
+        "name": "",
+        "property": "msg",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 490,
+        "y": 260,
+        "wires": [
+            [
+                "c7385fde31a329db"
+            ],
+            [
+                "7fb00b3533c75666"
+            ]
+        ]
+    },
+    {
+        "id": "6d204d62efbb3ce1",
+        "type": "ui_ui_control",
+        "z": "ca7ec7c7e5bdf2fc",
+        "name": "",
+        "events": "all",
+        "x": 840,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7fb00b3533c75666",
+        "type": "ui_toast",
+        "z": "ca7ec7c7e5bdf2fc",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 650,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c7385fde31a329db",
+        "type": "change",
+        "z": "ca7ec7c7e5bdf2fc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"show\":[\"Home\",\"Feeding\",\"Camera\"],\"enable\":[\"Home\",\"Feeding\",\"Camera\"],\"hide\":\"Log in\",\"disable\":\"Log in\"},\"tab\":\"Home\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 220,
+        "wires": [
+            [
+                "6d204d62efbb3ce1"
+            ]
+        ]
+    },
+    {
+        "id": "402c9a7e4e02d1ae",
+        "type": "inject",
+        "z": "ca7ec7c7e5bdf2fc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.01",
+        "topic": "",
+        "payload": "{\"tab\":\"Log in\"}",
+        "payloadType": "json",
+        "x": 140,
+        "y": 80,
+        "wires": [
+            [
+                "0c88def3ac5a0197"
+            ]
+        ]
+    },
+    {
+        "id": "74171ba64313b4c7",
+        "type": "ui_ui_control",
+        "z": "ca7ec7c7e5bdf2fc",
+        "name": "",
+        "events": "all",
+        "x": 520,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0c88def3ac5a0197",
+        "type": "change",
+        "z": "ca7ec7c7e5bdf2fc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"hide\":[\"Home\",\"Feeding\",\"Camera\"],\"disable\":[\"Home\",\"Feeding\",\"Camera\"]},\"tab\":\"Log in\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 80,
+        "wires": [
+            [
+                "74171ba64313b4c7"
+            ]
+        ]
     },
     {
         "id": "facd3568c75ffe94",
         "type": "mqtt in",
         "z": "e8e96c2a33d8f276",
+        "g": "bef42aefa75c583e",
         "name": "Receive sensor's data",
         "topic": "aqua/sensor's",
         "qos": "0",
@@ -397,7 +882,7 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 120,
+        "x": 160,
         "y": 180,
         "wires": [
             [
@@ -409,6 +894,7 @@
         "id": "5d2d85bfcce24bf6",
         "type": "function",
         "z": "e8e96c2a33d8f276",
+        "g": "bef42aefa75c583e",
         "name": "Split msg",
         "func": "var payload = msg.payload;\n\nvar parts = payload.split(\",\");\nvar temperature = parseFloat(parts[0]); \nvar pH = parseFloat(parts[1]);\n\nmsg.temperature = temperature;\nmsg.pH = pH;\n\nreturn msg;",
         "outputs": 1,
@@ -417,7 +903,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 320,
+        "x": 360,
         "y": 180,
         "wires": [
             [
@@ -431,10 +917,11 @@
         "id": "a9865e62fb0eddc3",
         "type": "ui_gauge",
         "z": "e8e96c2a33d8f276",
+        "g": "bef42aefa75c583e",
         "name": "TempGauge",
         "group": "22c90016b0138946",
         "order": 1,
-        "width": 8,
+        "width": 6,
         "height": 6,
         "gtype": "gage",
         "title": "Temperature",
@@ -451,18 +938,19 @@
         "seg2": "35",
         "diff": false,
         "className": "",
-        "x": 910,
-        "y": 100,
+        "x": 790,
+        "y": 80,
         "wires": []
     },
     {
         "id": "b8ffa45a88e25d08",
         "type": "ui_chart",
         "z": "e8e96c2a33d8f276",
+        "g": "bef42aefa75c583e",
         "name": "pHChart",
         "group": "d1be80fd774cbf9c",
         "order": 2,
-        "width": 8,
+        "width": 6,
         "height": 6,
         "label": "pH",
         "chartType": "line",
@@ -493,8 +981,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 900,
-        "y": 280,
+        "x": 780,
+        "y": 240,
         "wires": [
             []
         ]
@@ -503,10 +991,11 @@
         "id": "c8060b3c441eacbc",
         "type": "ui_chart",
         "z": "e8e96c2a33d8f276",
+        "g": "bef42aefa75c583e",
         "name": "TempChart",
         "group": "d1be80fd774cbf9c",
         "order": 1,
-        "width": 8,
+        "width": 6,
         "height": 6,
         "label": "Temperature",
         "chartType": "line",
@@ -537,8 +1026,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 910,
-        "y": 160,
+        "x": 790,
+        "y": 120,
         "wires": [
             []
         ]
@@ -547,10 +1036,11 @@
         "id": "b6e55afbe70b62fa",
         "type": "ui_gauge",
         "z": "e8e96c2a33d8f276",
+        "g": "bef42aefa75c583e",
         "name": "pHGauge",
         "group": "22c90016b0138946",
         "order": 2,
-        "width": 8,
+        "width": 6,
         "height": 6,
         "gtype": "gage",
         "title": "pH",
@@ -567,14 +1057,15 @@
         "seg2": "8",
         "diff": false,
         "className": "",
-        "x": 900,
-        "y": 220,
+        "x": 780,
+        "y": 200,
         "wires": []
     },
     {
         "id": "6c7e06fb2c34eab6",
         "type": "debug",
         "z": "e8e96c2a33d8f276",
+        "g": "bef42aefa75c583e",
         "name": "debug 1",
         "active": false,
         "tosidebar": true,
@@ -584,14 +1075,15 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 910,
-        "y": 40,
+        "x": 790,
+        "y": 160,
         "wires": []
     },
     {
         "id": "97386011274523c6",
         "type": "debug",
         "z": "e8e96c2a33d8f276",
+        "g": "bef42aefa75c583e",
         "name": "debug 2",
         "active": false,
         "tosidebar": true,
@@ -601,14 +1093,15 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 910,
-        "y": 340,
+        "x": 790,
+        "y": 280,
         "wires": []
     },
     {
         "id": "3e16b9223831d42b",
         "type": "function",
         "z": "e8e96c2a33d8f276",
+        "g": "bef42aefa75c583e",
         "name": "Get tmp",
         "func": "msg.payload = msg.temperature;\nreturn msg;",
         "outputs": 1,
@@ -617,8 +1110,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 492,
-        "y": 109.00000190734863,
+        "x": 540,
+        "y": 120,
         "wires": [
             [
                 "6c7e06fb2c34eab6",
@@ -631,6 +1124,7 @@
         "id": "ca7040c5336401cd",
         "type": "function",
         "z": "e8e96c2a33d8f276",
+        "g": "bef42aefa75c583e",
         "name": "Get pH",
         "func": "msg.payload = msg.pH;\nreturn msg;",
         "outputs": 1,
@@ -639,8 +1133,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 492,
-        "y": 289.00000190734863,
+        "x": 540,
+        "y": 240,
         "wires": [
             [
                 "b6e55afbe70b62fa",
@@ -656,9 +1150,9 @@
         "name": "",
         "label": "Set pH limits",
         "group": "65c1d4a51c575c31",
-        "order": 2,
-        "width": 8,
-        "height": 1,
+        "order": 4,
+        "width": 6,
+        "height": 2,
         "options": [
             {
                 "label": "Lower limit",
@@ -793,9 +1287,9 @@
         "name": "",
         "label": "Set temp limits",
         "group": "65c1d4a51c575c31",
-        "order": 4,
-        "width": 8,
-        "height": 1,
+        "order": 2,
+        "width": 6,
+        "height": 2,
         "options": [
             {
                 "label": "Lower limit",
@@ -938,7 +1432,7 @@
         "className": "Setup error",
         "topic": "Invalid value input!",
         "name": "Invalid input noti",
-        "x": 900,
+        "x": 880,
         "y": 800,
         "wires": [
             []
@@ -959,8 +1453,8 @@
         "className": "Setup error",
         "topic": "Invalid value input!",
         "name": "Invalid input noti",
-        "x": 900,
-        "y": 1060,
+        "x": 880,
+        "y": 1040,
         "wires": [
             []
         ]
@@ -1010,11 +1504,11 @@
         "type": "ui_text",
         "z": "e8e96c2a33d8f276",
         "group": "65c1d4a51c575c31",
-        "order": 3,
-        "width": 8,
-        "height": 1,
+        "order": 1,
+        "width": 6,
+        "height": 2,
         "name": "",
-        "label": "Current tmp limits",
+        "label": "Current tmp limits:",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "",
@@ -1031,11 +1525,11 @@
         "type": "ui_text",
         "z": "e8e96c2a33d8f276",
         "group": "65c1d4a51c575c31",
-        "order": 1,
-        "width": 8,
-        "height": 1,
+        "order": 3,
+        "width": 6,
+        "height": 2,
         "name": "",
-        "label": "Current pH limits",
+        "label": "Current pH limits:",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "",
@@ -1051,6 +1545,7 @@
         "id": "77cc0d0182a5cdd3",
         "type": "function",
         "z": "e8e96c2a33d8f276",
+        "g": "bef42aefa75c583e",
         "name": "Warning Sensors",
         "func": "// Thiết lập ngưỡng cảnh báo\nlet prev_warn = flow.get(\"warn\");\nlet tmp = flow.get(\"tmp\").payload, pH = flow.get(\"pH\").payload;\n\nvar tmpLimits= {\"upper\": tmp.upperLimit, \"lower\": tmp.lowerLimit};\nvar pHLimits = {\"upper\": pH.upperLimit, \"lower\": pH.lowerLimit };\nvar warn = msg.temperature > tmpLimits.upper || msg.temperature < tmpLimits.lower || \n    msg.pH > pHLimits.upper || msg.pH < pHLimits.lower;\n\nif (warn == prev_warn)\n    return null;\n\nflow.set(\"warn\", warn);\nif (warn == true)\n{\n    var subject = \"Cảnh báo từ hệ thống hồ cá thông minh!\";\n    var body = \"Cảnh báo:\\n\\n\";\n\n    // Kiểm tra điều kiện cảnh báo\n    if (msg.temperature > tmpLimits.upper ) {\n        body += \"Nhiệt độ CAO vượt ngưỡng!\\n\";\n        body += \"Ngưỡng nhiệt độ: \" + tmpLimits.lower + \"°C - \" + tmpLimits.upper + \"°C\\n\";\n        body += \"Nhiệt độ hiện tại: \" + msg.temperature + \"°C\\n\\n\";\n    }\n    else if (msg.temperature < tmpLimits.lower)\n    {\n        body += \"Nhiệt độ THẤP dưới ngưỡng!\\n\";\n        body += \"Ngưỡng nhiệt độ: \" + tmpLimits.lower + \"°C - \" + tmpLimits.upper + \"°C\\n\";\n        body += \"Nhiệt độ hiện tại: \" + msg.temperature + \"°C\\n\\n\";\n    }\n    if (msg.pH > pHLimits.upper) {\n        body += \"Độ pH CAO vượt ngưỡng!\\n\";\n        body += \"Ngưỡng pH: \" + pHLimits.lower + \" - \" + pHLimits.upper + \"\\n\";\n        body += \"Độ pH hiện tại: \" + msg.pH + \"\\n\\n\";\n    }\n    else if (msg.pH < pHLimits.lower) {\n        body += \"Độ pH THẤP dưới ngưỡng!\\n\";\n        body += \"Ngưỡng pH: \" + pHLimits.lower + \" - \" + pHLimits.upper + \"\\n\";\n        body += \"Độ pH hiện tại: \" + msg.pH + \"\\n\\n\";\n    }\n\n    let warning_msg = {\n        \"payload\" : body + \"Vui lòng kiểm tra chất lượng nước trong hồ cá!\\n\",\n        \"topic\": subject\n    };\n  \n    return warning_msg;\n}\n\nvar subject = \"Thông báo từ hệ thống hồ cá thông minh!\";\nvar body = \"Các chỉ số đã ổn định trở lại!\\n\\n\";\n\nlet new_msg = {\n    \"payload\" : body,\n    \"topic\": subject\n};\nreturn new_msg;\n",
         "outputs": 1,
@@ -1059,7 +1554,7 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nflow.set(\"warn\", false);\n",
         "finalize": "",
         "libs": [],
-        "x": 550,
+        "x": 570,
         "y": 440,
         "wires": [
             [
@@ -1074,7 +1569,7 @@
         "id": "6d9298ef9701a105",
         "type": "e-mail",
         "z": "e8e96c2a33d8f276",
-        "d": true,
+        "g": "bef42aefa75c583e",
         "server": "smtp.gmail.com",
         "port": "465",
         "authtype": "BASIC",
@@ -1084,7 +1579,7 @@
         "tls": true,
         "name": "vanphamanh2303@gmail.com",
         "dname": "Warning gmail",
-        "x": 820,
+        "x": 800,
         "y": 420,
         "wires": []
     },
@@ -1092,13 +1587,13 @@
         "id": "c53e187c1f607b46",
         "type": "twilio out",
         "z": "e8e96c2a33d8f276",
-        "d": true,
+        "g": "bef42aefa75c583e",
         "twilio": "3c24b83cd9ad7855",
         "twilioType": "sms",
         "url": "",
         "number": "+18777804236",
         "name": "",
-        "x": 790,
+        "x": 770,
         "y": 480,
         "wires": []
     },
@@ -1141,7 +1636,7 @@
         "type": "function",
         "z": "e8e96c2a33d8f276",
         "name": "Get pH limits",
-        "func": "let pH = flow.get(\"pH\").payload;\n\nlet str = `${pH.lowerLimit}-${pH.upperLimit}`;\nlet new_msg = {\"payload\" : str};\nreturn new_msg;",
+        "func": "let pH = flow.get(\"pH\").payload;\n\nlet str = `${pH.lowerLimit} - ${pH.upperLimit}`;\nlet new_msg = {\"payload\" : str};\nreturn new_msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1161,7 +1656,7 @@
         "type": "function",
         "z": "e8e96c2a33d8f276",
         "name": "Get temp limits",
-        "func": "let tmp = flow.get(\"tmp\").payload;\n\nlet str = `${tmp.lowerLimit}-${tmp.upperLimit}`;\nlet new_msg = { \"payload\": str };\nreturn new_msg;",
+        "func": "let tmp = flow.get(\"tmp\").payload;\n\nlet str = `${tmp.lowerLimit} - ${tmp.upperLimit}`;\nlet new_msg = { \"payload\": str };\nreturn new_msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1180,6 +1675,7 @@
         "id": "076b944873857b41",
         "type": "debug",
         "z": "e8e96c2a33d8f276",
+        "g": "bef42aefa75c583e",
         "name": "debug 19",
         "active": true,
         "tosidebar": false,
@@ -1189,7 +1685,7 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 680,
+        "x": 780,
         "y": 360,
         "wires": []
     },
@@ -1244,7 +1740,7 @@
         "topic": "",
         "payload": "{\"upperLimit\":8.5,\"lowerLimit\":7}",
         "payloadType": "json",
-        "x": 470,
+        "x": 490,
         "y": 700,
         "wires": [
             [
@@ -1269,7 +1765,7 @@
         "topic": "",
         "payload": "{\"upperLimit\":32,\"lowerLimit\":24}",
         "payloadType": "json",
-        "x": 470,
+        "x": 490,
         "y": 940,
         "wires": [
             [
@@ -1283,8 +1779,8 @@
         "z": "e8e96c2a33d8f276",
         "name": "Fix 2 inject to get real saved Limits from ThingSpeak",
         "info": "Fix 2 inject to get real saved Limits from ThingSpeak\n",
-        "x": 350,
-        "y": 760,
+        "x": 210,
+        "y": 880,
         "wires": []
     },
     {
@@ -1293,14 +1789,15 @@
         "z": "e8e96c2a33d8f276",
         "name": "Need to add 1 more inject node to get Limits data from global",
         "info": "",
-        "x": 340,
-        "y": 640,
+        "x": 240,
+        "y": 740,
         "wires": []
     },
     {
         "id": "b657c602b006dabc",
         "type": "ui_toast",
         "z": "e8e96c2a33d8f276",
+        "g": "bef42aefa75c583e",
         "position": "dialog",
         "displayTime": "3",
         "highlight": "",
@@ -1319,757 +1816,35 @@
         ]
     },
     {
-        "id": "215f6ba8e1f7b809",
+        "id": "648ec4b336663336",
         "type": "comment",
         "z": "e8e96c2a33d8f276",
-        "name": "Warning đang hơi ngu",
+        "g": "bef42aefa75c583e",
+        "name": "Receive sensor's data from mqtt and check if it's safe ",
         "info": "",
-        "x": 540,
-        "y": 480,
+        "x": 250,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "ca1d0434ee8f9860",
+        "type": "comment",
+        "z": "e8e96c2a33d8f276",
+        "g": "bef42aefa75c583e",
+        "name": "Sending warning through email and sms",
+        "info": "",
+        "x": 510,
+        "y": 520,
         "wires": []
     },
     {
         "id": "7fef327f671fe9ca",
         "type": "ui_switch",
         "z": "34836421c703f805",
+        "g": "abcb4d74ea2c8e8f",
         "name": "",
         "label": "Auto",
         "tooltip": "Automatically feeding base on schedule",
-        "group": "590e614324272a29",
-        "order": 2,
-        "width": 9,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "topicType": "str",
-        "style": "",
-        "onvalue": "On",
-        "onvalueType": "str",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "Off",
-        "offvalueType": "str",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 110,
-        "y": 120,
-        "wires": [
-            [
-                "cc9b99af9a973ecd"
-            ]
-        ]
-    },
-    {
-        "id": "a0ef59ccbdd4dda2",
-        "type": "ui_button",
-        "z": "34836421c703f805",
-        "name": "Delete button",
-        "group": "590e614324272a29",
-        "order": 7,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "Delete time",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "str",
-        "x": 130,
-        "y": 620,
-        "wires": [
-            [
-                "5bfc62e1e63afe88"
-            ]
-        ]
-    },
-    {
-        "id": "ab468da7239a1992",
-        "type": "ui_text_input",
-        "z": "34836421c703f805",
-        "name": "Add new time",
-        "label": "Add new row",
-        "tooltip": "",
-        "group": "590e614324272a29",
-        "order": 4,
-        "width": 6,
-        "height": 1,
-        "passthru": false,
-        "mode": "time",
-        "delay": "0",
-        "topic": "",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "str",
-        "x": 140,
-        "y": 280,
-        "wires": [
-            [
-                "d9742c2819931028"
-            ]
-        ]
-    },
-    {
-        "id": "2c569491f6305c24",
-        "type": "function",
-        "z": "34836421c703f805",
-        "name": "Process Add",
-        "func": "// Lấy dữ liệu từ msg.payload\nlet newTime = msg.payload; // Thời gian dạng hh:mm\nif (newTime === \"NaN:NaN\") {\n    msg.payload = \"Invalid / Null time input!\";\n    return msg;\n}\n// Lấy bảng từ context flow\nlet data = flow.get(\"table\").payload || [];\n\n// Kiểm tra xem thời gian đã tồn tại trong bảng chưa \nlet exists = data.some(item => typeof item.time === 'string' && item.time === newTime);\n\n// Nếu thời gian chưa tồn tại, thêm vào bảng\nif (!exists) {\n    data.push({\n        time: newTime,\n        done: false,\n        id: 0\n    });\n    msg.payload = \"Add success!\";\n} else {\n    msg.payload = \"Time exists!\";\n}\n\nlet updated_table = {\"payload\": data}\n// Lưu bảng vào flow context\nflow.set(\"table\", updated_table);\n\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 690,
-        "y": 340,
-        "wires": [
-            [
-                "c165d504301ac2b6",
-                "38366ffa9378e331"
-            ]
-        ]
-    },
-    {
-        "id": "5bfc62e1e63afe88",
-        "type": "function",
-        "z": "34836421c703f805",
-        "name": "Process Remove",
-        "func": "let indexToRemove = parseInt(flow.get(\"index\"));\nlet table = flow.get(\"table\").payload;\n\nvar msg = {};\n// Kiểm tra xem index có hợp lệ không\nif (indexToRemove >= 1 && indexToRemove <= table.length) {\n    // Xóa phần tử có index tương ứng khỏi bảng\n    table = table.filter(item => item.id !== indexToRemove);\n    \n    msg.payload = \"Delete success!\";\n}\nelse {\n    msg.payload = \"Index out of bounds!\"\n}\nlet updated_table = {\"payload\" : table};\nflow.set(\"table\", updated_table);\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 350,
-        "y": 620,
-        "wires": [
-            [
-                "b7cde39c4119f82c",
-                "4b3acabb3f17a7af"
-            ]
-        ]
-    },
-    {
-        "id": "c165d504301ac2b6",
-        "type": "debug",
-        "z": "34836421c703f805",
-        "name": "debug 4",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 860,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "b7cde39c4119f82c",
-        "type": "debug",
-        "z": "34836421c703f805",
-        "name": "debug 5",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 540,
-        "y": 680,
-        "wires": []
-    },
-    {
-        "id": "ea6d874806af1436",
-        "type": "ui_text_input",
-        "z": "34836421c703f805",
-        "name": "Index of time to delete",
-        "label": "Index of row to delete",
-        "tooltip": "",
-        "group": "590e614324272a29",
-        "order": 6,
-        "width": 6,
-        "height": 1,
-        "passthru": false,
-        "mode": "number",
-        "delay": "0",
-        "topic": "payload",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "str",
-        "x": 160,
-        "y": 560,
-        "wires": [
-            [
-                "d0ac7ab67d8f0f85"
-            ]
-        ]
-    },
-    {
-        "id": "312b7a7404c7db20",
-        "type": "debug",
-        "z": "34836421c703f805",
-        "name": "debug 8",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 680,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "638d3418cf1ba387",
-        "type": "function",
-        "z": "34836421c703f805",
-        "name": "sort",
-        "func": "// Đọc dữ liệu JSON từ payload\nlet data = flow.get(\"table\").payload;\n\n\n// Sắp xếp dữ liệu theo thời gian (theo định dạng hh:mm)\ndata.sort((a, b) => {\n    let timeA = a.time.split(':').map(Number);\n    let timeB = b.time.split(':').map(Number);\n    return timeA[0] * 60 + timeA[1] - (timeB[0] * 60 + timeB[1]);\n});\n\n// Cập nhật ID cho mỗi dòng dữ liệu\ndata = data.map((item, index) => ({ ...item, id: index + 1 }));\n\nlet table = {\"payload\": data}\nflow.set(\"table\", table);\n\nreturn table;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 965.9999961853027,
-        "y": 479.0000057220459,
-        "wires": [
-            [
-                "2e11cef063589a1a",
-                "1c2c335d55ebc684"
-            ]
-        ]
-    },
-    {
-        "id": "8b79b0241a096405",
-        "type": "json",
-        "z": "34836421c703f805",
-        "name": "",
-        "property": "payload",
-        "action": "obj",
-        "pretty": true,
-        "x": 450,
-        "y": 480,
-        "wires": [
-            [
-                "8e2874808b8e7a0f",
-                "e3b91fd5d047ece0"
-            ]
-        ]
-    },
-    {
-        "id": "eff5673ee7e21d15",
-        "type": "file in",
-        "z": "34836421c703f805",
-        "name": "",
-        "filename": "payload",
-        "filenameType": "msg",
-        "format": "",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 280,
-        "y": 480,
-        "wires": [
-            [
-                "8b79b0241a096405"
-            ]
-        ]
-    },
-    {
-        "id": "f45b3c8861cad6ed",
-        "type": "inject",
-        "z": "34836421c703f805",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": ".node-red\\projects\\AquaSmart\\scheduling.json",
-        "payloadType": "str",
-        "x": 110,
-        "y": 480,
-        "wires": [
-            [
-                "eff5673ee7e21d15"
-            ]
-        ]
-    },
-    {
-        "id": "2e11cef063589a1a",
-        "type": "ui_table",
-        "z": "34836421c703f805",
-        "group": "590e614324272a29",
-        "name": "",
-        "order": 1,
-        "width": 9,
-        "height": 5,
-        "columns": [
-            {
-                "field": "id",
-                "title": "Index",
-                "width": "100",
-                "align": "center",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "time",
-                "title": "Time",
-                "width": "200",
-                "align": "center",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "done",
-                "title": "Fed today",
-                "width": "115",
-                "align": "center",
-                "formatter": "tickCross",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            }
-        ],
-        "outputs": 0,
-        "cts": false,
-        "x": 1121.9999923706055,
-        "y": 478.0000114440918,
-        "wires": []
-    },
-    {
-        "id": "42d48329161bb8af",
-        "type": "function",
-        "z": "34836421c703f805",
-        "name": "Format from timestampt to time (HH:MM) string",
-        "func": "\n// Giả sử timestamp là số milliseconds từ 00:00:00 trong một ngày cụ thể\nlet timestamp = parseInt(flow.get(\"time\"), 10); // Đảm bảo timestamp là số nguyên\n\n// Tính toán giờ và phút\nlet hours = Math.floor(timestamp / (1000 * 60 * 60));\nlet minutes = Math.floor((timestamp % (1000 * 60 * 60)) / (1000 * 60));\n\n// Định dạng thành chuỗi hh:mm\nlet formattedTime = (hours < 10 ? '0' : '') + hours + ':' + (minutes < 10 ? '0' : '') + minutes;\n\n// Gán chuỗi thời gian đã định dạng vào msg.payload\nmsg.payload = formattedTime; \n\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 400,
-        "y": 340,
-        "wires": [
-            [
-                "312b7a7404c7db20",
-                "2c569491f6305c24"
-            ]
-        ]
-    },
-    {
-        "id": "8e2874808b8e7a0f",
-        "type": "debug",
-        "z": "34836421c703f805",
-        "name": "debug 10",
-        "active": true,
-        "tosidebar": false,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 635.9999961853027,
-        "y": 419.0000057220459,
-        "wires": []
-    },
-    {
-        "id": "e3b91fd5d047ece0",
-        "type": "function",
-        "z": "34836421c703f805",
-        "name": "Set to table data Flow Context",
-        "func": "flow.set(\"table\", msg)\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 705.9999961853027,
-        "y": 479.0000057220459,
-        "wires": [
-            [
-                "638d3418cf1ba387"
-            ]
-        ]
-    },
-    {
-        "id": "38366ffa9378e331",
-        "type": "switch",
-        "z": "34836421c703f805",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Add success!",
-                "vt": "str"
-            },
-            {
-                "t": "neq",
-                "v": "Add success!",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 850,
-        "y": 340,
-        "wires": [
-            [
-                "7322ca28f2f4b0e0",
-                "638d3418cf1ba387",
-                "be850588720409c6"
-            ],
-            [
-                "15a2c3d5868b7e4b"
-            ]
-        ]
-    },
-    {
-        "id": "15a2c3d5868b7e4b",
-        "type": "ui_toast",
-        "z": "34836421c703f805",
-        "position": "dialog",
-        "displayTime": "3",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 1,
-        "ok": "OK",
-        "cancel": "",
-        "raw": false,
-        "className": "",
-        "topic": "Adding feeding time fail!",
-        "name": "Adding feeding time fail!",
-        "x": 1110,
-        "y": 360,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1c2c335d55ebc684",
-        "type": "debug",
-        "z": "34836421c703f805",
-        "name": "debug 11",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1131.9999923706055,
-        "y": 418.0000114440918,
-        "wires": []
-    },
-    {
-        "id": "7322ca28f2f4b0e0",
-        "type": "ui_toast",
-        "z": "34836421c703f805",
-        "position": "top right",
-        "displayTime": "3",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 0,
-        "ok": "OK",
-        "cancel": "",
-        "raw": false,
-        "className": "",
-        "topic": "Feeding Time Added!",
-        "name": "Feeding Time Added!",
-        "x": 1100,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "230ac07b110aa449",
-        "type": "ui_button",
-        "z": "34836421c703f805",
-        "name": "Add button",
-        "group": "590e614324272a29",
-        "order": 5,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "Add time",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "sent",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "str",
-        "x": 130,
-        "y": 340,
-        "wires": [
-            [
-                "42d48329161bb8af"
-            ]
-        ]
-    },
-    {
-        "id": "d9742c2819931028",
-        "type": "function",
-        "z": "34836421c703f805",
-        "name": "Get \"add time\" field",
-        "func": "flow.set(\"time\", msg.payload);\nreturn ;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 350,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cc9b99af9a973ecd",
-        "type": "switch",
-        "z": "34836421c703f805",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "On",
-                "vt": "str"
-            },
-            {
-                "t": "neq",
-                "v": "On",
-                "vt": "str"
-            }
-        ],
-        "checkall": "false",
-        "repair": false,
-        "outputs": 2,
-        "x": 270,
-        "y": 120,
-        "wires": [
-            [
-                "b168c7f6045c02f6",
-                "9c7b3a70546c5636"
-            ],
-            [
-                "50f00c8642c1eab3",
-                "fcf6547251b5a043"
-            ]
-        ]
-    },
-    {
-        "id": "b168c7f6045c02f6",
-        "type": "ui_toast",
-        "z": "34836421c703f805",
-        "position": "top right",
-        "displayTime": "3",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 0,
-        "ok": "OK",
-        "cancel": "",
-        "raw": false,
-        "className": "",
-        "topic": "Automatic feeding mode:",
-        "name": "",
-        "x": 490,
-        "y": 40,
-        "wires": []
-    },
-    {
-        "id": "50f00c8642c1eab3",
-        "type": "ui_toast",
-        "z": "34836421c703f805",
-        "position": "top right",
-        "displayTime": "3",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 0,
-        "ok": "OK",
-        "cancel": "",
-        "raw": false,
-        "className": "",
-        "topic": "Automatic feeding mode:",
-        "name": "",
-        "x": 490,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "d0ac7ab67d8f0f85",
-        "type": "function",
-        "z": "34836421c703f805",
-        "name": "Get \"delete index\" field",
-        "func": "flow.set(\"index\", msg.payload);\nreturn ;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 390,
-        "y": 560,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4b3acabb3f17a7af",
-        "type": "switch",
-        "z": "34836421c703f805",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Delete success!",
-                "vt": "str"
-            },
-            {
-                "t": "neq",
-                "v": "Delete success!",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 520,
-        "y": 620,
-        "wires": [
-            [
-                "638d3418cf1ba387",
-                "1f764c90a5409687",
-                "d2b28baa46a7b22e"
-            ],
-            [
-                "b2ea972208ae8bd5"
-            ]
-        ]
-    },
-    {
-        "id": "1f764c90a5409687",
-        "type": "ui_toast",
-        "z": "34836421c703f805",
-        "position": "top right",
-        "displayTime": "3",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 0,
-        "ok": "OK",
-        "cancel": "",
-        "raw": false,
-        "className": "",
-        "topic": "Feeding Time Deleted!",
-        "name": "Feeding Time Deleted!",
-        "x": 780,
-        "y": 600,
-        "wires": []
-    },
-    {
-        "id": "b2ea972208ae8bd5",
-        "type": "ui_toast",
-        "z": "34836421c703f805",
-        "position": "dialog",
-        "displayTime": "3",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 1,
-        "ok": "OK",
-        "cancel": "",
-        "raw": false,
-        "className": "",
-        "topic": "Deleting feeding time fail!",
-        "name": "Deleting feeding time fail!",
-        "x": 790,
-        "y": 640,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9c7b3a70546c5636",
-        "type": "function",
-        "z": "34836421c703f805",
-        "name": "function 2",
-        "func": "global.set(\"autoFeed\", true);\nreturn;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 460,
-        "y": 80,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fcf6547251b5a043",
-        "type": "function",
-        "z": "34836421c703f805",
-        "name": "function 3",
-        "func": "global.set(\"autoFeed\", false);\nreturn;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 460,
-        "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "661f99780b5b29e6",
-        "type": "ui_switch",
-        "z": "34836421c703f805",
-        "name": "",
-        "label": "Email notification",
-        "tooltip": "Feeding notification through email on schedule",
         "group": "590e614324272a29",
         "order": 3,
         "width": 9,
@@ -2089,78 +1864,120 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 750,
+        "x": 90,
         "y": 140,
         "wires": [
             [
-                "046152ce351fbac2"
+                "cc9b99af9a973ecd"
             ]
         ]
     },
     {
-        "id": "cdce8c4165890d0a",
-        "type": "file",
+        "id": "a0ef59ccbdd4dda2",
+        "type": "ui_button",
         "z": "34836421c703f805",
-        "g": "94a271eea9fa077a",
-        "name": "",
-        "filename": ".node-red\\projects\\AquaSmart\\scheduling.json",
-        "filenameType": "str",
-        "appendNewline": false,
-        "createDir": true,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 760,
-        "y": 800,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d01402844ef2d11e",
-        "type": "complete",
-        "z": "34836421c703f805",
-        "g": "94a271eea9fa077a",
-        "name": "",
-        "scope": [
-            "be850588720409c6"
-        ],
-        "uncaught": false,
-        "x": 130,
-        "y": 800,
+        "g": "92365f2d16fc32db",
+        "name": "Delete button",
+        "group": "590e614324272a29",
+        "order": 9,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Delete time",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "str",
+        "x": 150,
+        "y": 840,
         "wires": [
             [
-                "67dfd12da60e4341"
+                "5bfc62e1e63afe88"
             ]
         ]
     },
     {
-        "id": "67dfd12da60e4341",
+        "id": "ab468da7239a1992",
+        "type": "ui_text_input",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "Add new time",
+        "label": "Add new row",
+        "tooltip": "",
+        "group": "590e614324272a29",
+        "order": 6,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "mode": "time",
+        "delay": "0",
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 160,
+        "y": 500,
+        "wires": [
+            [
+                "d9742c2819931028"
+            ]
+        ]
+    },
+    {
+        "id": "2c569491f6305c24",
         "type": "function",
         "z": "34836421c703f805",
-        "g": "94a271eea9fa077a",
-        "name": "Get data and remove id column",
-        "func": "var msg = flow.get(\"table\");\n// bỏ cột id\nlet new_msg = {\"payload\": msg.payload.map(({id, ...rest}) => rest)};\nreturn new_msg;",
+        "g": "92365f2d16fc32db",
+        "name": "Process Add",
+        "func": "// Lấy dữ liệu từ msg.payload\nlet newTime = msg.payload; // Thời gian dạng hh:mm\nif (newTime === \"NaN:NaN\") {\n    msg.payload = \"Invalid / Null time input!\";\n    return msg;\n}\n// Lấy bảng từ context flow\nlet data = flow.get(\"table\").payload || [];\n\n// Kiểm tra xem thời gian đã tồn tại trong bảng chưa \nlet exists = data.some(item => typeof item.time === 'string' && item.time === newTime);\n\n// Nếu thời gian chưa tồn tại, thêm vào bảng\nif (!exists) {\n    data.push({\n        time: newTime,\n        id: 0\n    });\n    msg.payload = \"Add success!\";\n} else {\n    msg.payload = \"Time exists!\";\n}\n\nlet updated_table = {\"payload\": data}\n// Lưu bảng vào flow context\nflow.set(\"table\", updated_table);\n\nreturn msg;\n",
         "outputs": 1,
-        "timeout": 0,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 390,
-        "y": 800,
+        "x": 710,
+        "y": 560,
         "wires": [
             [
-                "4f61e1304a005a69",
-                "cdce8c4165890d0a"
+                "c165d504301ac2b6",
+                "38366ffa9378e331"
             ]
         ]
     },
     {
-        "id": "4f61e1304a005a69",
+        "id": "5bfc62e1e63afe88",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "Process Remove",
+        "func": "let indexToRemove = parseInt(flow.get(\"index\"));\nlet table = flow.get(\"table\").payload;\n\nvar msg = {};\n// Kiểm tra xem index có hợp lệ không\nif (indexToRemove >= 1 && indexToRemove <= table.length) {\n    // Xóa phần tử có index tương ứng khỏi bảng\n    table = table.filter(item => item.id !== indexToRemove);\n    \n    msg.payload = \"Delete success!\";\n}\nelse {\n    msg.payload = \"Index out of bounds!\"\n}\nlet updated_table = {\"payload\" : table};\nflow.set(\"table\", updated_table);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 840,
+        "wires": [
+            [
+                "b7cde39c4119f82c",
+                "4b3acabb3f17a7af"
+            ]
+        ]
+    },
+    {
+        "id": "c165d504301ac2b6",
         "type": "debug",
         "z": "34836421c703f805",
-        "g": "94a271eea9fa077a",
-        "name": "debug 13",
+        "g": "92365f2d16fc32db",
+        "name": "debug 4",
         "active": false,
         "tosidebar": true,
         "console": false,
@@ -2169,94 +1986,340 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 640,
-        "y": 860,
+        "x": 880,
+        "y": 500,
         "wires": []
     },
     {
-        "id": "ea0cebee5d175aed",
-        "type": "complete",
-        "z": "34836421c703f805",
-        "g": "94a271eea9fa077a",
-        "name": "",
-        "scope": [
-            "d2b28baa46a7b22e"
-        ],
-        "uncaught": false,
-        "x": 130,
-        "y": 860,
-        "wires": [
-            [
-                "67dfd12da60e4341"
-            ]
-        ]
-    },
-    {
-        "id": "be850588720409c6",
+        "id": "b7cde39c4119f82c",
         "type": "debug",
         "z": "34836421c703f805",
-        "name": "debug 15",
+        "g": "92365f2d16fc32db",
+        "name": "debug 5",
         "active": false,
         "tosidebar": true,
         "console": false,
-        "tostatus": false,
+        "tostatus": true,
         "complete": "payload",
         "targetType": "msg",
-        "statusVal": "",
+        "statusVal": "payload",
         "statusType": "auto",
-        "x": 1060,
-        "y": 280,
+        "x": 560,
+        "y": 900,
         "wires": []
     },
     {
-        "id": "d2b28baa46a7b22e",
-        "type": "debug",
+        "id": "ea6d874806af1436",
+        "type": "ui_text_input",
         "z": "34836421c703f805",
-        "name": "debug 16",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 740,
-        "y": 560,
-        "wires": []
-    },
-    {
-        "id": "e14e4f168fde5461",
-        "type": "ui_button",
-        "z": "34836421c703f805",
-        "name": "",
+        "g": "92365f2d16fc32db",
+        "name": "Index of time to delete",
+        "label": "Index of row to delete",
+        "tooltip": "",
         "group": "590e614324272a29",
-        "order": 10,
-        "width": 9,
+        "order": 8,
+        "width": 6,
         "height": 1,
         "passthru": false,
-        "label": "Feed now",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
+        "mode": "number",
+        "delay": "0",
+        "topic": "payload",
+        "sendOnBlur": true,
         "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "",
         "topicType": "str",
-        "x": 120,
-        "y": 1020,
+        "x": 180,
+        "y": 780,
         "wires": [
             [
-                "04642740c43f9681"
+                "d0ac7ab67d8f0f85"
             ]
         ]
     },
     {
-        "id": "78b93fba62ba8a3b",
+        "id": "312b7a7404c7db20",
+        "type": "debug",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "debug 8",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 700,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "638d3418cf1ba387",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "sort",
+        "func": "// Đọc dữ liệu JSON từ payload\nlet data = flow.get(\"table\").payload;\n\n\n// Sắp xếp dữ liệu theo thời gian (theo định dạng hh:mm)\ndata.sort((a, b) => {\n    let timeA = a.time.split(':').map(Number);\n    let timeB = b.time.split(':').map(Number);\n    return timeA[0] * 60 + timeA[1] - (timeB[0] * 60 + timeB[1]);\n});\n\n// Cập nhật ID cho mỗi dòng dữ liệu\ndata = data.map((item, index) => ({ ...item, id: index + 1 }));\n\nlet table = {\"payload\": data}\nflow.set(\"table\", table);\n\nreturn table;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 985.9999961853027,
+        "y": 699.0000057220459,
+        "wires": [
+            [
+                "2e11cef063589a1a",
+                "1c2c335d55ebc684"
+            ]
+        ]
+    },
+    {
+        "id": "8b79b0241a096405",
+        "type": "json",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 470,
+        "y": 700,
+        "wires": [
+            [
+                "8e2874808b8e7a0f",
+                "e3b91fd5d047ece0"
+            ]
+        ]
+    },
+    {
+        "id": "eff5673ee7e21d15",
+        "type": "file in",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "",
+        "filename": "payload",
+        "filenameType": "msg",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 300,
+        "y": 700,
+        "wires": [
+            [
+                "8b79b0241a096405"
+            ]
+        ]
+    },
+    {
+        "id": "f45b3c8861cad6ed",
+        "type": "inject",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": ".node-red\\projects\\AquaSmart\\scheduling.json",
+        "payloadType": "str",
+        "x": 130,
+        "y": 700,
+        "wires": [
+            [
+                "eff5673ee7e21d15"
+            ]
+        ]
+    },
+    {
+        "id": "2e11cef063589a1a",
+        "type": "ui_table",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "group": "590e614324272a29",
+        "name": "",
+        "order": 2,
+        "width": 9,
+        "height": 5,
+        "columns": [
+            {
+                "field": "id",
+                "title": "Index",
+                "width": "100",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "time",
+                "title": "Time",
+                "width": "375",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 1141.9999923706055,
+        "y": 698.0000114440918,
+        "wires": []
+    },
+    {
+        "id": "42d48329161bb8af",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "Format from timestampt to time (HH:MM) string",
+        "func": "\n// Giả sử timestamp là số milliseconds từ 00:00:00 trong một ngày cụ thể\nlet timestamp = parseInt(flow.get(\"time\"), 10); // Đảm bảo timestamp là số nguyên\n\n// Tính toán giờ và phút\nlet hours = Math.floor(timestamp / (1000 * 60 * 60));\nlet minutes = Math.floor((timestamp % (1000 * 60 * 60)) / (1000 * 60));\n\n// Định dạng thành chuỗi hh:mm\nlet formattedTime = (hours < 10 ? '0' : '') + hours + ':' + (minutes < 10 ? '0' : '') + minutes;\n\n// Gán chuỗi thời gian đã định dạng vào msg.payload\nmsg.payload = formattedTime; \n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 560,
+        "wires": [
+            [
+                "312b7a7404c7db20",
+                "2c569491f6305c24"
+            ]
+        ]
+    },
+    {
+        "id": "8e2874808b8e7a0f",
+        "type": "debug",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "debug 10",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 655.9999961853027,
+        "y": 639.0000057220459,
+        "wires": []
+    },
+    {
+        "id": "e3b91fd5d047ece0",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "Set to table data Flow Context",
+        "func": "flow.set(\"table\", msg)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 725.9999961853027,
+        "y": 699.0000057220459,
+        "wires": [
+            [
+                "638d3418cf1ba387"
+            ]
+        ]
+    },
+    {
+        "id": "38366ffa9378e331",
+        "type": "switch",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Add success!",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "Add success!",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 870,
+        "y": 560,
+        "wires": [
+            [
+                "7322ca28f2f4b0e0",
+                "638d3418cf1ba387",
+                "be850588720409c6"
+            ],
+            [
+                "15a2c3d5868b7e4b"
+            ]
+        ]
+    },
+    {
+        "id": "15a2c3d5868b7e4b",
         "type": "ui_toast",
         "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Adding feeding time fail!",
+        "name": "Adding feeding time fail!",
+        "x": 1130,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1c2c335d55ebc684",
+        "type": "debug",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "debug 11",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1151.9999923706055,
+        "y": 638.0000114440918,
+        "wires": []
+    },
+    {
+        "id": "7322ca28f2f4b0e0",
+        "type": "ui_toast",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
         "position": "top right",
         "displayTime": "3",
         "highlight": "",
@@ -2266,134 +2329,65 @@
         "cancel": "",
         "raw": false,
         "className": "",
-        "topic": "Feed success!",
-        "name": "Feed success!",
-        "x": 520,
-        "y": 1060,
+        "topic": "Feeding Time Added!",
+        "name": "Feeding Time Added!",
+        "x": 1120,
+        "y": 540,
         "wires": []
     },
     {
-        "id": "04642740c43f9681",
-        "type": "function",
+        "id": "230ac07b110aa449",
+        "type": "ui_button",
         "z": "34836421c703f805",
-        "name": "function 5",
-        "func": "let new_msg = {\"payload\": flow.get(\"feed\")};\nreturn new_msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 300,
-        "y": 1020,
-        "wires": [
-            [
-                "78b93fba62ba8a3b",
-                "25dbfc1fc1929fcc",
-                "f19f15dbd354c234"
-            ]
-        ]
-    },
-    {
-        "id": "f19a7073ea0b1fd9",
-        "type": "ui_dropdown",
-        "z": "34836421c703f805",
-        "name": "",
-        "label": "Amount of food",
-        "tooltip": "",
-        "place": "Select option",
+        "g": "92365f2d16fc32db",
+        "name": "Add button",
         "group": "590e614324272a29",
-        "order": 9,
-        "width": 9,
+        "order": 7,
+        "width": 3,
         "height": 1,
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "Minimum",
-                "value": 1,
-                "type": "num"
-            },
-            {
-                "label": "Average",
-                "value": 2,
-                "type": "num"
-            },
-            {
-                "label": "Maximum",
-                "value": 3,
-                "type": "num"
-            }
-        ],
-        "payload": "",
-        "topic": "",
-        "topicType": "str",
+        "passthru": false,
+        "label": "Add time",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
         "className": "",
-        "x": 140,
-        "y": 960,
+        "icon": "",
+        "payload": "sent",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "str",
+        "x": 150,
+        "y": 560,
         "wires": [
             [
-                "ade5944d7fdcbae0"
+                "42d48329161bb8af"
             ]
         ]
     },
     {
-        "id": "ade5944d7fdcbae0",
+        "id": "d9742c2819931028",
         "type": "function",
         "z": "34836421c703f805",
-        "name": "function 6",
-        "func": "flow.set(\"feed\", msg.payload);\nnode.log(msg.payload);\nreturn;",
+        "g": "92365f2d16fc32db",
+        "name": "Get \"add time\" field",
+        "func": "flow.set(\"time\", msg.payload);\nreturn ;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 320,
-        "y": 960,
+        "x": 370,
+        "y": 500,
         "wires": [
             []
         ]
     },
     {
-        "id": "25dbfc1fc1929fcc",
-        "type": "debug",
-        "z": "34836421c703f805",
-        "name": "debug 20",
-        "active": false,
-        "tosidebar": true,
-        "console": true,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 510,
-        "y": 940,
-        "wires": []
-    },
-    {
-        "id": "f19f15dbd354c234",
-        "type": "mqtt out",
-        "z": "34836421c703f805",
-        "name": "aqua/Servo",
-        "topic": "aqua/Servo",
-        "qos": "2",
-        "retain": "false",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "9c39670e4e7d3237",
-        "x": 510,
-        "y": 1000,
-        "wires": []
-    },
-    {
-        "id": "046152ce351fbac2",
+        "id": "cc9b99af9a973ecd",
         "type": "switch",
         "z": "34836421c703f805",
+        "g": "abcb4d74ea2c8e8f",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -2412,8 +2406,442 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 930,
+        "x": 270,
         "y": 140,
+        "wires": [
+            [
+                "b168c7f6045c02f6",
+                "9c7b3a70546c5636"
+            ],
+            [
+                "50f00c8642c1eab3",
+                "fcf6547251b5a043"
+            ]
+        ]
+    },
+    {
+        "id": "b168c7f6045c02f6",
+        "type": "ui_toast",
+        "z": "34836421c703f805",
+        "g": "abcb4d74ea2c8e8f",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Automatic feeding mode:",
+        "name": "",
+        "x": 490,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "50f00c8642c1eab3",
+        "type": "ui_toast",
+        "z": "34836421c703f805",
+        "g": "abcb4d74ea2c8e8f",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Automatic feeding mode:",
+        "name": "",
+        "x": 490,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "d0ac7ab67d8f0f85",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "Get \"delete index\" field",
+        "func": "flow.set(\"index\", msg.payload);\nreturn ;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b3acabb3f17a7af",
+        "type": "switch",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Delete success!",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "Delete success!",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 530,
+        "y": 840,
+        "wires": [
+            [
+                "638d3418cf1ba387",
+                "1f764c90a5409687",
+                "d2b28baa46a7b22e"
+            ],
+            [
+                "b2ea972208ae8bd5"
+            ]
+        ]
+    },
+    {
+        "id": "1f764c90a5409687",
+        "type": "ui_toast",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Feeding Time Deleted!",
+        "name": "Feeding Time Deleted!",
+        "x": 800,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "b2ea972208ae8bd5",
+        "type": "ui_toast",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Deleting feeding time fail!",
+        "name": "Deleting feeding time fail!",
+        "x": 810,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9c7b3a70546c5636",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "abcb4d74ea2c8e8f",
+        "name": "Set auto feed: true",
+        "func": "global.set(\"autoFeed\", true);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fcf6547251b5a043",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "abcb4d74ea2c8e8f",
+        "name": "Set auto feed: false",
+        "func": "global.set(\"autoFeed\", false);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "661f99780b5b29e6",
+        "type": "ui_switch",
+        "z": "34836421c703f805",
+        "g": "abcb4d74ea2c8e8f",
+        "name": "",
+        "label": "Email notification",
+        "tooltip": "Feeding notification through email on schedule",
+        "group": "590e614324272a29",
+        "order": 4,
+        "width": 9,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "On",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "Off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 130,
+        "y": 340,
+        "wires": [
+            [
+                "046152ce351fbac2"
+            ]
+        ]
+    },
+    {
+        "id": "be850588720409c6",
+        "type": "debug",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "debug 15",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "d2b28baa46a7b22e",
+        "type": "debug",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "debug 16",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "e14e4f168fde5461",
+        "type": "ui_button",
+        "z": "34836421c703f805",
+        "g": "fd109c676ba0cfa3",
+        "name": "",
+        "group": "590e614324272a29",
+        "order": 1,
+        "width": 9,
+        "height": 1,
+        "passthru": false,
+        "label": "Feed now",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 100,
+        "y": 1220,
+        "wires": [
+            [
+                "04642740c43f9681"
+            ]
+        ]
+    },
+    {
+        "id": "78b93fba62ba8a3b",
+        "type": "ui_toast",
+        "z": "34836421c703f805",
+        "g": "fd109c676ba0cfa3",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Feed command Sent!",
+        "name": "Feed success!",
+        "x": 800,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "04642740c43f9681",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "fd109c676ba0cfa3",
+        "name": "function 5",
+        "func": "let new_msg = {\"payload\": flow.get(\"feed\")};\nif (new_msg.payload == undefined) new_msg.payload = \"Select amount of food first!\";\nreturn new_msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 1220,
+        "wires": [
+            [
+                "aadfa0656a26eb7e"
+            ]
+        ]
+    },
+    {
+        "id": "f19a7073ea0b1fd9",
+        "type": "ui_dropdown",
+        "z": "34836421c703f805",
+        "g": "fd109c676ba0cfa3",
+        "name": "",
+        "label": "Amount of food",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "590e614324272a29",
+        "order": 5,
+        "width": 9,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Minimum",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "Medium",
+                "value": 2,
+                "type": "num"
+            },
+            {
+                "label": "Maximum",
+                "value": 3,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "topicType": "str",
+        "className": "",
+        "x": 120,
+        "y": 1160,
+        "wires": [
+            [
+                "ade5944d7fdcbae0"
+            ]
+        ]
+    },
+    {
+        "id": "ade5944d7fdcbae0",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "fd109c676ba0cfa3",
+        "name": "function 6",
+        "func": "flow.set(\"feed\", msg.payload);\nnode.log(msg.payload);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f19f15dbd354c234",
+        "type": "mqtt out",
+        "z": "34836421c703f805",
+        "g": "fd109c676ba0cfa3",
+        "name": "aqua/Servo",
+        "topic": "aqua/Servo",
+        "qos": "2",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9c39670e4e7d3237",
+        "x": 610,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "046152ce351fbac2",
+        "type": "switch",
+        "z": "34836421c703f805",
+        "g": "abcb4d74ea2c8e8f",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "On",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "On",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 310,
+        "y": 340,
         "wires": [
             [
                 "d093d6b8067334b1",
@@ -2429,6 +2857,7 @@
         "id": "c197867ce5f2caac",
         "type": "function",
         "z": "34836421c703f805",
+        "g": "abcb4d74ea2c8e8f",
         "name": "function 8",
         "func": "global.set(\"FeedMail\", true);\nreturn;",
         "outputs": 1,
@@ -2437,8 +2866,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1120,
-        "y": 100,
+        "x": 500,
+        "y": 300,
         "wires": [
             []
         ]
@@ -2447,6 +2876,7 @@
         "id": "d093d6b8067334b1",
         "type": "ui_toast",
         "z": "34836421c703f805",
+        "g": "abcb4d74ea2c8e8f",
         "position": "top right",
         "displayTime": "5",
         "highlight": "",
@@ -2458,14 +2888,15 @@
         "className": "",
         "topic": "Email notification to feed mode: ",
         "name": "",
-        "x": 1150,
-        "y": 60,
+        "x": 530,
+        "y": 260,
         "wires": []
     },
     {
         "id": "711e6a25b6e3ddca",
         "type": "function",
         "z": "34836421c703f805",
+        "g": "abcb4d74ea2c8e8f",
         "name": "function 9",
         "func": "global.set(\"FeedMail\", false);\nreturn;",
         "outputs": 1,
@@ -2474,8 +2905,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1120,
-        "y": 160,
+        "x": 500,
+        "y": 360,
         "wires": [
             []
         ]
@@ -2484,6 +2915,7 @@
         "id": "d35e92cb5ff8ea16",
         "type": "ui_toast",
         "z": "34836421c703f805",
+        "g": "abcb4d74ea2c8e8f",
         "position": "top right",
         "displayTime": "4",
         "highlight": "",
@@ -2495,84 +2927,500 @@
         "className": "",
         "topic": "Email notification to feed mode: ",
         "name": "",
-        "x": 1150,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "78fca25a3e64525c",
-        "type": "comment",
-        "z": "34836421c703f805",
-        "name": "Bỏ dòng Fed trong schedule",
-        "info": "",
-        "x": 1180,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "6829058b31500de2",
-        "type": "comment",
-        "z": "34836421c703f805",
-        "name": "Thêm lịch sử cho ăn. Gồm: Date, Amount!",
-        "info": "",
-        "x": 1220,
-        "y": 700,
+        "x": 530,
+        "y": 400,
         "wires": []
     },
     {
         "id": "9380093b0695d97c",
         "type": "comment",
         "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
         "name": "Chưa up schedule, history lên cloud!",
         "info": "",
-        "x": 1200,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "5f97d9f89c2ff427",
-        "type": "comment",
-        "z": "34836421c703f805",
-        "name": "Chưa làm logic cho ăn tự động và lưu history",
-        "info": "",
-        "x": 1230,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "2b9f2463d0a9f195",
-        "type": "comment",
-        "z": "34836421c703f805",
-        "name": "Chưa thêm thông báo tới giờ cho ăn (mail, web noti)",
-        "info": "",
-        "x": 1250,
-        "y": 580,
+        "x": 180,
+        "y": 900,
         "wires": []
     },
     {
         "id": "668e18739827487a",
         "type": "comment",
         "z": "34836421c703f805",
+        "g": "abcb4d74ea2c8e8f",
         "name": "Chưa thêm logic và lưu setting cloud cho 2 nút",
         "info": "",
-        "x": 750,
-        "y": 100,
+        "x": 210,
+        "y": 240,
         "wires": []
     },
     {
-        "id": "ac62abcb5bf3c56d",
+        "id": "d01402844ef2d11e",
+        "type": "complete",
+        "z": "34836421c703f805",
+        "g": "f3d8101df586c7b5",
+        "name": "",
+        "scope": [
+            "be850588720409c6"
+        ],
+        "uncaught": false,
+        "x": 110,
+        "y": 1000,
+        "wires": [
+            [
+                "67dfd12da60e4341"
+            ]
+        ]
+    },
+    {
+        "id": "ea0cebee5d175aed",
+        "type": "complete",
+        "z": "34836421c703f805",
+        "g": "f3d8101df586c7b5",
+        "name": "",
+        "scope": [
+            "d2b28baa46a7b22e"
+        ],
+        "uncaught": false,
+        "x": 110,
+        "y": 1060,
+        "wires": [
+            [
+                "67dfd12da60e4341"
+            ]
+        ]
+    },
+    {
+        "id": "67dfd12da60e4341",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "f3d8101df586c7b5",
+        "name": "Get data and remove id column",
+        "func": "var msg = flow.get(\"table\");\n// bỏ cột id\nlet new_msg = {\"payload\": msg.payload.map(({id, ...rest}) => rest)};\nreturn new_msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1000,
+        "wires": [
+            [
+                "4f61e1304a005a69",
+                "cdce8c4165890d0a"
+            ]
+        ]
+    },
+    {
+        "id": "4f61e1304a005a69",
+        "type": "debug",
+        "z": "34836421c703f805",
+        "g": "f3d8101df586c7b5",
+        "name": "debug 13",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 660,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "cdce8c4165890d0a",
+        "type": "file",
+        "z": "34836421c703f805",
+        "g": "f3d8101df586c7b5",
+        "name": "",
+        "filename": ".node-red\\projects\\AquaSmart\\scheduling.json",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 780,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fd791e7dbc4922e2",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "edbda1ef62bfb142",
+        "name": "Check schedule",
+        "func": "var schedules = flow.get(\"table\").payload;  // Dữ liệu lịch thời gian\n\n// Kiểm tra nếu schedules không có dữ liệu hoặc không phải là mảng\nif (!schedules || !Array.isArray(schedules) || schedules.length === 0) {\n    msg.payload = {\n        error: \"No valid schedule data found in flow context.\"\n    };\n    return msg;\n}\n\n// Lấy thời gian hiện tại với định dạng đầy đủ\nvar now = new Date();\nvar currentTime = now.getHours().toString().padStart(2, '0') + \":\" + now.getMinutes().toString().padStart(2, '0');\n\n// Duyệt qua các mốc thời gian trong lịch để kiểm tra\nvar matchFound = false;\nfor (var i = 0; i < schedules.length; i++) {\n    var scheduleTime = schedules[i].time;\n    // Kiểm tra nếu thời gian trong lịch có cùng định dạng với currentTime\n    if (scheduleTime === currentTime) {\n        matchFound = true;\n        break;\n    }\n}\n\nmsg.payload = matchFound;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 1440,
+        "wires": [
+            [
+                "29c2d6ccf3822d35"
+            ]
+        ]
+    },
+    {
+        "id": "b5daf8b89c40cce5",
+        "type": "inject",
+        "z": "34836421c703f805",
+        "g": "edbda1ef62bfb142",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 1440,
+        "wires": [
+            [
+                "fd791e7dbc4922e2"
+            ]
+        ]
+    },
+    {
+        "id": "29c2d6ccf3822d35",
+        "type": "switch",
+        "z": "34836421c703f805",
+        "g": "edbda1ef62bfb142",
+        "name": "Time matched!",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 440,
+        "y": 1440,
+        "wires": [
+            [
+                "431b1647dc34b942"
+            ]
+        ]
+    },
+    {
+        "id": "431b1647dc34b942",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "edbda1ef62bfb142",
+        "name": "Feed on Schedule proccess",
+        "func": "var auto = global.get(\"autoFeed\");\nvar mail = global.get(\"FeedMail\");\n\nif (auto && mail){\n    msg.payload = 1;    \n}\nelse if (auto && !mail){\n    msg.payload = 2;    \n}\nelse if (!auto && mail) {\n    msg.payload = 3;\n}\nelse {\n    msg.payload = 4;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1440,
+        "wires": [
+            [
+                "2e776daa04d4c503"
+            ]
+        ]
+    },
+    {
+        "id": "1bb780032de499cc",
+        "type": "mqtt out",
+        "z": "34836421c703f805",
+        "g": "edbda1ef62bfb142",
+        "name": "aqua/Servo",
+        "topic": "aqua/Servo",
+        "qos": "2",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9c39670e4e7d3237",
+        "x": 1210,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "2e776daa04d4c503",
+        "type": "switch",
+        "z": "34836421c703f805",
+        "g": "edbda1ef62bfb142",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 830,
+        "y": 1440,
+        "wires": [
+            [
+                "0600eb5006e28bbe",
+                "f36a78469a6a302c"
+            ],
+            [
+                "0600eb5006e28bbe"
+            ],
+            [
+                "2f39019fadb39940"
+            ]
+        ]
+    },
+    {
+        "id": "0600eb5006e28bbe",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "edbda1ef62bfb142",
+        "name": "Feed command send",
+        "func": "// Send average amount\nlet new_msg = {\"payload\": flow.get(\"feed\")};\nreturn new_msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1020,
+        "y": 1380,
+        "wires": [
+            [
+                "1bb780032de499cc"
+            ]
+        ]
+    },
+    {
+        "id": "2f39019fadb39940",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "edbda1ef62bfb142",
+        "name": "Send remind mail",
+        "func": "var subject = \"Nhắc nhở từ hệ thống hồ cá thông minh!\";\nvar body = \"Đã đến giờ cho cá ăn!\\n\\n\" +\n           \"Vui lòng kiểm tra lượng thức ăn và đảm bảo rằng cá được cho ăn đúng giờ.\\n\\n\" +\n           \"Cảm ơn bạn đã sử dụng hệ thống hồ cá thông minh!\";\n\nlet reminder_msg = {\n    \"payload\" : body,\n    \"topic\": subject\n};\n\nreturn reminder_msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 1500,
+        "wires": [
+            [
+                "2dbed5f1dce475b3"
+            ]
+        ]
+    },
+    {
+        "id": "f36a78469a6a302c",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "edbda1ef62bfb142",
+        "name": "Send notification for auto feed mail",
+        "func": "// Thông báo đã tự động cho cá ăn\nvar autoFeedSubject = \"Thông báo từ hệ thống hồ cá thông minh!\";\nvar autoFeedBody = \"Hệ thống đã tự động cho cá ăn theo lịch thành công!\\n\\n\" +\n           \"Vui lòng kiểm tra lượng thức ăn trong hệ thống và đảm bảo rằng hệ thống vẫn hoạt động bình thường.\\n\\n\" +\n           \"Cảm ơn bạn đã sử dụng hệ thống hồ cá thông minh!\";\n\n// Tạo thông báo tự động cho cá ăn\nlet autoFeed_msg = {\n    \"payload\" : autoFeedBody,\n    \"topic\": autoFeedSubject\n};\n\nreturn autoFeed_msg;  // Trả về thông báo này\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 1440,
+        "wires": [
+            [
+                "2dbed5f1dce475b3"
+            ]
+        ]
+    },
+    {
+        "id": "2dbed5f1dce475b3",
+        "type": "e-mail",
+        "z": "34836421c703f805",
+        "g": "edbda1ef62bfb142",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "vanphamanh2303@gmail.com",
+        "dname": "Mail",
+        "x": 1210,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "25841a8e515c5b4a",
+        "type": "change",
+        "z": "34836421c703f805",
+        "g": "fd109c676ba0cfa3",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Feeding!",
+                "tot": "str",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 1220,
+        "wires": [
+            [
+                "78b93fba62ba8a3b"
+            ]
+        ]
+    },
+    {
+        "id": "aadfa0656a26eb7e",
+        "type": "switch",
+        "z": "34836421c703f805",
+        "g": "fd109c676ba0cfa3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "istype",
+                "v": "number",
+                "vt": "number"
+            },
+            {
+                "t": "istype",
+                "v": "string",
+                "vt": "string"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 430,
+        "y": 1220,
+        "wires": [
+            [
+                "f19f15dbd354c234",
+                "25841a8e515c5b4a"
+            ],
+            [
+                "410243c9d95233eb"
+            ]
+        ]
+    },
+    {
+        "id": "410243c9d95233eb",
+        "type": "ui_toast",
+        "z": "34836421c703f805",
+        "g": "fd109c676ba0cfa3",
+        "position": "dialog",
+        "displayTime": "4",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Feed command Error!",
+        "name": "",
+        "x": 610,
+        "y": 1280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "31870fdd984d055a",
         "type": "comment",
         "z": "34836421c703f805",
-        "name": "Fit dòng, cột các table (nếu rảnh =)))",
+        "g": "edbda1ef62bfb142",
+        "name": "Check schedule every minute and proccess auto/notimail function on time!",
         "info": "",
-        "x": 1400,
-        "y": 420,
+        "x": 320,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "f9825a8bfd3d3cc5",
+        "type": "comment",
+        "z": "34836421c703f805",
+        "g": "fd109c676ba0cfa3",
+        "name": "Feed now button setting",
+        "info": "",
+        "x": 140,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "c7587ab02bff2de4",
+        "type": "comment",
+        "z": "34836421c703f805",
+        "g": "f3d8101df586c7b5",
+        "name": "Update schedule on changing!",
+        "info": "",
+        "x": 340,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "ce1768a88d21a190",
+        "type": "comment",
+        "z": "34836421c703f805",
+        "g": "abcb4d74ea2c8e8f",
+        "name": "Button setting and save on global context",
+        "info": "",
+        "x": 200,
+        "y": 280,
         "wires": []
     },
     {
         "id": "2936889e06b70e40",
         "type": "http request",
         "z": "97f9b691884ece2d",
+        "g": "a7f76a449c27182e",
         "name": "",
         "method": "GET",
         "ret": "txt",
@@ -2586,7 +3434,7 @@
         "senderr": false,
         "headers": [],
         "x": 310,
-        "y": 220,
+        "y": 160,
         "wires": [
             [
                 "5046ae94e320d7e6"
@@ -2597,15 +3445,16 @@
         "id": "1ba0118b03332528",
         "type": "inject",
         "z": "97f9b691884ece2d",
+        "g": "a7f76a449c27182e",
         "name": "",
         "props": [],
-        "repeat": "",
+        "repeat": "60",
         "crontab": "",
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
         "x": 130,
-        "y": 220,
+        "y": 160,
         "wires": [
             [
                 "2936889e06b70e40"
@@ -2616,12 +3465,13 @@
         "id": "5046ae94e320d7e6",
         "type": "json",
         "z": "97f9b691884ece2d",
+        "g": "a7f76a449c27182e",
         "name": "",
         "property": "payload",
         "action": "str",
         "pretty": true,
         "x": 490,
-        "y": 220,
+        "y": 160,
         "wires": [
             [
                 "3c1049e01c49f45c",
@@ -2633,6 +3483,7 @@
         "id": "3c1049e01c49f45c",
         "type": "debug",
         "z": "97f9b691884ece2d",
+        "g": "a7f76a449c27182e",
         "name": "debug 21",
         "active": false,
         "tosidebar": false,
@@ -2642,16 +3493,17 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 520,
-        "y": 120,
+        "x": 680,
+        "y": 220,
         "wires": []
     },
     {
         "id": "041ae44ad3decdc0",
         "type": "function",
         "z": "97f9b691884ece2d",
+        "g": "a7f76a449c27182e",
         "name": "function 7",
-        "func": "function parseAndSortData(input) {\n    const result = [];\n    const lines = input.trim().split('\\n');\n\n    lines.forEach(line => {\n        if (!line) return; // Skip empty lines\n\n        const parts = line.split(',');\n        if (parts.length < 4) return; // Skip lines that don't have enough parts\n\n        const dateTime = parts[0].split(' ');\n        if (dateTime.length < 2) return; // Skip lines that don't have both date and time\n\n        let date = dateTime[0];\n        let time = dateTime[1];\n        const temp = parseFloat(parts[2]);\n        const pH = parseFloat(parts[3]);\n\n        // Create a Date object from the date and time strings\n        let [year, month, day] = date.split('-').map(Number);\n        let [hours, minutes, seconds] = time.split(':').map(Number);\n        let currentDate = new Date(year, month - 1, day, hours, minutes, seconds);\n\n        // Add 7 hours to adjust for timezone\n        currentDate.setHours(currentDate.getHours() + 7);\n\n        // Convert back to 'yyyy-mm-dd' and 'hh:mm:ss' format\n        date = currentDate.toISOString().split('T')[0];\n        time = currentDate.toTimeString().split(' ')[0];\n\n        // Add the parsed and adjusted data to the result array\n        result.push({ date, time, temp, pH });\n    });\n\n    // Sort the result array in descending order based on date and time\n    result.sort((a, b) => {\n        const dateA = new Date(`${a.date}T${a.time}`).getTime();\n        const dateB = new Date(`${b.date}T${b.time}`).getTime();\n        return dateB - dateA; // Sort in descending order\n    });\n\n    return result;\n}\n\nmsg.payload = parseAndSortData(msg.payload);\n\nreturn msg;\n",
+        "func": "function parseAndSortData(input) {\n    const result = [];\n    const lines = input.trim().split('\\n');\n\n\n    lines.forEach(line => {\n        if (!line) return; // Bỏ qua các dòng trống\n\n\n        const parts = line.split(',');\n        if (parts.length < 4) return; // Bỏ qua các dòng không đủ phần tử\n\n\n        const dateTime = parts[0].split(' ');\n        if (dateTime.length < 2) return; // Bỏ qua các dòng không có đủ cả ngày và giờ\n\n\n        let date = dateTime[0];\n        let time = dateTime[1];\n        const temp = parseFloat(parts[2]);\n        const pH = parseFloat(parts[3]);\n\n\n        // Tạo đối tượng Date từ chuỗi ngày và giờ\n        let [year, month, day] = date.split('-').map(Number);\n        let [hours, minutes, seconds] = time.split(':').map(Number);\n        let currentDate = new Date(year, month - 1, day, hours, minutes, seconds);\n\n\n        // Giữ lại ngày ban đầu\n        let initialDate = currentDate.getDate();\n\n\n        // Cộng thêm 7 giờ để điều chỉnh cho múi giờ\n        currentDate.setHours(currentDate.getHours() + 7);\n\n\n        // Kiểm tra nếu ngày đã thay đổi sau khi cộng thêm giờ\n        if (currentDate.getDate() !== initialDate) {\n            // Ngày đã thay đổi, nghĩa là thời gian vượt qua 24h\n            year = currentDate.getFullYear();\n            month = currentDate.getMonth() + 1; // Tháng trong JavaScript là từ 0-11, cần cộng thêm 1\n            day = currentDate.getDate();\n        }\n\n\n        // Lấy giá trị ngày, tháng, năm và thời gian mới sau khi cộng giờ\n        let adjustedDate = `${year.toString().padStart(4, '0')}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;\n        let adjustedTime = currentDate.toTimeString().split(' ')[0];\n\n\n        // Thêm dữ liệu đã phân tích và điều chỉnh vào mảng kết quả\n        result.push({date: adjustedDate, time: adjustedTime, temp, pH });\n    });\n\n\n    // Sắp xếp mảng kết quả theo thứ tự giảm dần dựa trên ngày và giờ\n    result.sort((a, b) => {\n        const dateA = new Date(`${a.date}T${a.time}`).getTime();\n        const dateB = new Date(`${b.date}T${b.time}`).getTime();\n        return dateB - dateA; // Sắp xếp theo thứ tự giảm dần\n    });\n    return result;\n}\n\n\nmsg.payload = parseAndSortData(msg.payload);\n\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -2659,7 +3511,7 @@
         "finalize": "",
         "libs": [],
         "x": 680,
-        "y": 220,
+        "y": 160,
         "wires": [
             [
                 "71483b76e572bd90",
@@ -2671,22 +3523,24 @@
         "id": "71483b76e572bd90",
         "type": "ui_table",
         "z": "97f9b691884ece2d",
+        "g": "a7f76a449c27182e",
         "group": "5730c1420f980bc5",
         "name": "",
         "order": 1,
-        "width": 9,
+        "width": 7,
         "height": 12,
         "columns": [],
         "outputs": 0,
         "cts": false,
-        "x": 810,
-        "y": 340,
+        "x": 890,
+        "y": 160,
         "wires": []
     },
     {
         "id": "98604c75249e6085",
         "type": "debug",
         "z": "97f9b691884ece2d",
+        "g": "a7f76a449c27182e",
         "name": "debug 22",
         "active": false,
         "tosidebar": false,
@@ -2696,8 +3550,220 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 850,
-        "y": 160,
+        "x": 900,
+        "y": 100,
         "wires": []
+    },
+    {
+        "id": "5da4089abcc033e2",
+        "type": "inject",
+        "z": "97f9b691884ece2d",
+        "g": "944477dba28d308d",
+        "name": "",
+        "props": [],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 130,
+        "y": 400,
+        "wires": [
+            [
+                "1b98f0a99b8af4aa"
+            ]
+        ]
+    },
+    {
+        "id": "1b98f0a99b8af4aa",
+        "type": "http request",
+        "z": "97f9b691884ece2d",
+        "g": "944477dba28d308d",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://thingspeak.com/channels/2627892/feeds.csv?api_keys=O05LWU16ULI2EIED ",
+        "tls": "",
+        "persist": true,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 310,
+        "y": 400,
+        "wires": [
+            [
+                "22002ea66072dd4b"
+            ]
+        ]
+    },
+    {
+        "id": "22002ea66072dd4b",
+        "type": "json",
+        "z": "97f9b691884ece2d",
+        "g": "944477dba28d308d",
+        "name": "",
+        "property": "payload",
+        "action": "str",
+        "pretty": true,
+        "x": 490,
+        "y": 400,
+        "wires": [
+            [
+                "9a053b6209f3186d",
+                "365122e007a55d12"
+            ]
+        ]
+    },
+    {
+        "id": "9a053b6209f3186d",
+        "type": "debug",
+        "z": "97f9b691884ece2d",
+        "g": "944477dba28d308d",
+        "name": "debug 29",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 680,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "365122e007a55d12",
+        "type": "function",
+        "z": "97f9b691884ece2d",
+        "g": "944477dba28d308d",
+        "name": "function 13",
+        "func": "function parseAndSortAmountData(input) {\n    const result = [];\n    const lines = input.trim().split('\\n');  // Tách dữ liệu thành các dòng\n\n    lines.forEach(line => {\n        if (!line) return; // Bỏ qua các dòng trống\n\n        const parts = line.split(',');\n        if (parts.length < 2) return; // Bỏ qua các dòng không đủ phần tử\n\n        const dateTime = parts[0];  // Lấy thời gian trực tiếp từ cột đầu tiên\n        const amount = parseFloat(parts[2]);  // Lấy giá trị amount từ cột thứ hai\n        var str_amount;\n        if (amount == 1) {str_amount = \"Minimum\"}\n        else if (amount == 2) { str_amount = \"Medium\"}\n        else { str_amount = \"Maximum\" }\n        // Sử dụng Date.parse để tạo đối tượng Date\n        const currentDate = new Date(Date.parse(dateTime));\n\n        if (isNaN(currentDate)) return; // Bỏ qua nếu thời gian không hợp lệ\n\n        // Lấy giá trị ngày và thời gian sau khi phân tích cú pháp\n        const adjustedDate = currentDate.toISOString().split('T')[0];\n        const adjustedTime = currentDate.toTimeString().split(' ')[0];\n\n        // Thêm dữ liệu đã phân tích và điều chỉnh vào mảng kết quả\n            result.push({ date: adjustedDate, time: adjustedTime, str_amount });\n    });\n\n    // Sắp xếp mảng kết quả theo thứ tự giảm dần dựa trên ngày và giờ\n    result.sort((a, b) => {\n        const dateA = new Date(`${a.date}T${a.time}`).getTime();\n        const dateB = new Date(`${b.date}T${b.time}`).getTime();\n        return dateB - dateA; // Sắp xếp theo thứ tự giảm dần\n    });\n    return result;\n}\n\nmsg.payload = parseAndSortAmountData(msg.payload);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 400,
+        "wires": [
+            [
+                "973f3539561b46f1",
+                "754bb4fa9771c2ef"
+            ]
+        ]
+    },
+    {
+        "id": "973f3539561b46f1",
+        "type": "ui_table",
+        "z": "97f9b691884ece2d",
+        "g": "944477dba28d308d",
+        "group": "2153644776610370",
+        "name": "",
+        "order": 1,
+        "width": 9,
+        "height": 11,
+        "columns": [
+            {
+                "field": "date",
+                "title": "Date",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "time",
+                "title": "Time",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "str_amount",
+                "title": "Amount of food",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 890,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "754bb4fa9771c2ef",
+        "type": "debug",
+        "z": "97f9b691884ece2d",
+        "g": "944477dba28d308d",
+        "name": "debug 30",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 900,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "c26552f7d4047f4c",
+        "type": "comment",
+        "z": "97f9b691884ece2d",
+        "g": "a7f76a449c27182e",
+        "name": "Sensor's Data from thingspeak",
+        "info": "",
+        "x": 210,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "070479fe7f2a6f65",
+        "type": "comment",
+        "z": "97f9b691884ece2d",
+        "g": "944477dba28d308d",
+        "name": "Feeding History from thingspeak",
+        "info": "",
+        "x": 210,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "fde12e040e645678",
+        "type": "ui_template",
+        "z": "c42bcde0c0dd6265",
+        "group": "a5762ee9b40f0d48",
+        "name": "Stream Cam",
+        "order": 1,
+        "width": 19,
+        "height": 13,
+        "format": "<style>\n  /* Tạo khung cho video */\n  .video-container {\n      width: 900px;\n      height: 900px;\n      margin: 0 auto;\n      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n      border-radius: 10px;\n      overflow: hidden;\n      background-color: #000; /* Đặt nền tối cho khung video */\n      border: 5px solid red; /* Khung đỏ xung quanh video */\n  }\n\n  /* Định dạng iframe video */\n  .video-container iframe {\n      width: 100%;\n      height: 100%;\n      border: none;\n  }\n\n  /* Tiêu đề */\n  .video-title {\n      text-align: center;\n      color: #333;\n      font-size: 18px;\n      margin-bottom: 10px;\n  }\n\n  /* Hiển thị thông tin chú thích */\n  .caption {\n      text-align: center;\n      color: red; /* Màu chữ đỏ */\n      font-size: 14px;\n      margin-top: 10px;\n  }\n</style>\n\n<div class=\"video-container\">\n  <div class=\"video-title\">Video Demo</div>\n  <iframe src=\"https://www.youtube.com/embed/DHUnz4dyb54\" frameborder=\"0\" allowfullscreen></iframe>\n</div>\n<div class=\"caption\">Live ESP32 Camera</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 170,
+        "y": 80,
+        "wires": [
+            []
+        ]
     }
 ]
