@@ -56,16 +56,14 @@
             "1ba0118b03332528",
             "2936889e06b70e40",
             "5046ae94e320d7e6",
-            "3c1049e01c49f45c",
             "041ae44ad3decdc0",
             "71483b76e572bd90",
-            "98604c75249e6085",
             "c26552f7d4047f4c"
         ],
         "x": 34,
-        "y": 59,
-        "w": 972,
-        "h": 202
+        "y": 39,
+        "w": 1072,
+        "h": 122
     },
     {
         "id": "944477dba28d308d",
@@ -84,16 +82,14 @@
             "1b98f0a99b8af4aa",
             "5da4089abcc033e2",
             "22002ea66072dd4b",
-            "9a053b6209f3186d",
             "365122e007a55d12",
             "973f3539561b46f1",
-            "754bb4fa9771c2ef",
             "070479fe7f2a6f65"
         ],
         "x": 34,
-        "y": 299,
-        "w": 972,
-        "h": 202
+        "y": 199,
+        "w": 1072,
+        "h": 122
     },
     {
         "id": "edbda1ef62bfb142",
@@ -121,8 +117,8 @@
             "2dbed5f1dce475b3",
             "31870fdd984d055a"
         ],
-        "x": 14,
-        "y": 1339,
+        "x": 34,
+        "y": 1179,
         "w": 1292,
         "h": 202
     },
@@ -148,39 +144,13 @@
             "410243c9d95233eb",
             "78b93fba62ba8a3b",
             "f19a7073ea0b1fd9",
-            "ade5944d7fdcbae0",
-            "f9825a8bfd3d3cc5"
+            "f9825a8bfd3d3cc5",
+            "2b602d937de6a37a"
         ],
-        "x": 14,
-        "y": 1119,
-        "w": 892,
-        "h": 202
-    },
-    {
-        "id": "f3d8101df586c7b5",
-        "type": "group",
-        "z": "34836421c703f805",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "d01402844ef2d11e",
-            "67dfd12da60e4341",
-            "ea0cebee5d175aed",
-            "4f61e1304a005a69",
-            "cdce8c4165890d0a",
-            "c7587ab02bff2de4"
-        ],
-        "x": 14,
+        "x": 34,
         "y": 959,
-        "w": 972,
-        "h": 142
+        "w": 1052,
+        "h": 202
     },
     {
         "id": "92365f2d16fc32db",
@@ -200,36 +170,30 @@
             "9380093b0695d97c",
             "230ac07b110aa449",
             "42d48329161bb8af",
-            "312b7a7404c7db20",
             "2c569491f6305c24",
-            "c165d504301ac2b6",
             "38366ffa9378e331",
             "7322ca28f2f4b0e0",
             "638d3418cf1ba387",
             "be850588720409c6",
             "15a2c3d5868b7e4b",
-            "e3b91fd5d047ece0",
             "4b3acabb3f17a7af",
             "2e11cef063589a1a",
-            "1c2c335d55ebc684",
-            "8b79b0241a096405",
             "5bfc62e1e63afe88",
             "1f764c90a5409687",
             "d2b28baa46a7b22e",
             "b2ea972208ae8bd5",
-            "eff5673ee7e21d15",
-            "8e2874808b8e7a0f",
             "a0ef59ccbdd4dda2",
-            "b7cde39c4119f82c",
-            "f45b3c8861cad6ed",
             "ea6d874806af1436",
             "d0ac7ab67d8f0f85",
-            "d9742c2819931028"
+            "d9742c2819931028",
+            "7a9e2dcff4230232",
+            "d1f6fa75bd91b58e",
+            "46bfcaf508082aa4"
         ],
-        "x": 14,
+        "x": 34,
         "y": 459,
-        "w": 1252,
-        "h": 482
+        "w": 1212,
+        "h": 462
     },
     {
         "id": "abcb4d74ea2c8e8f",
@@ -260,10 +224,10 @@
             "668e18739827487a",
             "ce1768a88d21a190"
         ],
-        "x": 14,
+        "x": 34,
         "y": 19,
         "w": 632,
-        "h": 422
+        "h": 402
     },
     {
         "id": "bef42aefa75c583e",
@@ -300,7 +264,125 @@
         "x": 34,
         "y": 39,
         "w": 872,
-        "h": 542
+        "h": 502
+    },
+    {
+        "id": "d9c58ea5e631868a",
+        "type": "group",
+        "z": "34836421c703f805",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "cd7341155dea5f98",
+            "92644c3bbad6399b",
+            "6c60207f260a855d",
+            "17793c1e2ffa3e3b",
+            "97bd3452ae05521f",
+            "39d865f1812b6d49",
+            "ae15145140f892d2",
+            "40e6b88d48904ca6",
+            "53e4e1a1db0c0e33",
+            "5a5caad9f9843d42",
+            "8777942fe7d231d3"
+        ],
+        "x": 34,
+        "y": 1399,
+        "w": 1032,
+        "h": 162
+    },
+    {
+        "id": "ceb97c199c9ecf12",
+        "type": "group",
+        "z": "e8e96c2a33d8f276",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b84353bb23d07080",
+            "d7e70576534f6446",
+            "a6816b503480cd28",
+            "8a09650868d46d12",
+            "88d89e4e9ec8a0e5",
+            "fa21cd890a1881ca",
+            "b1e9a719e7495183"
+        ],
+        "x": 34,
+        "y": 959,
+        "w": 612,
+        "h": 182
+    },
+    {
+        "id": "1ff2c7c923cec67c",
+        "type": "group",
+        "z": "e8e96c2a33d8f276",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c4c17cce6edc6a47",
+            "aad4816e25b7a74d",
+            "2e22f594189a6b58",
+            "019129d08e20dc1a",
+            "d5b61288f9e00a0e",
+            "dba42ecf155140fb",
+            "f64b2826bf60d035",
+            "31c7989a67534590",
+            "829d068a470b9c62",
+            "a2865fd349b00aad"
+        ],
+        "x": 34,
+        "y": 559,
+        "w": 1272,
+        "h": 182
+    },
+    {
+        "id": "30702dcfe3f71bd9",
+        "type": "group",
+        "z": "e8e96c2a33d8f276",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c08dd4deb1ab3b26",
+            "4590f6c66bb63d2d",
+            "802fab4f1761bdaa",
+            "40dc35769b2ae3eb",
+            "c85f88f43881c85a",
+            "35c6a71a4f33cad5",
+            "431741a49418f828",
+            "a00ba30be38cb92d",
+            "be083f11bf5de95f",
+            "8c19813117ea8ede"
+        ],
+        "x": 34,
+        "y": 759,
+        "w": 1272,
+        "h": 162
     },
     {
         "id": "9c39670e4e7d3237",
@@ -387,11 +469,11 @@
     {
         "id": "65c1d4a51c575c31",
         "type": "ui_group",
-        "name": "Config",
+        "name": "Threshold Settings",
         "tab": "febe01d4954981b4",
         "order": 3,
         "disp": true,
-        "width": 6,
+        "width": "6",
         "collapse": false,
         "className": ""
     },
@@ -751,7 +833,7 @@
         "name": "",
         "events": "all",
         "x": 840,
-        "y": 220,
+        "y": 180,
         "wires": [
             []
         ]
@@ -772,7 +854,7 @@
         "topic": "",
         "name": "",
         "x": 650,
-        "y": 300,
+        "y": 260,
         "wires": [
             []
         ]
@@ -797,7 +879,7 @@
         "to": "",
         "reg": false,
         "x": 660,
-        "y": 220,
+        "y": 180,
         "wires": [
             [
                 "6d204d62efbb3ce1"
@@ -1068,14 +1150,14 @@
         "g": "bef42aefa75c583e",
         "name": "debug 1",
         "active": false,
-        "tosidebar": true,
-        "console": true,
+        "tosidebar": false,
+        "console": false,
         "tostatus": true,
         "complete": "payload",
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 790,
+        "x": 780,
         "y": 160,
         "wires": []
     },
@@ -1086,14 +1168,14 @@
         "g": "bef42aefa75c583e",
         "name": "debug 2",
         "active": false,
-        "tosidebar": true,
-        "console": true,
+        "tosidebar": false,
+        "console": false,
         "tostatus": true,
         "complete": "payload",
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 790,
+        "x": 780,
         "y": 280,
         "wires": []
     },
@@ -1147,6 +1229,7 @@
         "id": "aad4816e25b7a74d",
         "type": "ui_form",
         "z": "e8e96c2a33d8f276",
+        "g": "1ff2c7c923cec67c",
         "name": "",
         "label": "Set pH limits",
         "group": "65c1d4a51c575c31",
@@ -1180,8 +1263,8 @@
         "topicType": "msg",
         "splitLayout": true,
         "className": "",
-        "x": 90,
-        "y": 800,
+        "x": 130,
+        "y": 700,
         "wires": [
             [
                 "c4c17cce6edc6a47"
@@ -1192,6 +1275,7 @@
         "id": "c4c17cce6edc6a47",
         "type": "function",
         "z": "e8e96c2a33d8f276",
+        "g": "1ff2c7c923cec67c",
         "name": "Check input values",
         "func": "var payload = msg.payload;\n\nvar upper = parseFloat(payload.upperLimit);\nvar lower = parseFloat(payload.lowerLimit);\n\nvar up_lim = 14, lw_lim = 0;\n\nif (isNaN(upper) || isNaN(lower) || upper > up_lim || lower < lw_lim) {\n    msg.msg = \"Invalid limit values. Ensure upperLimit and lowerLimit are valid numbers.\";\n}\nelse if (lower > upper) {\n    msg.msg = \"Lower limit must not be greater than upper limit.\";\n}\nelse msg.msg = \"valid\";\n\nmsg.topic = \"aqua/sensor/pHLimit\";\n\nreturn msg;",
         "outputs": 1,
@@ -1200,8 +1284,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 310,
-        "y": 800,
+        "x": 350,
+        "y": 700,
         "wires": [
             [
                 "2e22f594189a6b58"
@@ -1212,6 +1296,7 @@
         "id": "2e22f594189a6b58",
         "type": "switch",
         "z": "e8e96c2a33d8f276",
+        "g": "1ff2c7c923cec67c",
         "name": "",
         "property": "msg",
         "propertyType": "msg",
@@ -1230,8 +1315,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 490,
-        "y": 800,
+        "x": 530,
+        "y": 700,
         "wires": [
             [
                 "019129d08e20dc1a"
@@ -1245,6 +1330,7 @@
         "id": "f64b2826bf60d035",
         "type": "mqtt out",
         "z": "e8e96c2a33d8f276",
+        "g": "1ff2c7c923cec67c",
         "name": "aqua/sensor/pHLimit",
         "topic": "aqua/sensor/pHLimit",
         "qos": "2",
@@ -1255,14 +1341,15 @@
         "correl": "",
         "expiry": "",
         "broker": "9c39670e4e7d3237",
-        "x": 1140,
-        "y": 740,
+        "x": 1180,
+        "y": 640,
         "wires": []
     },
     {
         "id": "019129d08e20dc1a",
         "type": "function",
         "z": "e8e96c2a33d8f276",
+        "g": "1ff2c7c923cec67c",
         "name": "Reformat msg payload publish and set on flow context",
         "func": "delete msg.msg;\n\nlet data = {\n    \"payload\": {\n        \"lowerLimit\": msg.payload.lowerLimit,\n        \"upperLimit\": msg.payload.upperLimit\n    }\n};\n\nflow.set(\"pH\", data);\nmsg.payload = `${msg.payload.upperLimit},${msg.payload.lowerLimit}`;\n\nreturn msg;",
         "outputs": 1,
@@ -1271,8 +1358,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 800,
-        "y": 740,
+        "x": 840,
+        "y": 640,
         "wires": [
             [
                 "f64b2826bf60d035",
@@ -1284,6 +1371,7 @@
         "id": "4590f6c66bb63d2d",
         "type": "ui_form",
         "z": "e8e96c2a33d8f276",
+        "g": "30702dcfe3f71bd9",
         "name": "",
         "label": "Set temp limits",
         "group": "65c1d4a51c575c31",
@@ -1317,8 +1405,8 @@
         "topicType": "msg",
         "splitLayout": true,
         "className": "",
-        "x": 100,
-        "y": 1000,
+        "x": 140,
+        "y": 880,
         "wires": [
             [
                 "c08dd4deb1ab3b26"
@@ -1329,6 +1417,7 @@
         "id": "c08dd4deb1ab3b26",
         "type": "function",
         "z": "e8e96c2a33d8f276",
+        "g": "30702dcfe3f71bd9",
         "name": "Check input values",
         "func": "var payload = msg.payload;\n\nvar upper = parseFloat(payload.upperLimit);\nvar lower = parseFloat(payload.lowerLimit);\n\nvar up_lim = 125, lw_lim = -55;\n\n\nif (isNaN(upper) || isNaN(lower) || upper > up_lim || lower < lw_lim)\n{\n    msg.msg = \"Invalid limit values. Ensure upperLimit and lowerLimit are valid numbers.\";\n}\nelse if (lower > upper)\n{\n    msg.msg = \"Lower limit must not be greater than upper limit.\";\n}\nelse msg.msg = \"valid\";\nmsg.topic = \"aqua/sensor/tmpLimit\";\nreturn msg;",
         "outputs": 1,
@@ -1337,8 +1426,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 310,
-        "y": 1000,
+        "x": 350,
+        "y": 880,
         "wires": [
             [
                 "802fab4f1761bdaa"
@@ -1349,6 +1438,7 @@
         "id": "802fab4f1761bdaa",
         "type": "switch",
         "z": "e8e96c2a33d8f276",
+        "g": "30702dcfe3f71bd9",
         "name": "",
         "property": "msg",
         "propertyType": "msg",
@@ -1367,8 +1457,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 490,
-        "y": 1000,
+        "x": 530,
+        "y": 880,
         "wires": [
             [
                 "40dc35769b2ae3eb"
@@ -1382,6 +1472,7 @@
         "id": "40dc35769b2ae3eb",
         "type": "function",
         "z": "e8e96c2a33d8f276",
+        "g": "30702dcfe3f71bd9",
         "name": "Reformat msg payload publish and set on flow context",
         "func": "delete msg.msg;\n\nlet data = {\n    \"payload\": { \n    \"lowerLimit\": msg.payload.lowerLimit,\n    \"upperLimit\": msg.payload.upperLimit }\n};\n\nflow.set(\"tmp\", data);\n\nmsg.payload = `${msg.payload.upperLimit},${msg.payload.lowerLimit}`;\n\nreturn msg;",
         "outputs": 1,
@@ -1390,8 +1481,8 @@
         "initialize": "// default limits\nvar msg = { payload: \"25,32\" };\n\nreturn msg;",
         "finalize": "",
         "libs": [],
-        "x": 800,
-        "y": 980,
+        "x": 840,
+        "y": 820,
         "wires": [
             [
                 "431741a49418f828",
@@ -1403,6 +1494,7 @@
         "id": "431741a49418f828",
         "type": "mqtt out",
         "z": "e8e96c2a33d8f276",
+        "g": "30702dcfe3f71bd9",
         "name": "aqua/sensor/tmpLimit",
         "topic": "aqua/sensor/tmpLimit",
         "qos": "2",
@@ -1413,14 +1505,15 @@
         "correl": "",
         "expiry": "",
         "broker": "9c39670e4e7d3237",
-        "x": 1140,
-        "y": 980,
+        "x": 1180,
+        "y": 860,
         "wires": []
     },
     {
         "id": "829d068a470b9c62",
         "type": "ui_toast",
         "z": "e8e96c2a33d8f276",
+        "g": "1ff2c7c923cec67c",
         "position": "dialog",
         "displayTime": "3",
         "highlight": "",
@@ -1432,8 +1525,8 @@
         "className": "Setup error",
         "topic": "Invalid value input!",
         "name": "Invalid input noti",
-        "x": 880,
-        "y": 800,
+        "x": 920,
+        "y": 700,
         "wires": [
             []
         ]
@@ -1442,6 +1535,7 @@
         "id": "be083f11bf5de95f",
         "type": "ui_toast",
         "z": "e8e96c2a33d8f276",
+        "g": "30702dcfe3f71bd9",
         "position": "dialog",
         "displayTime": "3",
         "highlight": "",
@@ -1453,8 +1547,8 @@
         "className": "Setup error",
         "topic": "Invalid value input!",
         "name": "Invalid input noti",
-        "x": 880,
-        "y": 1040,
+        "x": 920,
+        "y": 880,
         "wires": [
             []
         ]
@@ -1463,6 +1557,7 @@
         "id": "d5b61288f9e00a0e",
         "type": "function",
         "z": "e8e96c2a33d8f276",
+        "g": "1ff2c7c923cec67c",
         "name": "Get error msg",
         "func": "var payload = msg.msg;\ndelete msg.msg;\nmsg.payload = payload;\nreturn msg;",
         "outputs": 1,
@@ -1471,8 +1566,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 800,
+        "x": 720,
+        "y": 700,
         "wires": [
             [
                 "829d068a470b9c62"
@@ -1483,6 +1578,7 @@
         "id": "c85f88f43881c85a",
         "type": "function",
         "z": "e8e96c2a33d8f276",
+        "g": "30702dcfe3f71bd9",
         "name": "Get error msg",
         "func": "var payload = msg.msg;\ndelete msg.msg;\nmsg.payload = payload;\nreturn msg;",
         "outputs": 1,
@@ -1491,8 +1587,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 1040,
+        "x": 720,
+        "y": 880,
         "wires": [
             [
                 "be083f11bf5de95f"
@@ -1503,6 +1599,7 @@
         "id": "8a09650868d46d12",
         "type": "ui_text",
         "z": "e8e96c2a33d8f276",
+        "g": "ceb97c199c9ecf12",
         "group": "65c1d4a51c575c31",
         "order": 1,
         "width": 6,
@@ -1516,14 +1613,15 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 490,
-        "y": 1220,
+        "x": 530,
+        "y": 1040,
         "wires": []
     },
     {
         "id": "fa21cd890a1881ca",
         "type": "ui_text",
         "z": "e8e96c2a33d8f276",
+        "g": "ceb97c199c9ecf12",
         "group": "65c1d4a51c575c31",
         "order": 3,
         "width": 6,
@@ -1537,8 +1635,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 490,
-        "y": 1140,
+        "x": 530,
+        "y": 1000,
         "wires": []
     },
     {
@@ -1594,14 +1692,15 @@
         "number": "+18777804236",
         "name": "",
         "x": 770,
-        "y": 480,
+        "y": 460,
         "wires": []
     },
     {
         "id": "a00ba30be38cb92d",
         "type": "debug",
         "z": "e8e96c2a33d8f276",
-        "name": "debug 17",
+        "g": "30702dcfe3f71bd9",
+        "name": "Debug 2",
         "active": true,
         "tosidebar": false,
         "console": false,
@@ -1610,15 +1709,16 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 1100,
-        "y": 920,
+        "x": 1140,
+        "y": 800,
         "wires": []
     },
     {
         "id": "31c7989a67534590",
         "type": "debug",
         "z": "e8e96c2a33d8f276",
-        "name": "debug 18",
+        "g": "1ff2c7c923cec67c",
+        "name": "Debug 1",
         "active": true,
         "tosidebar": false,
         "console": false,
@@ -1627,14 +1727,15 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 1100,
-        "y": 680,
+        "x": 1140,
+        "y": 700,
         "wires": []
     },
     {
         "id": "88d89e4e9ec8a0e5",
         "type": "function",
         "z": "e8e96c2a33d8f276",
+        "g": "ceb97c199c9ecf12",
         "name": "Get pH limits",
         "func": "let pH = flow.get(\"pH\").payload;\n\nlet str = `${pH.lowerLimit} - ${pH.upperLimit}`;\nlet new_msg = {\"payload\" : str};\nreturn new_msg;",
         "outputs": 1,
@@ -1643,8 +1744,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 270,
-        "y": 1140,
+        "x": 310,
+        "y": 1000,
         "wires": [
             [
                 "fa21cd890a1881ca"
@@ -1655,6 +1756,7 @@
         "id": "a6816b503480cd28",
         "type": "function",
         "z": "e8e96c2a33d8f276",
+        "g": "ceb97c199c9ecf12",
         "name": "Get temp limits",
         "func": "let tmp = flow.get(\"tmp\").payload;\n\nlet str = `${tmp.lowerLimit} - ${tmp.upperLimit}`;\nlet new_msg = { \"payload\": str };\nreturn new_msg;",
         "outputs": 1,
@@ -1663,8 +1765,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 280,
-        "y": 1220,
+        "x": 320,
+        "y": 1040,
         "wires": [
             [
                 "8a09650868d46d12"
@@ -1686,20 +1788,21 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 780,
-        "y": 360,
+        "y": 380,
         "wires": []
     },
     {
         "id": "b84353bb23d07080",
         "type": "complete",
         "z": "e8e96c2a33d8f276",
+        "g": "ceb97c199c9ecf12",
         "name": "",
         "scope": [
             "31c7989a67534590"
         ],
         "uncaught": false,
-        "x": 90,
-        "y": 1140,
+        "x": 130,
+        "y": 1000,
         "wires": [
             [
                 "88d89e4e9ec8a0e5"
@@ -1710,13 +1813,14 @@
         "id": "d7e70576534f6446",
         "type": "complete",
         "z": "e8e96c2a33d8f276",
+        "g": "ceb97c199c9ecf12",
         "name": "",
         "scope": [
             "a00ba30be38cb92d"
         ],
         "uncaught": false,
-        "x": 90,
-        "y": 1220,
+        "x": 130,
+        "y": 1040,
         "wires": [
             [
                 "a6816b503480cd28"
@@ -1727,6 +1831,7 @@
         "id": "dba42ecf155140fb",
         "type": "inject",
         "z": "e8e96c2a33d8f276",
+        "g": "1ff2c7c923cec67c",
         "name": "",
         "props": [
             {
@@ -1740,8 +1845,8 @@
         "topic": "",
         "payload": "{\"upperLimit\":8.5,\"lowerLimit\":7}",
         "payloadType": "json",
-        "x": 490,
-        "y": 700,
+        "x": 530,
+        "y": 640,
         "wires": [
             [
                 "019129d08e20dc1a"
@@ -1752,6 +1857,7 @@
         "id": "35c6a71a4f33cad5",
         "type": "inject",
         "z": "e8e96c2a33d8f276",
+        "g": "30702dcfe3f71bd9",
         "name": "",
         "props": [
             {
@@ -1765,8 +1871,8 @@
         "topic": "",
         "payload": "{\"upperLimit\":32,\"lowerLimit\":24}",
         "payloadType": "json",
-        "x": 490,
-        "y": 940,
+        "x": 530,
+        "y": 820,
         "wires": [
             [
                 "40dc35769b2ae3eb"
@@ -1777,20 +1883,22 @@
         "id": "8c19813117ea8ede",
         "type": "comment",
         "z": "e8e96c2a33d8f276",
+        "g": "30702dcfe3f71bd9",
         "name": "Fix 2 inject to get real saved Limits from ThingSpeak",
         "info": "Fix 2 inject to get real saved Limits from ThingSpeak\n",
-        "x": 210,
-        "y": 880,
+        "x": 250,
+        "y": 820,
         "wires": []
     },
     {
         "id": "a2865fd349b00aad",
         "type": "comment",
         "z": "e8e96c2a33d8f276",
+        "g": "1ff2c7c923cec67c",
         "name": "Need to add 1 more inject node to get Limits data from global",
         "info": "",
-        "x": 240,
-        "y": 740,
+        "x": 280,
+        "y": 600,
         "wires": []
     },
     {
@@ -1810,7 +1918,7 @@
         "topic": "",
         "name": "",
         "x": 790,
-        "y": 540,
+        "y": 500,
         "wires": [
             []
         ]
@@ -1834,7 +1942,18 @@
         "name": "Sending warning through email and sms",
         "info": "",
         "x": 510,
-        "y": 520,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "b1e9a719e7495183",
+        "type": "comment",
+        "z": "e8e96c2a33d8f276",
+        "g": "ceb97c199c9ecf12",
+        "name": "Get current sensor's limits and display",
+        "info": "",
+        "x": 210,
+        "y": 1100,
         "wires": []
     },
     {
@@ -1864,8 +1983,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 90,
-        "y": 140,
+        "x": 110,
+        "y": 120,
         "wires": [
             [
                 "cc9b99af9a973ecd"
@@ -1893,7 +2012,7 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "str",
-        "x": 150,
+        "x": 130,
         "y": 840,
         "wires": [
             [
@@ -1920,7 +2039,7 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 160,
+        "x": 140,
         "y": 500,
         "wires": [
             [
@@ -1941,11 +2060,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
+        "x": 690,
         "y": 560,
         "wires": [
             [
-                "c165d504301ac2b6",
                 "38366ffa9378e331"
             ]
         ]
@@ -1963,50 +2081,13 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
+        "x": 350,
         "y": 840,
         "wires": [
             [
-                "b7cde39c4119f82c",
                 "4b3acabb3f17a7af"
             ]
         ]
-    },
-    {
-        "id": "c165d504301ac2b6",
-        "type": "debug",
-        "z": "34836421c703f805",
-        "g": "92365f2d16fc32db",
-        "name": "debug 4",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 880,
-        "y": 500,
-        "wires": []
-    },
-    {
-        "id": "b7cde39c4119f82c",
-        "type": "debug",
-        "z": "34836421c703f805",
-        "g": "92365f2d16fc32db",
-        "name": "debug 5",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 560,
-        "y": 900,
-        "wires": []
     },
     {
         "id": "ea6d874806af1436",
@@ -2027,31 +2108,13 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 180,
+        "x": 160,
         "y": 780,
         "wires": [
             [
                 "d0ac7ab67d8f0f85"
             ]
         ]
-    },
-    {
-        "id": "312b7a7404c7db20",
-        "type": "debug",
-        "z": "34836421c703f805",
-        "g": "92365f2d16fc32db",
-        "name": "debug 8",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 700,
-        "y": 500,
-        "wires": []
     },
     {
         "id": "638d3418cf1ba387",
@@ -2066,77 +2129,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 985.9999961853027,
-        "y": 699.0000057220459,
+        "x": 330,
+        "y": 680,
         "wires": [
             [
-                "2e11cef063589a1a",
-                "1c2c335d55ebc684"
-            ]
-        ]
-    },
-    {
-        "id": "8b79b0241a096405",
-        "type": "json",
-        "z": "34836421c703f805",
-        "g": "92365f2d16fc32db",
-        "name": "",
-        "property": "payload",
-        "action": "obj",
-        "pretty": true,
-        "x": 470,
-        "y": 700,
-        "wires": [
-            [
-                "8e2874808b8e7a0f",
-                "e3b91fd5d047ece0"
-            ]
-        ]
-    },
-    {
-        "id": "eff5673ee7e21d15",
-        "type": "file in",
-        "z": "34836421c703f805",
-        "g": "92365f2d16fc32db",
-        "name": "",
-        "filename": "payload",
-        "filenameType": "msg",
-        "format": "",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 300,
-        "y": 700,
-        "wires": [
-            [
-                "8b79b0241a096405"
-            ]
-        ]
-    },
-    {
-        "id": "f45b3c8861cad6ed",
-        "type": "inject",
-        "z": "34836421c703f805",
-        "g": "92365f2d16fc32db",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": ".node-red\\projects\\AquaSmart\\scheduling.json",
-        "payloadType": "str",
-        "x": 130,
-        "y": 700,
-        "wires": [
-            [
-                "eff5673ee7e21d15"
+                "2e11cef063589a1a"
             ]
         ]
     },
@@ -2174,8 +2171,8 @@
         ],
         "outputs": 0,
         "cts": false,
-        "x": 1141.9999923706055,
-        "y": 698.0000114440918,
+        "x": 485.99999618530273,
+        "y": 679.0000057220459,
         "wires": []
     },
     {
@@ -2191,51 +2188,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 420,
+        "x": 400,
         "y": 560,
         "wires": [
             [
-                "312b7a7404c7db20",
                 "2c569491f6305c24"
-            ]
-        ]
-    },
-    {
-        "id": "8e2874808b8e7a0f",
-        "type": "debug",
-        "z": "34836421c703f805",
-        "g": "92365f2d16fc32db",
-        "name": "debug 10",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 655.9999961853027,
-        "y": 639.0000057220459,
-        "wires": []
-    },
-    {
-        "id": "e3b91fd5d047ece0",
-        "type": "function",
-        "z": "34836421c703f805",
-        "g": "92365f2d16fc32db",
-        "name": "Set to table data Flow Context",
-        "func": "flow.set(\"table\", msg)\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 725.9999961853027,
-        "y": 699.0000057220459,
-        "wires": [
-            [
-                "638d3418cf1ba387"
             ]
         ]
     },
@@ -2262,12 +2219,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 870,
+        "x": 850,
         "y": 560,
         "wires": [
             [
                 "7322ca28f2f4b0e0",
-                "638d3418cf1ba387",
                 "be850588720409c6"
             ],
             [
@@ -2291,29 +2247,11 @@
         "className": "",
         "topic": "Adding feeding time fail!",
         "name": "Adding feeding time fail!",
-        "x": 1130,
+        "x": 1110,
         "y": 580,
         "wires": [
             []
         ]
-    },
-    {
-        "id": "1c2c335d55ebc684",
-        "type": "debug",
-        "z": "34836421c703f805",
-        "g": "92365f2d16fc32db",
-        "name": "debug 11",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1151.9999923706055,
-        "y": 638.0000114440918,
-        "wires": []
     },
     {
         "id": "7322ca28f2f4b0e0",
@@ -2331,7 +2269,7 @@
         "className": "",
         "topic": "Feeding Time Added!",
         "name": "Feeding Time Added!",
-        "x": 1120,
+        "x": 1100,
         "y": 540,
         "wires": []
     },
@@ -2356,7 +2294,7 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "str",
-        "x": 150,
+        "x": 130,
         "y": 560,
         "wires": [
             [
@@ -2377,7 +2315,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
+        "x": 350,
         "y": 500,
         "wires": [
             []
@@ -2406,8 +2344,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 270,
-        "y": 140,
+        "x": 330,
+        "y": 120,
         "wires": [
             [
                 "b168c7f6045c02f6",
@@ -2435,7 +2373,7 @@
         "className": "",
         "topic": "Automatic feeding mode:",
         "name": "",
-        "x": 490,
+        "x": 550,
         "y": 60,
         "wires": []
     },
@@ -2455,8 +2393,8 @@
         "className": "",
         "topic": "Automatic feeding mode:",
         "name": "",
-        "x": 490,
-        "y": 200,
+        "x": 550,
+        "y": 180,
         "wires": []
     },
     {
@@ -2472,7 +2410,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 410,
+        "x": 390,
         "y": 780,
         "wires": [
             []
@@ -2501,11 +2439,10 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 530,
+        "x": 510,
         "y": 840,
         "wires": [
             [
-                "638d3418cf1ba387",
                 "1f764c90a5409687",
                 "d2b28baa46a7b22e"
             ],
@@ -2530,7 +2467,7 @@
         "className": "",
         "topic": "Feeding Time Deleted!",
         "name": "Feeding Time Deleted!",
-        "x": 800,
+        "x": 780,
         "y": 840,
         "wires": []
     },
@@ -2550,7 +2487,7 @@
         "className": "",
         "topic": "Deleting feeding time fail!",
         "name": "Deleting feeding time fail!",
-        "x": 810,
+        "x": 790,
         "y": 880,
         "wires": [
             []
@@ -2569,7 +2506,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 490,
+        "x": 550,
         "y": 100,
         "wires": [
             []
@@ -2588,8 +2525,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 490,
-        "y": 160,
+        "x": 550,
+        "y": 140,
         "wires": [
             []
         ]
@@ -2621,8 +2558,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 130,
-        "y": 340,
+        "x": 150,
+        "y": 320,
         "wires": [
             [
                 "046152ce351fbac2"
@@ -2634,7 +2571,7 @@
         "type": "debug",
         "z": "34836421c703f805",
         "g": "92365f2d16fc32db",
-        "name": "debug 15",
+        "name": "Debug node 1",
         "active": false,
         "tosidebar": true,
         "console": false,
@@ -2652,7 +2589,7 @@
         "type": "debug",
         "z": "34836421c703f805",
         "g": "92365f2d16fc32db",
-        "name": "debug 16",
+        "name": "Debug node 2",
         "active": false,
         "tosidebar": true,
         "console": false,
@@ -2686,8 +2623,8 @@
         "payloadType": "str",
         "topic": "",
         "topicType": "str",
-        "x": 100,
-        "y": 1220,
+        "x": 120,
+        "y": 1060,
         "wires": [
             [
                 "04642740c43f9681"
@@ -2710,8 +2647,8 @@
         "className": "",
         "topic": "Feed command Sent!",
         "name": "Feed success!",
-        "x": 800,
-        "y": 1220,
+        "x": 980,
+        "y": 1060,
         "wires": []
     },
     {
@@ -2719,7 +2656,7 @@
         "type": "function",
         "z": "34836421c703f805",
         "g": "fd109c676ba0cfa3",
-        "name": "function 5",
+        "name": "Get dropdown inform for amount of food",
         "func": "let new_msg = {\"payload\": flow.get(\"feed\")};\nif (new_msg.payload == undefined) new_msg.payload = \"Select amount of food first!\";\nreturn new_msg;",
         "outputs": 1,
         "timeout": 0,
@@ -2727,8 +2664,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 280,
-        "y": 1220,
+        "x": 360,
+        "y": 1060,
         "wires": [
             [
                 "aadfa0656a26eb7e"
@@ -2771,31 +2708,12 @@
         "topic": "",
         "topicType": "str",
         "className": "",
-        "x": 120,
-        "y": 1160,
+        "x": 140,
+        "y": 1000,
         "wires": [
             [
-                "ade5944d7fdcbae0"
+                "2b602d937de6a37a"
             ]
-        ]
-    },
-    {
-        "id": "ade5944d7fdcbae0",
-        "type": "function",
-        "z": "34836421c703f805",
-        "g": "fd109c676ba0cfa3",
-        "name": "function 6",
-        "func": "flow.set(\"feed\", msg.payload);\nnode.log(msg.payload);\nreturn;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 300,
-        "y": 1160,
-        "wires": [
-            []
         ]
     },
     {
@@ -2813,8 +2731,8 @@
         "correl": "",
         "expiry": "",
         "broker": "9c39670e4e7d3237",
-        "x": 610,
-        "y": 1160,
+        "x": 790,
+        "y": 1000,
         "wires": []
     },
     {
@@ -2840,8 +2758,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 310,
-        "y": 340,
+        "x": 330,
+        "y": 320,
         "wires": [
             [
                 "d093d6b8067334b1",
@@ -2858,7 +2776,7 @@
         "type": "function",
         "z": "34836421c703f805",
         "g": "abcb4d74ea2c8e8f",
-        "name": "function 8",
+        "name": "Set feed mail: true",
         "func": "global.set(\"FeedMail\", true);\nreturn;",
         "outputs": 1,
         "timeout": 0,
@@ -2866,7 +2784,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 500,
+        "x": 550,
         "y": 300,
         "wires": [
             []
@@ -2888,7 +2806,7 @@
         "className": "",
         "topic": "Email notification to feed mode: ",
         "name": "",
-        "x": 530,
+        "x": 550,
         "y": 260,
         "wires": []
     },
@@ -2897,7 +2815,7 @@
         "type": "function",
         "z": "34836421c703f805",
         "g": "abcb4d74ea2c8e8f",
-        "name": "function 9",
+        "name": "Set feed mail: false",
         "func": "global.set(\"FeedMail\", false);\nreturn;",
         "outputs": 1,
         "timeout": 0,
@@ -2905,8 +2823,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 500,
-        "y": 360,
+        "x": 550,
+        "y": 340,
         "wires": [
             []
         ]
@@ -2927,8 +2845,8 @@
         "className": "",
         "topic": "Email notification to feed mode: ",
         "name": "",
-        "x": 530,
-        "y": 400,
+        "x": 550,
+        "y": 380,
         "wires": []
     },
     {
@@ -2938,8 +2856,8 @@
         "g": "92365f2d16fc32db",
         "name": "Chưa up schedule, history lên cloud!",
         "info": "",
-        "x": 180,
-        "y": 900,
+        "x": 420,
+        "y": 620,
         "wires": []
     },
     {
@@ -2949,103 +2867,9 @@
         "g": "abcb4d74ea2c8e8f",
         "name": "Chưa thêm logic và lưu setting cloud cho 2 nút",
         "info": "",
-        "x": 210,
-        "y": 240,
+        "x": 230,
+        "y": 180,
         "wires": []
-    },
-    {
-        "id": "d01402844ef2d11e",
-        "type": "complete",
-        "z": "34836421c703f805",
-        "g": "f3d8101df586c7b5",
-        "name": "",
-        "scope": [
-            "be850588720409c6"
-        ],
-        "uncaught": false,
-        "x": 110,
-        "y": 1000,
-        "wires": [
-            [
-                "67dfd12da60e4341"
-            ]
-        ]
-    },
-    {
-        "id": "ea0cebee5d175aed",
-        "type": "complete",
-        "z": "34836421c703f805",
-        "g": "f3d8101df586c7b5",
-        "name": "",
-        "scope": [
-            "d2b28baa46a7b22e"
-        ],
-        "uncaught": false,
-        "x": 110,
-        "y": 1060,
-        "wires": [
-            [
-                "67dfd12da60e4341"
-            ]
-        ]
-    },
-    {
-        "id": "67dfd12da60e4341",
-        "type": "function",
-        "z": "34836421c703f805",
-        "g": "f3d8101df586c7b5",
-        "name": "Get data and remove id column",
-        "func": "var msg = flow.get(\"table\");\n// bỏ cột id\nlet new_msg = {\"payload\": msg.payload.map(({id, ...rest}) => rest)};\nreturn new_msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 370,
-        "y": 1000,
-        "wires": [
-            [
-                "4f61e1304a005a69",
-                "cdce8c4165890d0a"
-            ]
-        ]
-    },
-    {
-        "id": "4f61e1304a005a69",
-        "type": "debug",
-        "z": "34836421c703f805",
-        "g": "f3d8101df586c7b5",
-        "name": "debug 13",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 660,
-        "y": 1040,
-        "wires": []
-    },
-    {
-        "id": "cdce8c4165890d0a",
-        "type": "file",
-        "z": "34836421c703f805",
-        "g": "f3d8101df586c7b5",
-        "name": "",
-        "filename": ".node-red\\projects\\AquaSmart\\scheduling.json",
-        "filenameType": "str",
-        "appendNewline": false,
-        "createDir": true,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 780,
-        "y": 1000,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "fd791e7dbc4922e2",
@@ -3060,8 +2884,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 280,
-        "y": 1440,
+        "x": 300,
+        "y": 1280,
         "wires": [
             [
                 "29c2d6ccf3822d35"
@@ -3090,8 +2914,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
-        "y": 1440,
+        "x": 150,
+        "y": 1280,
         "wires": [
             [
                 "fd791e7dbc4922e2"
@@ -3114,8 +2938,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 440,
-        "y": 1440,
+        "x": 460,
+        "y": 1280,
         "wires": [
             [
                 "431b1647dc34b942"
@@ -3135,8 +2959,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 640,
-        "y": 1440,
+        "x": 660,
+        "y": 1280,
         "wires": [
             [
                 "2e776daa04d4c503"
@@ -3158,8 +2982,8 @@
         "correl": "",
         "expiry": "",
         "broker": "9c39670e4e7d3237",
-        "x": 1210,
-        "y": 1380,
+        "x": 1230,
+        "y": 1220,
         "wires": []
     },
     {
@@ -3190,8 +3014,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 830,
-        "y": 1440,
+        "x": 850,
+        "y": 1280,
         "wires": [
             [
                 "0600eb5006e28bbe",
@@ -3218,8 +3042,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1020,
-        "y": 1380,
+        "x": 1040,
+        "y": 1220,
         "wires": [
             [
                 "1bb780032de499cc"
@@ -3239,8 +3063,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1010,
-        "y": 1500,
+        "x": 1030,
+        "y": 1340,
         "wires": [
             [
                 "2dbed5f1dce475b3"
@@ -3260,8 +3084,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1060,
-        "y": 1440,
+        "x": 1080,
+        "y": 1280,
         "wires": [
             [
                 "2dbed5f1dce475b3"
@@ -3282,8 +3106,8 @@
         "tls": true,
         "name": "vanphamanh2303@gmail.com",
         "dname": "Mail",
-        "x": 1210,
-        "y": 1500,
+        "x": 1230,
+        "y": 1340,
         "wires": []
     },
     {
@@ -3307,8 +3131,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 620,
-        "y": 1220,
+        "x": 800,
+        "y": 1060,
         "wires": [
             [
                 "78b93fba62ba8a3b"
@@ -3338,8 +3162,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 430,
-        "y": 1220,
+        "x": 610,
+        "y": 1060,
         "wires": [
             [
                 "f19f15dbd354c234",
@@ -3366,8 +3190,8 @@
         "className": "",
         "topic": "Feed command Error!",
         "name": "",
-        "x": 610,
-        "y": 1280,
+        "x": 790,
+        "y": 1120,
         "wires": [
             []
         ]
@@ -3379,8 +3203,8 @@
         "g": "edbda1ef62bfb142",
         "name": "Check schedule every minute and proccess auto/notimail function on time!",
         "info": "",
-        "x": 320,
-        "y": 1380,
+        "x": 340,
+        "y": 1220,
         "wires": []
     },
     {
@@ -3390,19 +3214,8 @@
         "g": "fd109c676ba0cfa3",
         "name": "Feed now button setting",
         "info": "",
-        "x": 140,
-        "y": 1280,
-        "wires": []
-    },
-    {
-        "id": "c7587ab02bff2de4",
-        "type": "comment",
-        "z": "34836421c703f805",
-        "g": "f3d8101df586c7b5",
-        "name": "Update schedule on changing!",
-        "info": "",
-        "x": 340,
-        "y": 1060,
+        "x": 160,
+        "y": 1120,
         "wires": []
     },
     {
@@ -3412,9 +3225,312 @@
         "g": "abcb4d74ea2c8e8f",
         "name": "Button setting and save on global context",
         "info": "",
-        "x": 200,
-        "y": 280,
+        "x": 220,
+        "y": 220,
         "wires": []
+    },
+    {
+        "id": "5a5caad9f9843d42",
+        "type": "http request",
+        "z": "34836421c703f805",
+        "g": "d9c58ea5e631868a",
+        "name": "Send to ThingSpeak",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.thingspeak.com/update?api_key=AR02L8NW4XWPDUHR",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 900,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "92644c3bbad6399b",
+        "type": "inject",
+        "z": "34836421c703f805",
+        "g": "d9c58ea5e631868a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 1520,
+        "wires": [
+            [
+                "6c60207f260a855d"
+            ]
+        ]
+    },
+    {
+        "id": "6c60207f260a855d",
+        "type": "http request",
+        "z": "34836421c703f805",
+        "g": "d9c58ea5e631868a",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.thingspeak.com/channels/2628748/fields/1/last.json?api_key=5F3CGS1EWC7MW3BG",
+        "tls": "",
+        "persist": true,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 310,
+        "y": 1520,
+        "wires": [
+            [
+                "17793c1e2ffa3e3b"
+            ]
+        ]
+    },
+    {
+        "id": "97bd3452ae05521f",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "d9c58ea5e631868a",
+        "name": "Get data from thingspeak and set to flow",
+        "func": "let parsedData = JSON.parse(msg.payload);\nlet timeArray = [];\n\n// Kiểm tra nếu 'field1' tồn tại và là một chuỗi\nif (typeof parsedData.field1 === 'string') {\n    let tempArray = parsedData.field1.split(',');  // Chuyển đổi 'field1' thành mảng tạm thời\n\n    for (let time of tempArray) {\n        timeArray.push({\n            \"time\": time\n        }); \n    }\n} \n\nlet new_msg = { \"payload\": timeArray };  // Trả về mảng các chuỗi thời gian\nflow.set(\"table\", new_msg);\nreturn new_msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 1520,
+        "wires": [
+            [
+                "39d865f1812b6d49"
+            ]
+        ]
+    },
+    {
+        "id": "17793c1e2ffa3e3b",
+        "type": "json",
+        "z": "34836421c703f805",
+        "g": "d9c58ea5e631868a",
+        "name": "",
+        "property": "payload",
+        "action": "str",
+        "pretty": true,
+        "x": 450,
+        "y": 1520,
+        "wires": [
+            [
+                "97bd3452ae05521f"
+            ]
+        ]
+    },
+    {
+        "id": "39d865f1812b6d49",
+        "type": "debug",
+        "z": "34836421c703f805",
+        "g": "d9c58ea5e631868a",
+        "name": "Debug node 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 940,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "7a9e2dcff4230232",
+        "type": "complete",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "",
+        "scope": [
+            "39d865f1812b6d49"
+        ],
+        "uncaught": false,
+        "x": 130,
+        "y": 720,
+        "wires": [
+            [
+                "638d3418cf1ba387"
+            ]
+        ]
+    },
+    {
+        "id": "d1f6fa75bd91b58e",
+        "type": "complete",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "",
+        "scope": [
+            "d2b28baa46a7b22e"
+        ],
+        "uncaught": false,
+        "x": 130,
+        "y": 680,
+        "wires": [
+            [
+                "638d3418cf1ba387"
+            ]
+        ]
+    },
+    {
+        "id": "46bfcaf508082aa4",
+        "type": "complete",
+        "z": "34836421c703f805",
+        "g": "92365f2d16fc32db",
+        "name": "",
+        "scope": [
+            "be850588720409c6"
+        ],
+        "uncaught": false,
+        "x": 130,
+        "y": 640,
+        "wires": [
+            [
+                "638d3418cf1ba387"
+            ]
+        ]
+    },
+    {
+        "id": "cd7341155dea5f98",
+        "type": "ui_ui_control",
+        "z": "34836421c703f805",
+        "g": "d9c58ea5e631868a",
+        "name": "",
+        "events": "all",
+        "x": 140,
+        "y": 1440,
+        "wires": [
+            [
+                "ae15145140f892d2"
+            ]
+        ]
+    },
+    {
+        "id": "40e6b88d48904ca6",
+        "type": "switch",
+        "z": "34836421c703f805",
+        "g": "d9c58ea5e631868a",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 490,
+        "y": 1440,
+        "wires": [
+            [
+                "53e4e1a1db0c0e33"
+            ]
+        ]
+    },
+    {
+        "id": "ae15145140f892d2",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "d9c58ea5e631868a",
+        "name": "Check if flow is closing",
+        "func": "if (msg.payload === \"lost\") {\n    msg.payload = true;\n}\nelse msg.payload = false;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1440,
+        "wires": [
+            [
+                "40e6b88d48904ca6"
+            ]
+        ]
+    },
+    {
+        "id": "53e4e1a1db0c0e33",
+        "type": "function",
+        "z": "34836421c703f805",
+        "g": "d9c58ea5e631868a",
+        "name": "Parse array to one string",
+        "func": "let data = flow.get(\"table\").payload;\nlet dataStringArray = data.map(item => item.time)\nlet dataString = dataStringArray.join(',');\nnode.log(dataString);\nlet new_msg = {\n    \"payload\": {\n        field1 : dataString\n    }    \n};\nnew_msg.url = \"https://api.thingspeak.com/update?api_key=AR02L8NW4XWPDUHR\";\nreturn new_msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 1440,
+        "wires": [
+            [
+                "5a5caad9f9843d42"
+            ]
+        ]
+    },
+    {
+        "id": "8777942fe7d231d3",
+        "type": "comment",
+        "z": "34836421c703f805",
+        "g": "d9c58ea5e631868a",
+        "name": "Get and update feeding schedule to thingspeak",
+        "info": "Get feeding schedule from thingspeak and set to flow \"table\"\nwhenever flow start!\n\nAnd get flow \"table\" then update to thingspeak whenever tab close or web close!",
+        "x": 260,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "2b602d937de6a37a",
+        "type": "change",
+        "z": "34836421c703f805",
+        "g": "fd109c676ba0cfa3",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "feed",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 1000,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "2936889e06b70e40",
@@ -3433,8 +3549,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 310,
-        "y": 160,
+        "x": 490,
+        "y": 120,
         "wires": [
             [
                 "5046ae94e320d7e6"
@@ -3446,15 +3562,15 @@
         "type": "inject",
         "z": "97f9b691884ece2d",
         "g": "a7f76a449c27182e",
-        "name": "",
+        "name": "Inject and update every one minute",
         "props": [],
         "repeat": "60",
         "crontab": "",
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 130,
-        "y": 160,
+        "x": 230,
+        "y": 120,
         "wires": [
             [
                 "2936889e06b70e40"
@@ -3470,39 +3586,20 @@
         "property": "payload",
         "action": "str",
         "pretty": true,
-        "x": 490,
-        "y": 160,
+        "x": 650,
+        "y": 120,
         "wires": [
             [
-                "3c1049e01c49f45c",
                 "041ae44ad3decdc0"
             ]
         ]
-    },
-    {
-        "id": "3c1049e01c49f45c",
-        "type": "debug",
-        "z": "97f9b691884ece2d",
-        "g": "a7f76a449c27182e",
-        "name": "debug 21",
-        "active": false,
-        "tosidebar": false,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 680,
-        "y": 220,
-        "wires": []
     },
     {
         "id": "041ae44ad3decdc0",
         "type": "function",
         "z": "97f9b691884ece2d",
         "g": "a7f76a449c27182e",
-        "name": "function 7",
+        "name": "Parse string to array",
         "func": "function parseAndSortData(input) {\n    const result = [];\n    const lines = input.trim().split('\\n');\n\n\n    lines.forEach(line => {\n        if (!line) return; // Bỏ qua các dòng trống\n\n\n        const parts = line.split(',');\n        if (parts.length < 4) return; // Bỏ qua các dòng không đủ phần tử\n\n\n        const dateTime = parts[0].split(' ');\n        if (dateTime.length < 2) return; // Bỏ qua các dòng không có đủ cả ngày và giờ\n\n\n        let date = dateTime[0];\n        let time = dateTime[1];\n        const temp = parseFloat(parts[2]);\n        const pH = parseFloat(parts[3]);\n\n\n        // Tạo đối tượng Date từ chuỗi ngày và giờ\n        let [year, month, day] = date.split('-').map(Number);\n        let [hours, minutes, seconds] = time.split(':').map(Number);\n        let currentDate = new Date(year, month - 1, day, hours, minutes, seconds);\n\n\n        // Giữ lại ngày ban đầu\n        let initialDate = currentDate.getDate();\n\n\n        // Cộng thêm 7 giờ để điều chỉnh cho múi giờ\n        currentDate.setHours(currentDate.getHours() + 7);\n\n\n        // Kiểm tra nếu ngày đã thay đổi sau khi cộng thêm giờ\n        if (currentDate.getDate() !== initialDate) {\n            // Ngày đã thay đổi, nghĩa là thời gian vượt qua 24h\n            year = currentDate.getFullYear();\n            month = currentDate.getMonth() + 1; // Tháng trong JavaScript là từ 0-11, cần cộng thêm 1\n            day = currentDate.getDate();\n        }\n\n\n        // Lấy giá trị ngày, tháng, năm và thời gian mới sau khi cộng giờ\n        let adjustedDate = `${year.toString().padStart(4, '0')}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;\n        let adjustedTime = currentDate.toTimeString().split(' ')[0];\n\n\n        // Thêm dữ liệu đã phân tích và điều chỉnh vào mảng kết quả\n        result.push({date: adjustedDate, time: adjustedTime, temp, pH });\n    });\n\n\n    // Sắp xếp mảng kết quả theo thứ tự giảm dần dựa trên ngày và giờ\n    result.sort((a, b) => {\n        const dateA = new Date(`${a.date}T${a.time}`).getTime();\n        const dateB = new Date(`${b.date}T${b.time}`).getTime();\n        return dateB - dateA; // Sắp xếp theo thứ tự giảm dần\n    });\n    return result;\n}\n\n\nmsg.payload = parseAndSortData(msg.payload);\n\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
@@ -3510,12 +3607,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 160,
+        "x": 840,
+        "y": 120,
         "wires": [
             [
-                "71483b76e572bd90",
-                "98604c75249e6085"
+                "71483b76e572bd90"
             ]
         ]
     },
@@ -3532,26 +3628,8 @@
         "columns": [],
         "outputs": 0,
         "cts": false,
-        "x": 890,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "98604c75249e6085",
-        "type": "debug",
-        "z": "97f9b691884ece2d",
-        "g": "a7f76a449c27182e",
-        "name": "debug 22",
-        "active": false,
-        "tosidebar": false,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 900,
-        "y": 100,
+        "x": 1030,
+        "y": 120,
         "wires": []
     },
     {
@@ -3559,15 +3637,15 @@
         "type": "inject",
         "z": "97f9b691884ece2d",
         "g": "944477dba28d308d",
-        "name": "",
+        "name": "Inject and update every one minute",
         "props": [],
         "repeat": "60",
         "crontab": "",
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 130,
-        "y": 400,
+        "x": 230,
+        "y": 280,
         "wires": [
             [
                 "1b98f0a99b8af4aa"
@@ -3591,8 +3669,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 310,
-        "y": 400,
+        "x": 490,
+        "y": 280,
         "wires": [
             [
                 "22002ea66072dd4b"
@@ -3608,52 +3686,32 @@
         "property": "payload",
         "action": "str",
         "pretty": true,
-        "x": 490,
-        "y": 400,
+        "x": 650,
+        "y": 280,
         "wires": [
             [
-                "9a053b6209f3186d",
                 "365122e007a55d12"
             ]
         ]
-    },
-    {
-        "id": "9a053b6209f3186d",
-        "type": "debug",
-        "z": "97f9b691884ece2d",
-        "g": "944477dba28d308d",
-        "name": "debug 29",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 680,
-        "y": 460,
-        "wires": []
     },
     {
         "id": "365122e007a55d12",
         "type": "function",
         "z": "97f9b691884ece2d",
         "g": "944477dba28d308d",
-        "name": "function 13",
-        "func": "function parseAndSortAmountData(input) {\n    const result = [];\n    const lines = input.trim().split('\\n');  // Tách dữ liệu thành các dòng\n\n    lines.forEach(line => {\n        if (!line) return; // Bỏ qua các dòng trống\n\n        const parts = line.split(',');\n        if (parts.length < 2) return; // Bỏ qua các dòng không đủ phần tử\n\n        const dateTime = parts[0];  // Lấy thời gian trực tiếp từ cột đầu tiên\n        const amount = parseFloat(parts[2]);  // Lấy giá trị amount từ cột thứ hai\n        var str_amount;\n        if (amount == 1) {str_amount = \"Minimum\"}\n        else if (amount == 2) { str_amount = \"Medium\"}\n        else { str_amount = \"Maximum\" }\n        // Sử dụng Date.parse để tạo đối tượng Date\n        const currentDate = new Date(Date.parse(dateTime));\n\n        if (isNaN(currentDate)) return; // Bỏ qua nếu thời gian không hợp lệ\n\n        // Lấy giá trị ngày và thời gian sau khi phân tích cú pháp\n        const adjustedDate = currentDate.toISOString().split('T')[0];\n        const adjustedTime = currentDate.toTimeString().split(' ')[0];\n\n        // Thêm dữ liệu đã phân tích và điều chỉnh vào mảng kết quả\n            result.push({ date: adjustedDate, time: adjustedTime, str_amount });\n    });\n\n    // Sắp xếp mảng kết quả theo thứ tự giảm dần dựa trên ngày và giờ\n    result.sort((a, b) => {\n        const dateA = new Date(`${a.date}T${a.time}`).getTime();\n        const dateB = new Date(`${b.date}T${b.time}`).getTime();\n        return dateB - dateA; // Sắp xếp theo thứ tự giảm dần\n    });\n    return result;\n}\n\nmsg.payload = parseAndSortAmountData(msg.payload);\n\nreturn msg;\n",
+        "name": "Parse string to array",
+        "func": "function parseAndSortAmountData(input) {\n    const result = [];\n    const lines = input.trim().split('\\n');  // Tách dữ liệu thành các dòng\n\n    lines.forEach(line => {\n        if (!line) return; // Bỏ qua các dòng trống\n\n        const parts = line.split(',');\n        if (parts.length < 2) return; // Bỏ qua các dòng không đủ phần tử\n\n        const dateTime = parts[0].split(' ');  // Tách chuỗi thành mảng ngày và giờ\n\n        if (dateTime.length < 2) return; // Kiểm tra nếu dateTime có đủ ngày và giờ\n\n        const amount = parseFloat(parts[2]);  // Lấy giá trị amount từ cột thứ hai\n\n        let str_amount;\n        if (amount == 1) { str_amount = \"Minimum\"; }\n        else if (amount == 2) { str_amount = \"Medium\"; }\n        else { str_amount = \"Maximum\"; }\n\n        let date = dateTime[0];\n        let time = dateTime[1];\n        // Sử dụng Date.parse để tạo đối tượng Date\n        let [year, month, day] = date.split('-').map(Number);\n        let [hours, minutes, seconds] = time.split(':').map(Number);\n        let currentDate = new Date(year, month - 1, day, hours, minutes, seconds);\n\n        if (isNaN(currentDate)) return; // Bỏ qua nếu thời gian không hợp lệ\n\n        // Cộng thêm 7 giờ vào thời gian\n        const initialDay = currentDate.getDate();\n        currentDate.setHours(currentDate.getHours() + 7);\n\n        // Kiểm tra nếu ngày đã thay đổi sau khi cộng thêm giờ\n        if (currentDate.getDate() !== initialDay) {\n            year = currentDate.getFullYear();\n            month = currentDate.getMonth() + 1;\n            day = currentDate.getDate();\n        }\n\n        // Lấy giá trị ngày, tháng, năm và thời gian mới sau khi cộng giờ\n        let adjustedDate = `${year.toString().padStart(4, '0')}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;\n        let adjustedTime = currentDate.toTimeString().split(' ')[0];\n\n        // Thêm dữ liệu đã phân tích và điều chỉnh vào mảng kết quả\n        result.push({ date: adjustedDate, time: adjustedTime, str_amount });\n    });\n\n    // Sắp xếp mảng kết quả theo thứ tự giảm dần dựa trên ngày và giờ\n    result.sort((a, b) => {\n        const dateA = new Date(`${a.date}T${a.time}`).getTime();\n        const dateB = new Date(`${b.date}T${b.time}`).getTime();\n        return dateB - dateA; // Sắp xếp theo thứ tự giảm dần\n    });\n    return result;\n}\n\nmsg.payload = parseAndSortAmountData(msg.payload);\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 400,
+        "x": 840,
+        "y": 280,
         "wires": [
             [
-                "973f3539561b46f1",
-                "754bb4fa9771c2ef"
+                "973f3539561b46f1"
             ]
         ]
     },
@@ -3701,26 +3759,8 @@
         ],
         "outputs": 0,
         "cts": false,
-        "x": 890,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "754bb4fa9771c2ef",
-        "type": "debug",
-        "z": "97f9b691884ece2d",
-        "g": "944477dba28d308d",
-        "name": "debug 30",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 900,
-        "y": 340,
+        "x": 1030,
+        "y": 280,
         "wires": []
     },
     {
@@ -3731,7 +3771,7 @@
         "name": "Sensor's Data from thingspeak",
         "info": "",
         "x": 210,
-        "y": 120,
+        "y": 80,
         "wires": []
     },
     {
@@ -3742,7 +3782,7 @@
         "name": "Feeding History from thingspeak",
         "info": "",
         "x": 210,
-        "y": 360,
+        "y": 240,
         "wires": []
     },
     {
@@ -3765,5 +3805,15 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "7487ed2198e77fce",
+        "type": "comment",
+        "z": "c42bcde0c0dd6265",
+        "name": "Demo camera display using 24/7 stream embed URL",
+        "info": "",
+        "x": 290,
+        "y": 120,
+        "wires": []
     }
 ]
