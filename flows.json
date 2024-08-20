@@ -57,8 +57,8 @@
             "2936889e06b70e40",
             "5046ae94e320d7e6",
             "041ae44ad3decdc0",
-            "71483b76e572bd90",
-            "c26552f7d4047f4c"
+            "c26552f7d4047f4c",
+            "71483b76e572bd90"
         ],
         "x": 34,
         "y": 39,
@@ -87,7 +87,7 @@
             "070479fe7f2a6f65"
         ],
         "x": 34,
-        "y": 199,
+        "y": 179,
         "w": 1072,
         "h": 122
     },
@@ -117,9 +117,9 @@
             "2dbed5f1dce475b3",
             "31870fdd984d055a"
         ],
-        "x": 34,
-        "y": 1179,
-        "w": 1292,
+        "x": 14,
+        "y": 759,
+        "w": 1392,
         "h": 202
     },
     {
@@ -147,8 +147,8 @@
             "f9825a8bfd3d3cc5",
             "2b602d937de6a37a"
         ],
-        "x": 34,
-        "y": 959,
+        "x": 674,
+        "y": 199,
         "w": 1052,
         "h": 202
     },
@@ -173,11 +173,9 @@
             "2c569491f6305c24",
             "38366ffa9378e331",
             "7322ca28f2f4b0e0",
-            "638d3418cf1ba387",
             "be850588720409c6",
             "15a2c3d5868b7e4b",
             "4b3acabb3f17a7af",
-            "2e11cef063589a1a",
             "5bfc62e1e63afe88",
             "1f764c90a5409687",
             "d2b28baa46a7b22e",
@@ -185,15 +183,12 @@
             "a0ef59ccbdd4dda2",
             "ea6d874806af1436",
             "d0ac7ab67d8f0f85",
-            "d9742c2819931028",
-            "7a9e2dcff4230232",
-            "d1f6fa75bd91b58e",
-            "46bfcaf508082aa4"
+            "d9742c2819931028"
         ],
-        "x": 34,
-        "y": 459,
-        "w": 1212,
-        "h": 462
+        "x": 14,
+        "y": 419,
+        "w": 1112,
+        "h": 322
     },
     {
         "id": "abcb4d74ea2c8e8f",
@@ -221,13 +216,12 @@
             "c197867ce5f2caac",
             "d35e92cb5ff8ea16",
             "711e6a25b6e3ddca",
-            "668e18739827487a",
             "ce1768a88d21a190"
         ],
-        "x": 34,
+        "x": 14,
         "y": 19,
         "w": 632,
-        "h": 402
+        "h": 382
     },
     {
         "id": "bef42aefa75c583e",
@@ -264,7 +258,7 @@
         "x": 34,
         "y": 39,
         "w": 872,
-        "h": 502
+        "h": 462
     },
     {
         "id": "d9c58ea5e631868a",
@@ -292,8 +286,8 @@
             "5a5caad9f9843d42",
             "8777942fe7d231d3"
         ],
-        "x": 34,
-        "y": 1399,
+        "x": 674,
+        "y": 19,
         "w": 1032,
         "h": 162
     },
@@ -319,10 +313,10 @@
             "fa21cd890a1881ca",
             "b1e9a719e7495183"
         ],
-        "x": 34,
-        "y": 959,
-        "w": 612,
-        "h": 182
+        "x": 934,
+        "y": 39,
+        "w": 572,
+        "h": 162
     },
     {
         "id": "1ff2c7c923cec67c",
@@ -350,9 +344,9 @@
             "a2865fd349b00aad"
         ],
         "x": 34,
-        "y": 559,
+        "y": 699,
         "w": 1272,
-        "h": 182
+        "h": 142
     },
     {
         "id": "30702dcfe3f71bd9",
@@ -380,9 +374,138 @@
             "8c19813117ea8ede"
         ],
         "x": 34,
-        "y": 759,
+        "y": 859,
         "w": 1272,
         "h": 162
+    },
+    {
+        "id": "77fa645d664b763b",
+        "type": "group",
+        "z": "e8e96c2a33d8f276",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "fbba445e8864de6d",
+            "6332add28edb2567",
+            "722885279a221aed",
+            "358719f9e47ec8af",
+            "38e4a2487b25af8b",
+            "cd9a63709c589b3e",
+            "d9a3ef07e850bbb6",
+            "e8c02ea5a133f6df",
+            "80a9fbc0293de124",
+            "2b6fc106f80f5f99"
+        ],
+        "x": 34,
+        "y": 519,
+        "w": 992,
+        "h": 162
+    },
+    {
+        "id": "6d1fc6c8fc549919",
+        "type": "group",
+        "z": "34836421c703f805",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "638d3418cf1ba387",
+            "7a9e2dcff4230232",
+            "d1f6fa75bd91b58e",
+            "46bfcaf508082aa4",
+            "2e11cef063589a1a",
+            "dc6e5ef30f922fdb"
+        ],
+        "x": 1154,
+        "y": 419,
+        "w": 512,
+        "h": 202
+    },
+    {
+        "id": "e70951f37c0afc6b",
+        "type": "group",
+        "z": "ca7ec7c7e5bdf2fc",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7b55e29a649cb6ae",
+            "cf4717503f55814a",
+            "56c7cd7dd2a1a152",
+            "c7385fde31a329db",
+            "7fb00b3533c75666",
+            "6d204d62efbb3ce1",
+            "6605c165c410ec01"
+        ],
+        "x": 34,
+        "y": 219,
+        "w": 832,
+        "h": 142
+    },
+    {
+        "id": "f64b6a669edd1a71",
+        "type": "group",
+        "z": "ca7ec7c7e5bdf2fc",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "402c9a7e4e02d1ae",
+            "cbf9fc7877209791",
+            "0c88def3ac5a0197",
+            "74171ba64313b4c7"
+        ],
+        "x": 34,
+        "y": 59,
+        "w": 632,
+        "h": 122
+    },
+    {
+        "id": "cac3fcbe18ab8e74",
+        "type": "group",
+        "z": "c42bcde0c0dd6265",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "fde12e040e645678",
+            "7487ed2198e77fce"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 432,
+        "h": 122
     },
     {
         "id": "9c39670e4e7d3237",
@@ -602,13 +725,6 @@
         "env": []
     },
     {
-        "id": "3c24b83cd9ad7855",
-        "type": "twilio-api",
-        "name": "",
-        "sid": "ACa8fd0367e44a470dfde2f82f36f2b497",
-        "from": "+16562315917"
-    },
-    {
         "id": "5730c1420f980bc5",
         "type": "ui_group",
         "name": "Sensor's Data",
@@ -650,9 +766,17 @@
         "hidden": false
     },
     {
+        "id": "5e27991f69edbd3f",
+        "type": "twilio-api",
+        "name": "+12565408857",
+        "sid": "AC95ab1cf334a87de957efee1794520ae1",
+        "from": "+12565408857"
+    },
+    {
         "id": "7b55e29a649cb6ae",
         "type": "ui_form",
         "z": "ca7ec7c7e5bdf2fc",
+        "g": "e70951f37c0afc6b",
         "name": "Log In",
         "label": "Log In",
         "group": "e53b421013fe6f78",
@@ -687,7 +811,7 @@
         "splitLayout": "",
         "className": "",
         "x": 110,
-        "y": 260,
+        "y": 300,
         "wires": [
             [
                 "cf4717503f55814a"
@@ -698,90 +822,30 @@
         "id": "cbf9fc7877209791",
         "type": "comment",
         "z": "ca7ec7c7e5bdf2fc",
-        "name": "Lấy data của user từ cloud và làm logic",
+        "g": "f64b6a669edd1a71",
+        "name": "Unable and hide other tabs, direct to \"Log in\" tab.",
         "info": "",
-        "x": 210,
-        "y": 200,
+        "x": 240,
+        "y": 100,
         "wires": []
     },
     {
         "id": "6605c165c410ec01",
         "type": "comment",
         "z": "ca7ec7c7e5bdf2fc",
-        "name": " Bỏ nhập email và sdt",
+        "g": "e70951f37c0afc6b",
+        "name": "Check log in data",
         "info": "",
-        "x": 160,
-        "y": 320,
+        "x": 140,
+        "y": 260,
         "wires": []
-    },
-    {
-        "id": "ec9a76fc079857ae",
-        "type": "comment",
-        "z": "ca7ec7c7e5bdf2fc",
-        "name": "Thêm 1 node inject lấy 1 string 1 lần từ cloud gồm thông tin (username, pass, limits(4), setting_noti(4), setting_autoFeed) lưu vào  global",
-        "info": "",
-        "x": 510,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "b3013aa149307f8b",
-        "type": "comment",
-        "z": "ca7ec7c7e5bdf2fc",
-        "name": "Gửi thông tin ghi đè về file cloud (onclose)",
-        "info": "",
-        "x": 220,
-        "y": 440,
-        "wires": []
-    },
-    {
-        "id": "899439839d1daa66",
-        "type": "inject",
-        "z": "ca7ec7c7e5bdf2fc",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"username\":\"admin\",\"password\":\"admin\"}",
-        "payloadType": "json",
-        "x": 110,
-        "y": 140,
-        "wires": [
-            [
-                "d83578da037ad0dd"
-            ]
-        ]
-    },
-    {
-        "id": "d83578da037ad0dd",
-        "type": "function",
-        "z": "ca7ec7c7e5bdf2fc",
-        "name": "function 10",
-        "func": "global.set(\"user\", msg.payload);\nreturn ;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 330,
-        "y": 140,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "cf4717503f55814a",
         "type": "function",
         "z": "ca7ec7c7e5bdf2fc",
-        "name": "function 11",
+        "g": "e70951f37c0afc6b",
+        "name": "Check log in data",
         "func": "let account = global.get(\"user\");\nif (account.username === msg.payload.username && account.password === msg.payload.password) {\n    msg.msg = true\n}\nelse {\n    msg.msg = false;\n    msg.payload = \"Invalid username or password!\";\n}\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
@@ -789,8 +853,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
-        "y": 260,
+        "x": 270,
+        "y": 300,
         "wires": [
             [
                 "56c7cd7dd2a1a152"
@@ -801,6 +865,7 @@
         "id": "56c7cd7dd2a1a152",
         "type": "switch",
         "z": "ca7ec7c7e5bdf2fc",
+        "g": "e70951f37c0afc6b",
         "name": "",
         "property": "msg",
         "propertyType": "msg",
@@ -815,8 +880,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 490,
-        "y": 260,
+        "x": 430,
+        "y": 300,
         "wires": [
             [
                 "c7385fde31a329db"
@@ -830,10 +895,11 @@
         "id": "6d204d62efbb3ce1",
         "type": "ui_ui_control",
         "z": "ca7ec7c7e5bdf2fc",
+        "g": "e70951f37c0afc6b",
         "name": "",
         "events": "all",
-        "x": 840,
-        "y": 180,
+        "x": 780,
+        "y": 280,
         "wires": [
             []
         ]
@@ -842,6 +908,7 @@
         "id": "7fb00b3533c75666",
         "type": "ui_toast",
         "z": "ca7ec7c7e5bdf2fc",
+        "g": "e70951f37c0afc6b",
         "position": "dialog",
         "displayTime": "3",
         "highlight": "",
@@ -853,8 +920,8 @@
         "className": "",
         "topic": "",
         "name": "",
-        "x": 650,
-        "y": 260,
+        "x": 610,
+        "y": 320,
         "wires": [
             []
         ]
@@ -863,6 +930,7 @@
         "id": "c7385fde31a329db",
         "type": "change",
         "z": "ca7ec7c7e5bdf2fc",
+        "g": "e70951f37c0afc6b",
         "name": "",
         "rules": [
             {
@@ -878,8 +946,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 660,
-        "y": 180,
+        "x": 620,
+        "y": 280,
         "wires": [
             [
                 "6d204d62efbb3ce1"
@@ -890,7 +958,8 @@
         "id": "402c9a7e4e02d1ae",
         "type": "inject",
         "z": "ca7ec7c7e5bdf2fc",
-        "name": "",
+        "g": "f64b6a669edd1a71",
+        "name": "Begin with \"Log in\" tab",
         "props": [
             {
                 "p": "payload"
@@ -903,8 +972,8 @@
         "topic": "",
         "payload": "{\"tab\":\"Log in\"}",
         "payloadType": "json",
-        "x": 140,
-        "y": 80,
+        "x": 180,
+        "y": 140,
         "wires": [
             [
                 "0c88def3ac5a0197"
@@ -915,10 +984,11 @@
         "id": "74171ba64313b4c7",
         "type": "ui_ui_control",
         "z": "ca7ec7c7e5bdf2fc",
+        "g": "f64b6a669edd1a71",
         "name": "",
         "events": "all",
-        "x": 520,
-        "y": 80,
+        "x": 580,
+        "y": 140,
         "wires": [
             []
         ]
@@ -927,6 +997,7 @@
         "id": "0c88def3ac5a0197",
         "type": "change",
         "z": "ca7ec7c7e5bdf2fc",
+        "g": "f64b6a669edd1a71",
         "name": "",
         "rules": [
             {
@@ -942,8 +1013,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 80,
+        "x": 400,
+        "y": 140,
         "wires": [
             [
                 "74171ba64313b4c7"
@@ -1264,7 +1335,7 @@
         "splitLayout": true,
         "className": "",
         "x": 130,
-        "y": 700,
+        "y": 800,
         "wires": [
             [
                 "c4c17cce6edc6a47"
@@ -1285,7 +1356,7 @@
         "finalize": "",
         "libs": [],
         "x": 350,
-        "y": 700,
+        "y": 800,
         "wires": [
             [
                 "2e22f594189a6b58"
@@ -1316,7 +1387,7 @@
         "repair": false,
         "outputs": 2,
         "x": 530,
-        "y": 700,
+        "y": 800,
         "wires": [
             [
                 "019129d08e20dc1a"
@@ -1342,7 +1413,7 @@
         "expiry": "",
         "broker": "9c39670e4e7d3237",
         "x": 1180,
-        "y": 640,
+        "y": 740,
         "wires": []
     },
     {
@@ -1359,7 +1430,7 @@
         "finalize": "",
         "libs": [],
         "x": 840,
-        "y": 640,
+        "y": 740,
         "wires": [
             [
                 "f64b2826bf60d035",
@@ -1406,7 +1477,7 @@
         "splitLayout": true,
         "className": "",
         "x": 140,
-        "y": 880,
+        "y": 980,
         "wires": [
             [
                 "c08dd4deb1ab3b26"
@@ -1427,7 +1498,7 @@
         "finalize": "",
         "libs": [],
         "x": 350,
-        "y": 880,
+        "y": 980,
         "wires": [
             [
                 "802fab4f1761bdaa"
@@ -1458,7 +1529,7 @@
         "repair": false,
         "outputs": 2,
         "x": 530,
-        "y": 880,
+        "y": 980,
         "wires": [
             [
                 "40dc35769b2ae3eb"
@@ -1482,7 +1553,7 @@
         "finalize": "",
         "libs": [],
         "x": 840,
-        "y": 820,
+        "y": 920,
         "wires": [
             [
                 "431741a49418f828",
@@ -1506,7 +1577,7 @@
         "expiry": "",
         "broker": "9c39670e4e7d3237",
         "x": 1180,
-        "y": 860,
+        "y": 960,
         "wires": []
     },
     {
@@ -1526,7 +1597,7 @@
         "topic": "Invalid value input!",
         "name": "Invalid input noti",
         "x": 920,
-        "y": 700,
+        "y": 800,
         "wires": [
             []
         ]
@@ -1548,7 +1619,7 @@
         "topic": "Invalid value input!",
         "name": "Invalid input noti",
         "x": 920,
-        "y": 880,
+        "y": 980,
         "wires": [
             []
         ]
@@ -1567,7 +1638,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 700,
+        "y": 800,
         "wires": [
             [
                 "829d068a470b9c62"
@@ -1588,7 +1659,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 880,
+        "y": 980,
         "wires": [
             [
                 "be083f11bf5de95f"
@@ -1613,8 +1684,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 530,
-        "y": 1040,
+        "x": 1390,
+        "y": 120,
         "wires": []
     },
     {
@@ -1635,8 +1706,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 530,
-        "y": 1000,
+        "x": 1390,
+        "y": 80,
         "wires": []
     },
     {
@@ -1653,7 +1724,7 @@
         "finalize": "",
         "libs": [],
         "x": 570,
-        "y": 440,
+        "y": 400,
         "wires": [
             [
                 "6d9298ef9701a105",
@@ -1678,7 +1749,7 @@
         "name": "vanphamanh2303@gmail.com",
         "dname": "Warning gmail",
         "x": 800,
-        "y": 420,
+        "y": 380,
         "wires": []
     },
     {
@@ -1686,13 +1757,13 @@
         "type": "twilio out",
         "z": "e8e96c2a33d8f276",
         "g": "bef42aefa75c583e",
-        "twilio": "3c24b83cd9ad7855",
+        "twilio": "5e27991f69edbd3f",
         "twilioType": "sms",
         "url": "",
         "number": "+18777804236",
         "name": "",
         "x": 770,
-        "y": 460,
+        "y": 420,
         "wires": []
     },
     {
@@ -1710,7 +1781,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1140,
-        "y": 800,
+        "y": 900,
         "wires": []
     },
     {
@@ -1728,7 +1799,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1140,
-        "y": 700,
+        "y": 800,
         "wires": []
     },
     {
@@ -1744,8 +1815,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 310,
-        "y": 1000,
+        "x": 1190,
+        "y": 80,
         "wires": [
             [
                 "fa21cd890a1881ca"
@@ -1765,8 +1836,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 320,
-        "y": 1040,
+        "x": 1200,
+        "y": 120,
         "wires": [
             [
                 "8a09650868d46d12"
@@ -1788,7 +1859,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 780,
-        "y": 380,
+        "y": 340,
         "wires": []
     },
     {
@@ -1801,8 +1872,8 @@
             "31c7989a67534590"
         ],
         "uncaught": false,
-        "x": 130,
-        "y": 1000,
+        "x": 1030,
+        "y": 80,
         "wires": [
             [
                 "88d89e4e9ec8a0e5"
@@ -1819,8 +1890,8 @@
             "a00ba30be38cb92d"
         ],
         "uncaught": false,
-        "x": 130,
-        "y": 1040,
+        "x": 1030,
+        "y": 120,
         "wires": [
             [
                 "a6816b503480cd28"
@@ -1846,7 +1917,7 @@
         "payload": "{\"upperLimit\":8.5,\"lowerLimit\":7}",
         "payloadType": "json",
         "x": 530,
-        "y": 640,
+        "y": 740,
         "wires": [
             [
                 "019129d08e20dc1a"
@@ -1872,7 +1943,7 @@
         "payload": "{\"upperLimit\":32,\"lowerLimit\":24}",
         "payloadType": "json",
         "x": 530,
-        "y": 820,
+        "y": 920,
         "wires": [
             [
                 "40dc35769b2ae3eb"
@@ -1884,10 +1955,10 @@
         "type": "comment",
         "z": "e8e96c2a33d8f276",
         "g": "30702dcfe3f71bd9",
-        "name": "Fix 2 inject to get real saved Limits from ThingSpeak",
-        "info": "Fix 2 inject to get real saved Limits from ThingSpeak\n",
-        "x": 250,
-        "y": 820,
+        "name": "Get temperature limits and show on Dashboard",
+        "info": "",
+        "x": 240,
+        "y": 920,
         "wires": []
     },
     {
@@ -1895,10 +1966,10 @@
         "type": "comment",
         "z": "e8e96c2a33d8f276",
         "g": "1ff2c7c923cec67c",
-        "name": "Need to add 1 more inject node to get Limits data from global",
+        "name": "Get pH limits and show on Dashboard",
         "info": "",
-        "x": 280,
-        "y": 600,
+        "x": 230,
+        "y": 740,
         "wires": []
     },
     {
@@ -1918,7 +1989,7 @@
         "topic": "",
         "name": "",
         "x": 790,
-        "y": 500,
+        "y": 460,
         "wires": [
             []
         ]
@@ -1931,7 +2002,7 @@
         "name": "Receive sensor's data from mqtt and check if it's safe ",
         "info": "",
         "x": 250,
-        "y": 260,
+        "y": 140,
         "wires": []
     },
     {
@@ -1942,7 +2013,7 @@
         "name": "Sending warning through email and sms",
         "info": "",
         "x": 510,
-        "y": 500,
+        "y": 460,
         "wires": []
     },
     {
@@ -1952,8 +2023,210 @@
         "g": "ceb97c199c9ecf12",
         "name": "Get current sensor's limits and display",
         "info": "",
-        "x": 210,
-        "y": 1100,
+        "x": 1110,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "38e4a2487b25af8b",
+        "type": "ui_ui_control",
+        "z": "e8e96c2a33d8f276",
+        "g": "77fa645d664b763b",
+        "name": "",
+        "events": "all",
+        "x": 140,
+        "y": 640,
+        "wires": [
+            [
+                "cd9a63709c589b3e"
+            ]
+        ]
+    },
+    {
+        "id": "cd9a63709c589b3e",
+        "type": "function",
+        "z": "e8e96c2a33d8f276",
+        "g": "77fa645d664b763b",
+        "name": "Check if flow is closing",
+        "func": "if (msg.payload === \"lost\") {\n    msg.payload = true;\n}\nelse msg.payload = false;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 640,
+        "wires": [
+            [
+                "d9a3ef07e850bbb6"
+            ]
+        ]
+    },
+    {
+        "id": "d9a3ef07e850bbb6",
+        "type": "switch",
+        "z": "e8e96c2a33d8f276",
+        "g": "77fa645d664b763b",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 490,
+        "y": 640,
+        "wires": [
+            [
+                "e8c02ea5a133f6df"
+            ]
+        ]
+    },
+    {
+        "id": "e8c02ea5a133f6df",
+        "type": "function",
+        "z": "e8e96c2a33d8f276",
+        "g": "77fa645d664b763b",
+        "name": "Parse array to one string",
+        "func": "let pH = flow.get(\"pH\").payload;\nlet tmp = flow.get(\"tmp\").payload;\nlet account = global.get(\"user\");\nlet feedMail = global.get(\"FeedMail\");\nlet autoFeed = global.get(\"autoFeed\");\n\nlet new_msg = {\n    \"payload\": {\n        field1: `${account.username},${account.password},${pH.lowerLimit},${pH.upperLimit},${tmp.lowerLimit},${tmp.upperLimit},${feedMail},${autoFeed}`\n    }    \n};\n\nnew_msg.url = \"https://api.thingspeak.com/update?api_key=00Q4STOTHKUHNZAB\";\nreturn new_msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 640,
+        "wires": [
+            [
+                "80a9fbc0293de124"
+            ]
+        ]
+    },
+    {
+        "id": "80a9fbc0293de124",
+        "type": "http request",
+        "z": "e8e96c2a33d8f276",
+        "g": "77fa645d664b763b",
+        "name": "Send to ThingSpeak",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.thingspeak.com/update?api_key=00Q4STOTHKUHNZAB",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 900,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fbba445e8864de6d",
+        "type": "inject",
+        "z": "e8e96c2a33d8f276",
+        "g": "77fa645d664b763b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 560,
+        "wires": [
+            [
+                "6332add28edb2567"
+            ]
+        ]
+    },
+    {
+        "id": "6332add28edb2567",
+        "type": "http request",
+        "z": "e8e96c2a33d8f276",
+        "g": "77fa645d664b763b",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.thingspeak.com/channels/2630736/fields/1/last.json?api_key=QJYKH6Z3GRNPTX40",
+        "tls": "",
+        "persist": true,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 330,
+        "y": 560,
+        "wires": [
+            [
+                "722885279a221aed"
+            ]
+        ]
+    },
+    {
+        "id": "722885279a221aed",
+        "type": "json",
+        "z": "e8e96c2a33d8f276",
+        "g": "77fa645d664b763b",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 490,
+        "y": 560,
+        "wires": [
+            [
+                "358719f9e47ec8af"
+            ]
+        ]
+    },
+    {
+        "id": "358719f9e47ec8af",
+        "type": "function",
+        "z": "e8e96c2a33d8f276",
+        "g": "77fa645d664b763b",
+        "name": "Get settings from thingspeak, set to flow",
+        "func": "let payload = msg.payload.field1;\n\nlet data = payload.split(\",\");\n\nlet account = {\n    username: data[0],\n    password: data[1]\n};\nlet pH = {\n    lowerLimit: parseFloat(data[2]),\n    upperLimit: parseFloat(data[3])\n};\nlet tmp = {\n    lowerLimit: parseFloat(data[4]),\n    upperLimit: parseFloat(data[5])\n};\nlet feedMail = data[6];\nlet autoFeed = data[7];\n\nflow.set(\"pH\", { payload: pH });\nflow.set(\"tmp\", { payload: tmp });\nglobal.set(\"user\", account);\nglobal.set(\"FeedMail\", feedMail);\nglobal.set(\"autoFeed\", autoFeed);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2b6fc106f80f5f99",
+        "type": "comment",
+        "z": "e8e96c2a33d8f276",
+        "g": "77fa645d664b763b",
+        "name": "Update and get setting and account's data from thingspeak",
+        "info": "",
+        "x": 290,
+        "y": 600,
         "wires": []
     },
     {
@@ -1983,7 +2256,7 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 110,
+        "x": 90,
         "y": 120,
         "wires": [
             [
@@ -2012,8 +2285,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "str",
-        "x": 130,
-        "y": 840,
+        "x": 110,
+        "y": 640,
         "wires": [
             [
                 "5bfc62e1e63afe88"
@@ -2039,8 +2312,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 140,
-        "y": 500,
+        "x": 120,
+        "y": 460,
         "wires": [
             [
                 "d9742c2819931028"
@@ -2053,15 +2326,15 @@
         "z": "34836421c703f805",
         "g": "92365f2d16fc32db",
         "name": "Process Add",
-        "func": "// Lấy dữ liệu từ msg.payload\nlet newTime = msg.payload; // Thời gian dạng hh:mm\nif (newTime === \"NaN:NaN\") {\n    msg.payload = \"Invalid / Null time input!\";\n    return msg;\n}\n// Lấy bảng từ context flow\nlet data = flow.get(\"table\").payload || [];\n\n// Kiểm tra xem thời gian đã tồn tại trong bảng chưa \nlet exists = data.some(item => typeof item.time === 'string' && item.time === newTime);\n\n// Nếu thời gian chưa tồn tại, thêm vào bảng\nif (!exists) {\n    data.push({\n        time: newTime,\n        id: 0\n    });\n    msg.payload = \"Add success!\";\n} else {\n    msg.payload = \"Time exists!\";\n}\n\nlet updated_table = {\"payload\": data}\n// Lưu bảng vào flow context\nflow.set(\"table\", updated_table);\n\nreturn msg;\n",
+        "func": "let newTime = msg.payload; \nif (newTime === \"NaN:NaN\") {\n    msg.payload = \"Invalid / Null time input!\";\n    return msg;\n}\n\nlet data = flow.get(\"table\").payload || [];\nlet exists = data.some(item => typeof item.time === 'string' && item.time === newTime);\n\nif (!exists) {\n    data.push({\n        time: newTime,\n        id: 0\n    });\n    msg.payload = \"Add success!\";\n} else {\n    msg.payload = \"Time exists!\";\n}\n\nlet updated_table = {\"payload\": data}\nflow.set(\"table\", updated_table);\n\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 690,
-        "y": 560,
+        "x": 650,
+        "y": 520,
         "wires": [
             [
                 "38366ffa9378e331"
@@ -2074,15 +2347,15 @@
         "z": "34836421c703f805",
         "g": "92365f2d16fc32db",
         "name": "Process Remove",
-        "func": "let indexToRemove = parseInt(flow.get(\"index\"));\nlet table = flow.get(\"table\").payload;\n\nvar msg = {};\n// Kiểm tra xem index có hợp lệ không\nif (indexToRemove >= 1 && indexToRemove <= table.length) {\n    // Xóa phần tử có index tương ứng khỏi bảng\n    table = table.filter(item => item.id !== indexToRemove);\n    \n    msg.payload = \"Delete success!\";\n}\nelse {\n    msg.payload = \"Index out of bounds!\"\n}\nlet updated_table = {\"payload\" : table};\nflow.set(\"table\", updated_table);\nreturn msg;",
+        "func": "let indexToRemove = parseInt(flow.get(\"index\"));\nlet table = flow.get(\"table\").payload;\n\nvar msg = {};\nif (indexToRemove >= 1 && indexToRemove <= table.length) {\n    table = table.filter(item => item.id !== indexToRemove);\n    \n    msg.payload = \"Delete success!\";\n}\nelse {\n    msg.payload = \"Index out of bounds!\"\n}\nlet updated_table = {\"payload\" : table};\nflow.set(\"table\", updated_table);\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 840,
+        "x": 330,
+        "y": 640,
         "wires": [
             [
                 "4b3acabb3f17a7af"
@@ -2108,8 +2381,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 160,
-        "y": 780,
+        "x": 140,
+        "y": 580,
         "wires": [
             [
                 "d0ac7ab67d8f0f85"
@@ -2120,17 +2393,17 @@
         "id": "638d3418cf1ba387",
         "type": "function",
         "z": "34836421c703f805",
-        "g": "92365f2d16fc32db",
+        "g": "6d1fc6c8fc549919",
         "name": "sort",
-        "func": "// Đọc dữ liệu JSON từ payload\nlet data = flow.get(\"table\").payload;\n\n\n// Sắp xếp dữ liệu theo thời gian (theo định dạng hh:mm)\ndata.sort((a, b) => {\n    let timeA = a.time.split(':').map(Number);\n    let timeB = b.time.split(':').map(Number);\n    return timeA[0] * 60 + timeA[1] - (timeB[0] * 60 + timeB[1]);\n});\n\n// Cập nhật ID cho mỗi dòng dữ liệu\ndata = data.map((item, index) => ({ ...item, id: index + 1 }));\n\nlet table = {\"payload\": data}\nflow.set(\"table\", table);\n\nreturn table;\n",
+        "func": "let data = flow.get(\"table\").payload;\n\ndata.sort((a, b) => {\n    let timeA = a.time.split(':').map(Number);\n    let timeB = b.time.split(':').map(Number);\n    return timeA[0] * 60 + timeA[1] - (timeB[0] * 60 + timeB[1]);\n});\n\ndata = data.map((item, index) => ({ ...item, id: index + 1 }));\n\nlet table = {\"payload\": data}\nflow.set(\"table\", table);\n\nreturn table;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
-        "y": 680,
+        "x": 1470,
+        "y": 520,
         "wires": [
             [
                 "2e11cef063589a1a"
@@ -2141,7 +2414,7 @@
         "id": "2e11cef063589a1a",
         "type": "ui_table",
         "z": "34836421c703f805",
-        "g": "92365f2d16fc32db",
+        "g": "6d1fc6c8fc549919",
         "group": "590e614324272a29",
         "name": "",
         "order": 2,
@@ -2171,8 +2444,8 @@
         ],
         "outputs": 0,
         "cts": false,
-        "x": 485.99999618530273,
-        "y": 679.0000057220459,
+        "x": 1590,
+        "y": 520,
         "wires": []
     },
     {
@@ -2181,15 +2454,15 @@
         "z": "34836421c703f805",
         "g": "92365f2d16fc32db",
         "name": "Format from timestampt to time (HH:MM) string",
-        "func": "\n// Giả sử timestamp là số milliseconds từ 00:00:00 trong một ngày cụ thể\nlet timestamp = parseInt(flow.get(\"time\"), 10); // Đảm bảo timestamp là số nguyên\n\n// Tính toán giờ và phút\nlet hours = Math.floor(timestamp / (1000 * 60 * 60));\nlet minutes = Math.floor((timestamp % (1000 * 60 * 60)) / (1000 * 60));\n\n// Định dạng thành chuỗi hh:mm\nlet formattedTime = (hours < 10 ? '0' : '') + hours + ':' + (minutes < 10 ? '0' : '') + minutes;\n\n// Gán chuỗi thời gian đã định dạng vào msg.payload\nmsg.payload = formattedTime; \n\nreturn msg;\n",
+        "func": "let timestamp = parseInt(flow.get(\"time\"), 10);\nlet hours = Math.floor(timestamp / (1000 * 60 * 60));\nlet minutes = Math.floor((timestamp % (1000 * 60 * 60)) / (1000 * 60));\nlet formattedTime = (hours < 10 ? '0' : '') + hours + ':' + (minutes < 10 ? '0' : '') + minutes;\n\nmsg.payload = formattedTime; \n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 400,
-        "y": 560,
+        "x": 380,
+        "y": 520,
         "wires": [
             [
                 "2c569491f6305c24"
@@ -2219,8 +2492,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 850,
-        "y": 560,
+        "x": 790,
+        "y": 520,
         "wires": [
             [
                 "7322ca28f2f4b0e0",
@@ -2247,8 +2520,8 @@
         "className": "",
         "topic": "Adding feeding time fail!",
         "name": "Adding feeding time fail!",
-        "x": 1110,
-        "y": 580,
+        "x": 990,
+        "y": 540,
         "wires": [
             []
         ]
@@ -2269,8 +2542,8 @@
         "className": "",
         "topic": "Feeding Time Added!",
         "name": "Feeding Time Added!",
-        "x": 1100,
-        "y": 540,
+        "x": 980,
+        "y": 500,
         "wires": []
     },
     {
@@ -2294,8 +2567,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "str",
-        "x": 130,
-        "y": 560,
+        "x": 110,
+        "y": 520,
         "wires": [
             [
                 "42d48329161bb8af"
@@ -2315,8 +2588,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 500,
+        "x": 330,
+        "y": 460,
         "wires": [
             []
         ]
@@ -2344,7 +2617,7 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 330,
+        "x": 310,
         "y": 120,
         "wires": [
             [
@@ -2373,7 +2646,7 @@
         "className": "",
         "topic": "Automatic feeding mode:",
         "name": "",
-        "x": 550,
+        "x": 530,
         "y": 60,
         "wires": []
     },
@@ -2393,7 +2666,7 @@
         "className": "",
         "topic": "Automatic feeding mode:",
         "name": "",
-        "x": 550,
+        "x": 530,
         "y": 180,
         "wires": []
     },
@@ -2410,8 +2683,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 390,
-        "y": 780,
+        "x": 370,
+        "y": 580,
         "wires": [
             []
         ]
@@ -2439,8 +2712,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 510,
-        "y": 840,
+        "x": 490,
+        "y": 640,
         "wires": [
             [
                 "1f764c90a5409687",
@@ -2467,8 +2740,8 @@
         "className": "",
         "topic": "Feeding Time Deleted!",
         "name": "Feeding Time Deleted!",
-        "x": 780,
-        "y": 840,
+        "x": 700,
+        "y": 640,
         "wires": []
     },
     {
@@ -2487,8 +2760,8 @@
         "className": "",
         "topic": "Deleting feeding time fail!",
         "name": "Deleting feeding time fail!",
-        "x": 790,
-        "y": 880,
+        "x": 710,
+        "y": 680,
         "wires": [
             []
         ]
@@ -2506,7 +2779,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
+        "x": 530,
         "y": 100,
         "wires": [
             []
@@ -2525,7 +2798,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
+        "x": 530,
         "y": 140,
         "wires": [
             []
@@ -2558,8 +2831,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 150,
-        "y": 320,
+        "x": 130,
+        "y": 300,
         "wires": [
             [
                 "046152ce351fbac2"
@@ -2580,8 +2853,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1080,
-        "y": 500,
+        "x": 960,
+        "y": 460,
         "wires": []
     },
     {
@@ -2598,8 +2871,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 760,
-        "y": 800,
+        "x": 680,
+        "y": 600,
         "wires": []
     },
     {
@@ -2623,8 +2896,8 @@
         "payloadType": "str",
         "topic": "",
         "topicType": "str",
-        "x": 120,
-        "y": 1060,
+        "x": 760,
+        "y": 300,
         "wires": [
             [
                 "04642740c43f9681"
@@ -2647,8 +2920,8 @@
         "className": "",
         "topic": "Feed command Sent!",
         "name": "Feed success!",
-        "x": 980,
-        "y": 1060,
+        "x": 1620,
+        "y": 300,
         "wires": []
     },
     {
@@ -2664,8 +2937,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
-        "y": 1060,
+        "x": 1000,
+        "y": 300,
         "wires": [
             [
                 "aadfa0656a26eb7e"
@@ -2708,8 +2981,8 @@
         "topic": "",
         "topicType": "str",
         "className": "",
-        "x": 140,
-        "y": 1000,
+        "x": 780,
+        "y": 240,
         "wires": [
             [
                 "2b602d937de6a37a"
@@ -2731,8 +3004,8 @@
         "correl": "",
         "expiry": "",
         "broker": "9c39670e4e7d3237",
-        "x": 790,
-        "y": 1000,
+        "x": 1430,
+        "y": 240,
         "wires": []
     },
     {
@@ -2758,8 +3031,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 330,
-        "y": 320,
+        "x": 310,
+        "y": 300,
         "wires": [
             [
                 "d093d6b8067334b1",
@@ -2784,8 +3057,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
-        "y": 300,
+        "x": 530,
+        "y": 280,
         "wires": [
             []
         ]
@@ -2806,8 +3079,8 @@
         "className": "",
         "topic": "Email notification to feed mode: ",
         "name": "",
-        "x": 550,
-        "y": 260,
+        "x": 530,
+        "y": 240,
         "wires": []
     },
     {
@@ -2823,8 +3096,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
-        "y": 340,
+        "x": 530,
+        "y": 320,
         "wires": [
             []
         ]
@@ -2845,8 +3118,8 @@
         "className": "",
         "topic": "Email notification to feed mode: ",
         "name": "",
-        "x": 550,
-        "y": 380,
+        "x": 530,
+        "y": 360,
         "wires": []
     },
     {
@@ -2854,21 +3127,10 @@
         "type": "comment",
         "z": "34836421c703f805",
         "g": "92365f2d16fc32db",
-        "name": "Chưa up schedule, history lên cloud!",
+        "name": "Check input data on adding and removing function for feeding schedule",
         "info": "",
-        "x": 420,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "668e18739827487a",
-        "type": "comment",
-        "z": "34836421c703f805",
-        "g": "abcb4d74ea2c8e8f",
-        "name": "Chưa thêm logic và lưu setting cloud cho 2 nút",
-        "info": "",
-        "x": 230,
-        "y": 180,
+        "x": 290,
+        "y": 700,
         "wires": []
     },
     {
@@ -2877,15 +3139,15 @@
         "z": "34836421c703f805",
         "g": "edbda1ef62bfb142",
         "name": "Check schedule",
-        "func": "var schedules = flow.get(\"table\").payload;  // Dữ liệu lịch thời gian\n\n// Kiểm tra nếu schedules không có dữ liệu hoặc không phải là mảng\nif (!schedules || !Array.isArray(schedules) || schedules.length === 0) {\n    msg.payload = {\n        error: \"No valid schedule data found in flow context.\"\n    };\n    return msg;\n}\n\n// Lấy thời gian hiện tại với định dạng đầy đủ\nvar now = new Date();\nvar currentTime = now.getHours().toString().padStart(2, '0') + \":\" + now.getMinutes().toString().padStart(2, '0');\n\n// Duyệt qua các mốc thời gian trong lịch để kiểm tra\nvar matchFound = false;\nfor (var i = 0; i < schedules.length; i++) {\n    var scheduleTime = schedules[i].time;\n    // Kiểm tra nếu thời gian trong lịch có cùng định dạng với currentTime\n    if (scheduleTime === currentTime) {\n        matchFound = true;\n        break;\n    }\n}\n\nmsg.payload = matchFound;\nreturn msg;",
+        "func": "var schedules = msg.payload; \n\nif (!schedules || !Array.isArray(schedules) || schedules.length === 0) {\n    msg.payload = {\n        error: \"No valid schedule data found in flow context.\"\n    };\n    return msg;\n}\n\nvar now = new Date();\nvar currentTime = now.getHours().toString().padStart(2, '0') + \":\" + now.getMinutes().toString().padStart(2, '0');\n\nvar matchFound = false;\nfor (var i = 0; i < schedules.length; i++) {\n    var scheduleTime = schedules[i].time;\n    if (scheduleTime === currentTime) {\n        matchFound = true;\n        break;\n    }\n}\n\nmsg.payload = matchFound;\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 300,
-        "y": 1280,
+        "x": 340,
+        "y": 860,
         "wires": [
             [
                 "29c2d6ccf3822d35"
@@ -2901,10 +3163,6 @@
         "props": [
             {
                 "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
             }
         ],
         "repeat": "60",
@@ -2912,10 +3170,10 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "",
-        "payloadType": "date",
+        "payload": "table.payload",
+        "payloadType": "flow",
         "x": 150,
-        "y": 1280,
+        "y": 860,
         "wires": [
             [
                 "fd791e7dbc4922e2"
@@ -2938,8 +3196,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 460,
-        "y": 1280,
+        "x": 520,
+        "y": 860,
         "wires": [
             [
                 "431b1647dc34b942"
@@ -2959,8 +3217,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
-        "y": 1280,
+        "x": 740,
+        "y": 860,
         "wires": [
             [
                 "2e776daa04d4c503"
@@ -2982,8 +3240,8 @@
         "correl": "",
         "expiry": "",
         "broker": "9c39670e4e7d3237",
-        "x": 1230,
-        "y": 1220,
+        "x": 1310,
+        "y": 800,
         "wires": []
     },
     {
@@ -3014,8 +3272,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 850,
-        "y": 1280,
+        "x": 930,
+        "y": 860,
         "wires": [
             [
                 "0600eb5006e28bbe",
@@ -3035,15 +3293,15 @@
         "z": "34836421c703f805",
         "g": "edbda1ef62bfb142",
         "name": "Feed command send",
-        "func": "// Send average amount\nlet new_msg = {\"payload\": flow.get(\"feed\")};\nreturn new_msg;",
+        "func": "let new_msg = {\"payload\": flow.get(\"feed\")};\nreturn new_msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1040,
-        "y": 1220,
+        "x": 1120,
+        "y": 800,
         "wires": [
             [
                 "1bb780032de499cc"
@@ -3063,8 +3321,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1030,
-        "y": 1340,
+        "x": 1110,
+        "y": 920,
         "wires": [
             [
                 "2dbed5f1dce475b3"
@@ -3077,15 +3335,15 @@
         "z": "34836421c703f805",
         "g": "edbda1ef62bfb142",
         "name": "Send notification for auto feed mail",
-        "func": "// Thông báo đã tự động cho cá ăn\nvar autoFeedSubject = \"Thông báo từ hệ thống hồ cá thông minh!\";\nvar autoFeedBody = \"Hệ thống đã tự động cho cá ăn theo lịch thành công!\\n\\n\" +\n           \"Vui lòng kiểm tra lượng thức ăn trong hệ thống và đảm bảo rằng hệ thống vẫn hoạt động bình thường.\\n\\n\" +\n           \"Cảm ơn bạn đã sử dụng hệ thống hồ cá thông minh!\";\n\n// Tạo thông báo tự động cho cá ăn\nlet autoFeed_msg = {\n    \"payload\" : autoFeedBody,\n    \"topic\": autoFeedSubject\n};\n\nreturn autoFeed_msg;  // Trả về thông báo này\n",
+        "func": "var autoFeedSubject = \"Thông báo từ hệ thống hồ cá thông minh!\";\nvar autoFeedBody = \"Hệ thống đã tự động cho cá ăn theo lịch thành công!\\n\\n\" +\n           \"Vui lòng kiểm tra lượng thức ăn trong hệ thống và đảm bảo rằng hệ thống vẫn hoạt động bình thường.\\n\\n\" +\n           \"Cảm ơn bạn đã sử dụng hệ thống hồ cá thông minh!\";\n\nlet autoFeed_msg = {\n    \"payload\" : autoFeedBody,\n    \"topic\": autoFeedSubject\n};\n\nreturn autoFeed_msg; \n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1080,
-        "y": 1280,
+        "x": 1160,
+        "y": 860,
         "wires": [
             [
                 "2dbed5f1dce475b3"
@@ -3106,8 +3364,8 @@
         "tls": true,
         "name": "vanphamanh2303@gmail.com",
         "dname": "Mail",
-        "x": 1230,
-        "y": 1340,
+        "x": 1310,
+        "y": 920,
         "wires": []
     },
     {
@@ -3131,8 +3389,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 1060,
+        "x": 1440,
+        "y": 300,
         "wires": [
             [
                 "78b93fba62ba8a3b"
@@ -3162,8 +3420,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 610,
-        "y": 1060,
+        "x": 1250,
+        "y": 300,
         "wires": [
             [
                 "f19f15dbd354c234",
@@ -3190,8 +3448,8 @@
         "className": "",
         "topic": "Feed command Error!",
         "name": "",
-        "x": 790,
-        "y": 1120,
+        "x": 1430,
+        "y": 360,
         "wires": [
             []
         ]
@@ -3203,8 +3461,8 @@
         "g": "edbda1ef62bfb142",
         "name": "Check schedule every minute and proccess auto/notimail function on time!",
         "info": "",
-        "x": 340,
-        "y": 1220,
+        "x": 320,
+        "y": 820,
         "wires": []
     },
     {
@@ -3214,8 +3472,8 @@
         "g": "fd109c676ba0cfa3",
         "name": "Feed now button setting",
         "info": "",
-        "x": 160,
-        "y": 1120,
+        "x": 800,
+        "y": 360,
         "wires": []
     },
     {
@@ -3225,8 +3483,8 @@
         "g": "abcb4d74ea2c8e8f",
         "name": "Button setting and save on global context",
         "info": "",
-        "x": 220,
-        "y": 220,
+        "x": 200,
+        "y": 240,
         "wires": []
     },
     {
@@ -3246,8 +3504,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 900,
-        "y": 1440,
+        "x": 1540,
+        "y": 60,
         "wires": [
             []
         ]
@@ -3270,8 +3528,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 150,
-        "y": 1520,
+        "x": 790,
+        "y": 140,
         "wires": [
             [
                 "6c60207f260a855d"
@@ -3295,8 +3553,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 310,
-        "y": 1520,
+        "x": 950,
+        "y": 140,
         "wires": [
             [
                 "17793c1e2ffa3e3b"
@@ -3309,15 +3567,15 @@
         "z": "34836421c703f805",
         "g": "d9c58ea5e631868a",
         "name": "Get data from thingspeak and set to flow",
-        "func": "let parsedData = JSON.parse(msg.payload);\nlet timeArray = [];\n\n// Kiểm tra nếu 'field1' tồn tại và là một chuỗi\nif (typeof parsedData.field1 === 'string') {\n    let tempArray = parsedData.field1.split(',');  // Chuyển đổi 'field1' thành mảng tạm thời\n\n    for (let time of tempArray) {\n        timeArray.push({\n            \"time\": time\n        }); \n    }\n} \n\nlet new_msg = { \"payload\": timeArray };  // Trả về mảng các chuỗi thời gian\nflow.set(\"table\", new_msg);\nreturn new_msg;\n",
+        "func": "let parsedData = JSON.parse(msg.payload);\nlet timeArray = [];\n\n// Kiểm tra nếu 'field1' tồn tại và là một chuỗi\nif (typeof parsedData.field1 === 'string') {\n    let tempArray = parsedData.field1.split(',');  // Chuyển đổi 'field1' thành mảng tạm thời\n\n    for (let time of tempArray) {\n        timeArray.push({\n            \"time\": time\n        }); \n    }\n}\nlet new_msg = { \"payload\": timeArray };  // Trả về mảng các chuỗi thời gian\nflow.set(\"table\", new_msg);\nreturn new_msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 1520,
+        "x": 1320,
+        "y": 140,
         "wires": [
             [
                 "39d865f1812b6d49"
@@ -3333,8 +3591,8 @@
         "property": "payload",
         "action": "str",
         "pretty": true,
-        "x": 450,
-        "y": 1520,
+        "x": 1090,
+        "y": 140,
         "wires": [
             [
                 "97bd3452ae05521f"
@@ -3355,22 +3613,22 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 940,
-        "y": 1520,
+        "x": 1580,
+        "y": 140,
         "wires": []
     },
     {
         "id": "7a9e2dcff4230232",
         "type": "complete",
         "z": "34836421c703f805",
-        "g": "92365f2d16fc32db",
-        "name": "",
+        "g": "6d1fc6c8fc549919",
+        "name": "Reload after updating",
         "scope": [
             "39d865f1812b6d49"
         ],
         "uncaught": false,
-        "x": 130,
-        "y": 720,
+        "x": 1280,
+        "y": 580,
         "wires": [
             [
                 "638d3418cf1ba387"
@@ -3381,14 +3639,14 @@
         "id": "d1f6fa75bd91b58e",
         "type": "complete",
         "z": "34836421c703f805",
-        "g": "92365f2d16fc32db",
-        "name": "",
+        "g": "6d1fc6c8fc549919",
+        "name": "Reload after adding",
         "scope": [
             "d2b28baa46a7b22e"
         ],
         "uncaught": false,
-        "x": 130,
-        "y": 680,
+        "x": 1270,
+        "y": 520,
         "wires": [
             [
                 "638d3418cf1ba387"
@@ -3399,14 +3657,14 @@
         "id": "46bfcaf508082aa4",
         "type": "complete",
         "z": "34836421c703f805",
-        "g": "92365f2d16fc32db",
-        "name": "",
+        "g": "6d1fc6c8fc549919",
+        "name": "Reload after adding",
         "scope": [
             "be850588720409c6"
         ],
         "uncaught": false,
-        "x": 130,
-        "y": 640,
+        "x": 1270,
+        "y": 460,
         "wires": [
             [
                 "638d3418cf1ba387"
@@ -3420,8 +3678,8 @@
         "g": "d9c58ea5e631868a",
         "name": "",
         "events": "all",
-        "x": 140,
-        "y": 1440,
+        "x": 780,
+        "y": 60,
         "wires": [
             [
                 "ae15145140f892d2"
@@ -3444,8 +3702,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 1,
-        "x": 490,
-        "y": 1440,
+        "x": 1130,
+        "y": 60,
         "wires": [
             [
                 "53e4e1a1db0c0e33"
@@ -3465,8 +3723,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 320,
-        "y": 1440,
+        "x": 960,
+        "y": 60,
         "wires": [
             [
                 "40e6b88d48904ca6"
@@ -3479,15 +3737,15 @@
         "z": "34836421c703f805",
         "g": "d9c58ea5e631868a",
         "name": "Parse array to one string",
-        "func": "let data = flow.get(\"table\").payload;\nlet dataStringArray = data.map(item => item.time)\nlet dataString = dataStringArray.join(',');\nnode.log(dataString);\nlet new_msg = {\n    \"payload\": {\n        field1 : dataString\n    }    \n};\nnew_msg.url = \"https://api.thingspeak.com/update?api_key=AR02L8NW4XWPDUHR\";\nreturn new_msg;",
+        "func": "let data = flow.get(\"table\").payload;\nlet dataStringArray = data.map(item => item.time)\nlet dataString = dataStringArray.join(',');\n\nlet new_msg = {\n    \"payload\": {\n        field1 : dataString\n    }    \n};\nnew_msg.url = \"https://api.thingspeak.com/update?api_key=AR02L8NW4XWPDUHR\";\nreturn new_msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 670,
-        "y": 1440,
+        "x": 1310,
+        "y": 60,
         "wires": [
             [
                 "5a5caad9f9843d42"
@@ -3501,8 +3759,8 @@
         "g": "d9c58ea5e631868a",
         "name": "Get and update feeding schedule to thingspeak",
         "info": "Get feeding schedule from thingspeak and set to flow \"table\"\nwhenever flow start!\n\nAnd get flow \"table\" then update to thingspeak whenever tab close or web close!",
-        "x": 260,
-        "y": 1480,
+        "x": 900,
+        "y": 100,
         "wires": []
     },
     {
@@ -3526,11 +3784,22 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 330,
-        "y": 1000,
+        "x": 970,
+        "y": 240,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "dc6e5ef30f922fdb",
+        "type": "comment",
+        "z": "34836421c703f805",
+        "g": "6d1fc6c8fc549919",
+        "name": "Reload table ",
+        "info": "",
+        "x": 1470,
+        "y": 460,
+        "wires": []
     },
     {
         "id": "2936889e06b70e40",
@@ -3600,7 +3869,7 @@
         "z": "97f9b691884ece2d",
         "g": "a7f76a449c27182e",
         "name": "Parse string to array",
-        "func": "function parseAndSortData(input) {\n    const result = [];\n    const lines = input.trim().split('\\n');\n\n\n    lines.forEach(line => {\n        if (!line) return; // Bỏ qua các dòng trống\n\n\n        const parts = line.split(',');\n        if (parts.length < 4) return; // Bỏ qua các dòng không đủ phần tử\n\n\n        const dateTime = parts[0].split(' ');\n        if (dateTime.length < 2) return; // Bỏ qua các dòng không có đủ cả ngày và giờ\n\n\n        let date = dateTime[0];\n        let time = dateTime[1];\n        const temp = parseFloat(parts[2]);\n        const pH = parseFloat(parts[3]);\n\n\n        // Tạo đối tượng Date từ chuỗi ngày và giờ\n        let [year, month, day] = date.split('-').map(Number);\n        let [hours, minutes, seconds] = time.split(':').map(Number);\n        let currentDate = new Date(year, month - 1, day, hours, minutes, seconds);\n\n\n        // Giữ lại ngày ban đầu\n        let initialDate = currentDate.getDate();\n\n\n        // Cộng thêm 7 giờ để điều chỉnh cho múi giờ\n        currentDate.setHours(currentDate.getHours() + 7);\n\n\n        // Kiểm tra nếu ngày đã thay đổi sau khi cộng thêm giờ\n        if (currentDate.getDate() !== initialDate) {\n            // Ngày đã thay đổi, nghĩa là thời gian vượt qua 24h\n            year = currentDate.getFullYear();\n            month = currentDate.getMonth() + 1; // Tháng trong JavaScript là từ 0-11, cần cộng thêm 1\n            day = currentDate.getDate();\n        }\n\n\n        // Lấy giá trị ngày, tháng, năm và thời gian mới sau khi cộng giờ\n        let adjustedDate = `${year.toString().padStart(4, '0')}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;\n        let adjustedTime = currentDate.toTimeString().split(' ')[0];\n\n\n        // Thêm dữ liệu đã phân tích và điều chỉnh vào mảng kết quả\n        result.push({date: adjustedDate, time: adjustedTime, temp, pH });\n    });\n\n\n    // Sắp xếp mảng kết quả theo thứ tự giảm dần dựa trên ngày và giờ\n    result.sort((a, b) => {\n        const dateA = new Date(`${a.date}T${a.time}`).getTime();\n        const dateB = new Date(`${b.date}T${b.time}`).getTime();\n        return dateB - dateA; // Sắp xếp theo thứ tự giảm dần\n    });\n    return result;\n}\n\n\nmsg.payload = parseAndSortData(msg.payload);\n\n\nreturn msg;\n",
+        "func": "function parseAndSortData(input) {\n    const result = [];\n    const lines = input.trim().split('\\n');\n\n    lines.forEach(line => {\n        if (!line) return;\n\n        const parts = line.split(',');\n        if (parts.length < 4) return; \n\n        const dateTime = parts[0].split(' ');\n        if (dateTime.length < 2) return;\n\n        let date = dateTime[0];\n        let time = dateTime[1];\n        const temp = parseFloat(parts[2]);\n        const pH = parseFloat(parts[3]);\n\n        let [year, month, day] = date.split('-').map(Number);\n        let [hours, minutes, seconds] = time.split(':').map(Number);\n        let currentDate = new Date(year, month - 1, day, hours, minutes, seconds);\n\n        let initialDate = currentDate.getDate();\n\n        currentDate.setHours(currentDate.getHours() + 7);\n\n        if (currentDate.getDate() !== initialDate) {\n            year = currentDate.getFullYear();\n            month = currentDate.getMonth() + 1; \n            day = currentDate.getDate();\n        }\n\n        let adjustedDate = `${year.toString().padStart(4, '0')}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;\n        let adjustedTime = currentDate.toTimeString().split(' ')[0];\n\n        result.push({date: adjustedDate, time: adjustedTime, temp, pH });\n    });\n\n    result.sort((a, b) => {\n        const dateA = new Date(`${a.date}T${a.time}`).getTime();\n        const dateB = new Date(`${b.date}T${b.time}`).getTime();\n        return dateB - dateA;\n    });\n    return result;\n}\n\nmsg.payload = parseAndSortData(msg.payload);\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -3616,23 +3885,6 @@
         ]
     },
     {
-        "id": "71483b76e572bd90",
-        "type": "ui_table",
-        "z": "97f9b691884ece2d",
-        "g": "a7f76a449c27182e",
-        "group": "5730c1420f980bc5",
-        "name": "",
-        "order": 1,
-        "width": 7,
-        "height": 12,
-        "columns": [],
-        "outputs": 0,
-        "cts": false,
-        "x": 1030,
-        "y": 120,
-        "wires": []
-    },
-    {
         "id": "5da4089abcc033e2",
         "type": "inject",
         "z": "97f9b691884ece2d",
@@ -3645,7 +3897,7 @@
         "onceDelay": 0.1,
         "topic": "",
         "x": 230,
-        "y": 280,
+        "y": 260,
         "wires": [
             [
                 "1b98f0a99b8af4aa"
@@ -3670,7 +3922,7 @@
         "senderr": false,
         "headers": [],
         "x": 490,
-        "y": 280,
+        "y": 260,
         "wires": [
             [
                 "22002ea66072dd4b"
@@ -3687,7 +3939,7 @@
         "action": "str",
         "pretty": true,
         "x": 650,
-        "y": 280,
+        "y": 260,
         "wires": [
             [
                 "365122e007a55d12"
@@ -3700,7 +3952,7 @@
         "z": "97f9b691884ece2d",
         "g": "944477dba28d308d",
         "name": "Parse string to array",
-        "func": "function parseAndSortAmountData(input) {\n    const result = [];\n    const lines = input.trim().split('\\n');  // Tách dữ liệu thành các dòng\n\n    lines.forEach(line => {\n        if (!line) return; // Bỏ qua các dòng trống\n\n        const parts = line.split(',');\n        if (parts.length < 2) return; // Bỏ qua các dòng không đủ phần tử\n\n        const dateTime = parts[0].split(' ');  // Tách chuỗi thành mảng ngày và giờ\n\n        if (dateTime.length < 2) return; // Kiểm tra nếu dateTime có đủ ngày và giờ\n\n        const amount = parseFloat(parts[2]);  // Lấy giá trị amount từ cột thứ hai\n\n        let str_amount;\n        if (amount == 1) { str_amount = \"Minimum\"; }\n        else if (amount == 2) { str_amount = \"Medium\"; }\n        else { str_amount = \"Maximum\"; }\n\n        let date = dateTime[0];\n        let time = dateTime[1];\n        // Sử dụng Date.parse để tạo đối tượng Date\n        let [year, month, day] = date.split('-').map(Number);\n        let [hours, minutes, seconds] = time.split(':').map(Number);\n        let currentDate = new Date(year, month - 1, day, hours, minutes, seconds);\n\n        if (isNaN(currentDate)) return; // Bỏ qua nếu thời gian không hợp lệ\n\n        // Cộng thêm 7 giờ vào thời gian\n        const initialDay = currentDate.getDate();\n        currentDate.setHours(currentDate.getHours() + 7);\n\n        // Kiểm tra nếu ngày đã thay đổi sau khi cộng thêm giờ\n        if (currentDate.getDate() !== initialDay) {\n            year = currentDate.getFullYear();\n            month = currentDate.getMonth() + 1;\n            day = currentDate.getDate();\n        }\n\n        // Lấy giá trị ngày, tháng, năm và thời gian mới sau khi cộng giờ\n        let adjustedDate = `${year.toString().padStart(4, '0')}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;\n        let adjustedTime = currentDate.toTimeString().split(' ')[0];\n\n        // Thêm dữ liệu đã phân tích và điều chỉnh vào mảng kết quả\n        result.push({ date: adjustedDate, time: adjustedTime, str_amount });\n    });\n\n    // Sắp xếp mảng kết quả theo thứ tự giảm dần dựa trên ngày và giờ\n    result.sort((a, b) => {\n        const dateA = new Date(`${a.date}T${a.time}`).getTime();\n        const dateB = new Date(`${b.date}T${b.time}`).getTime();\n        return dateB - dateA; // Sắp xếp theo thứ tự giảm dần\n    });\n    return result;\n}\n\nmsg.payload = parseAndSortAmountData(msg.payload);\n\nreturn msg;\n",
+        "func": "function parseAndSortAmountData(input) {\n    const result = [];\n    const lines = input.trim().split('\\n');  \n\n    lines.forEach(line => {\n        if (!line) return;\n\n        const parts = line.split(',');\n        if (parts.length < 2) return;\n\n        const dateTime = parts[0].split(' ');\n\n        if (dateTime.length < 2) return;\n\n        const amount = parseFloat(parts[2]);\n\n        let str_amount;\n        if (amount == 1) { str_amount = \"Minimum\"; }\n        else if (amount == 2) { str_amount = \"Medium\"; }\n        else { str_amount = \"Maximum\"; }\n\n        let date = dateTime[0];\n        let time = dateTime[1];\n        let [year, month, day] = date.split('-').map(Number);\n        let [hours, minutes, seconds] = time.split(':').map(Number);\n        let currentDate = new Date(year, month - 1, day, hours, minutes, seconds);\n\n        if (isNaN(currentDate)) return;\n\n        const initialDay = currentDate.getDate();\n        currentDate.setHours(currentDate.getHours() + 7);\n\n        if (currentDate.getDate() !== initialDay) {\n            year = currentDate.getFullYear();\n            month = currentDate.getMonth() + 1;\n            day = currentDate.getDate();\n        }\n\n        let adjustedDate = `${year.toString().padStart(4, '0')}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;\n        let adjustedTime = currentDate.toTimeString().split(' ')[0];\n\n        result.push({ date: adjustedDate, time: adjustedTime, str_amount });\n    });\n\n    result.sort((a, b) => {\n        const dateA = new Date(`${a.date}T${a.time}`).getTime();\n        const dateB = new Date(`${b.date}T${b.time}`).getTime();\n        return dateB - dateA; // Sắp xếp theo thứ tự giảm dần\n    });\n    return result;\n}\n\nmsg.payload = parseAndSortAmountData(msg.payload);\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -3708,7 +3960,7 @@
         "finalize": "",
         "libs": [],
         "x": 840,
-        "y": 280,
+        "y": 260,
         "wires": [
             [
                 "973f3539561b46f1"
@@ -3760,7 +4012,7 @@
         "outputs": 0,
         "cts": false,
         "x": 1030,
-        "y": 280,
+        "y": 260,
         "wires": []
     },
     {
@@ -3782,25 +4034,43 @@
         "name": "Feeding History from thingspeak",
         "info": "",
         "x": 210,
-        "y": 240,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "71483b76e572bd90",
+        "type": "ui_table",
+        "z": "97f9b691884ece2d",
+        "g": "a7f76a449c27182e",
+        "group": "5730c1420f980bc5",
+        "name": "",
+        "order": 1,
+        "width": 7,
+        "height": 12,
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 1030,
+        "y": 120,
         "wires": []
     },
     {
         "id": "fde12e040e645678",
         "type": "ui_template",
         "z": "c42bcde0c0dd6265",
+        "g": "cac3fcbe18ab8e74",
         "group": "a5762ee9b40f0d48",
         "name": "Stream Cam",
         "order": 1,
         "width": 19,
         "height": 13,
-        "format": "<style>\n  /* Tạo khung cho video */\n  .video-container {\n      width: 900px;\n      height: 900px;\n      margin: 0 auto;\n      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n      border-radius: 10px;\n      overflow: hidden;\n      background-color: #000; /* Đặt nền tối cho khung video */\n      border: 5px solid red; /* Khung đỏ xung quanh video */\n  }\n\n  /* Định dạng iframe video */\n  .video-container iframe {\n      width: 100%;\n      height: 100%;\n      border: none;\n  }\n\n  /* Tiêu đề */\n  .video-title {\n      text-align: center;\n      color: #333;\n      font-size: 18px;\n      margin-bottom: 10px;\n  }\n\n  /* Hiển thị thông tin chú thích */\n  .caption {\n      text-align: center;\n      color: red; /* Màu chữ đỏ */\n      font-size: 14px;\n      margin-top: 10px;\n  }\n</style>\n\n<div class=\"video-container\">\n  <div class=\"video-title\">Video Demo</div>\n  <iframe src=\"https://www.youtube.com/embed/DHUnz4dyb54\" frameborder=\"0\" allowfullscreen></iframe>\n</div>\n<div class=\"caption\">Live ESP32 Camera</div>\n",
+        "format": "<style>\n  .video-container {\n      width: 900px;\n      height: 900px;\n      margin: 0 auto;\n      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n      border-radius: 10px;\n      overflow: hidden;\n      background-color: #000; \n      border: 5px solid red; \n  }\n\n  .video-container iframe {\n      width: 100%;\n      height: 100%;\n      border: none;\n  }\n\n  .video-title {\n      text-align: center;\n      color: #333;\n      font-size: 18px;\n      margin-bottom: 10px;\n  }\n\n  .caption {\n      text-align: center;\n      color: red; \n      font-size: 14px;\n      margin-top: 10px;\n  }\n</style>\n\n<div class=\"video-container\">\n  <div class=\"video-title\">Video Demo</div>\n  <iframe src=\"https://www.youtube.com/embed/DHUnz4dyb54\" frameborder=\"0\" allowfullscreen></iframe>\n</div>\n<div class=\"caption\">Live ESP32 Camera</div>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 170,
+        "x": 130,
         "y": 80,
         "wires": [
             []
@@ -3810,9 +4080,10 @@
         "id": "7487ed2198e77fce",
         "type": "comment",
         "z": "c42bcde0c0dd6265",
+        "g": "cac3fcbe18ab8e74",
         "name": "Demo camera display using 24/7 stream embed URL",
         "info": "",
-        "x": 290,
+        "x": 250,
         "y": 120,
         "wires": []
     }
