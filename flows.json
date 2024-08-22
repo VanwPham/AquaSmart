@@ -3640,7 +3640,7 @@
         "type": "complete",
         "z": "34836421c703f805",
         "g": "6d1fc6c8fc549919",
-        "name": "Reload after adding",
+        "name": "Reload after removal",
         "scope": [
             "d2b28baa46a7b22e"
         ],
