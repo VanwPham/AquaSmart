@@ -3831,14 +3831,14 @@
         "type": "inject",
         "z": "97f9b691884ece2d",
         "g": "a7f76a449c27182e",
-        "name": "Inject and update every 10 secs",
+        "name": "Inject and update every 10 minutes",
         "props": [],
-        "repeat": "10",
+        "repeat": "600",
         "crontab": "",
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 220,
+        "x": 230,
         "y": 120,
         "wires": [
             [
