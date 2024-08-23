@@ -315,7 +315,7 @@
         ],
         "x": 934,
         "y": 39,
-        "w": 612,
+        "w": 672,
         "h": 162
     },
     {
@@ -1676,7 +1676,7 @@
         "width": 6,
         "height": 2,
         "name": "",
-        "label": "Current tmp limits:",
+        "label": "Current temperature limits:",
         "format": "{{msg.payload}}",
         "layout": "row-center",
         "className": "",
@@ -1684,7 +1684,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1430,
+        "x": 1460,
         "y": 120,
         "wires": []
     },
